@@ -1,0 +1,119 @@
+{
+    "date": "2024-06-09T00:00+09:00",
+    "character_class": "배틀메이지",
+    "character_skill_grade": "0",
+    "character_skill": [
+        {
+            "skill_name": "크리스탈 스로우",
+            "skill_description": "[마스터 레벨 : 3]\r\n광산에서 채집한 루를 던져 원거리의 적을 공격한다.",
+            "skill_level": 3,
+            "skill_effect": "MP 7 소비, 40 데미지 ",
+            "skill_icon": "https://open.api.nexon.com/static/maplestory/SkillIcon/KFMCLHPBMA.png",
+            "skill_effect_next": null
+        },
+        {
+            "skill_name": "잠입",
+            "skill_description": "[마스터 레벨 : 3]\r\n짧은 시간 동안 위기를 모면하기 위해 몸을 숨기고 이동한다.\n재사용 대기시간 : 1분",
+            "skill_level": 3,
+            "skill_effect": "MP 15 소비, 30초 동안 몸을 숨김, 이동속도 15 증가",
+            "skill_icon": "https://open.api.nexon.com/static/maplestory/SkillIcon/KFMCLHPBMB.png",
+            "skill_effect_next": null
+        },
+        {
+            "skill_name": "이피션시",
+            "skill_description": "[마스터 레벨 : 3]\r\n부족한 물자를 해결하기 위해 물약을 효율적으로 사용하는 방법을 배우게 된다.",
+            "skill_level": 3,
+            "skill_effect": "회복량 115%",
+            "skill_icon": "https://open.api.nexon.com/static/maplestory/SkillIcon/KFMCLHOBMC.png",
+            "skill_effect_next": null
+        },
+        {
+            "skill_name": "장인의 혼",
+            "skill_description": "[마스터 레벨 : 1]\n장인의 혼을 빌려 착용할 수 없는 아이템에도 주문서를 사용할 수 있다.",
+            "skill_level": 1,
+            "skill_effect": null,
+            "skill_icon": "https://open.api.nexon.com/static/maplestory/SkillIcon/KFMCLHPBMD.png",
+            "skill_effect_next": null
+        },
+        {
+            "skill_name": "영웅의 메아리",
+            "skill_description": "[마스터 레벨 : 1]\n주변 모든 캐릭터의 공격력과 마력을 증가시킨다. \n재사용 대기시간 : 2시간",
+            "skill_level": 1,
+            "skill_effect": "MP 30 소비하여 40분 동안 공격력, 마력 4% 증가",
+            "skill_icon": "https://open.api.nexon.com/static/maplestory/SkillIcon/KFMCLHPBMF.png",
+            "skill_effect_next": null
+        },
+        {
+            "skill_name": "정령의 축복",
+            "skill_description": "[마스터 레벨 : 20]\r\n다른 캐릭터를 레벨 10이상 육성하면 스킬포인트 1이 증가한다. 단, 정령의 축복과 여제의 축복중 좋은 효과로 발동된다.",
+            "skill_level": 20,
+            "skill_effect": "공격력 20, 마력 20 증가",
+            "skill_icon": "https://open.api.nexon.com/static/maplestory/SkillIcon/KFMCLHOBNC.png",
+            "skill_effect_next": null
+        },
+        {
+            "skill_name": "여제의 축복",
+            "skill_description": "[마스터 레벨 : 30]\r\n다른 시그너스 캐릭터와 미하일 캐릭터를 레벨 5이상 육성하면 스킬포인트 1이 증가한다. 단, 정령의 축복과 여제의 축복중 높은 효과로 발동된다.\r\n다른 시그너스, 미하일 캐릭터의 고귀한 정신에 의해 마스터 레벨이 최대 30까지 확장될 수 있다.",
+            "skill_level": 30,
+            "skill_effect": "공격력 30, 마력 30 증가",
+            "skill_icon": "https://open.api.nexon.com/static/maplestory/SkillIcon/KFMCLHOBLD.png",
+            "skill_effect_next": null
+        },
+        {
+            "skill_name": "링크 매니지먼트",
+            "skill_description": "[마스터 레벨 : 1]\r\n월드 내 다른 캐릭터의 링크 스킬을 전수 받거나 현재 전수 받고 있는 링크 스킬을 해제할 수 있다.",
+            "skill_level": 1,
+            "skill_effect": "자신의 링크 스킬 전수 상태를 관리",
+            "skill_icon": "https://open.api.nexon.com/static/maplestory/SkillIcon/KFMCLHPDJB.png",
+            "skill_effect_next": null
+        },
+        {
+            "skill_name": "비밀광장 긴급집결",
+            "skill_description": "[마스터 레벨 : 1]\r\n레지스탕스 소집령에 의해 비밀 집결지로 이동한다.",
+            "skill_level": 1,
+            "skill_effect": "MP 100 소비, 사용 시 레지스탕스 비밀광장으로 이동\n재사용 대기시간 600초",
+            "skill_icon": "https://open.api.nexon.com/static/maplestory/SkillIcon/KFMCLHPDEB.png",
+            "skill_effect_next": null
+        },
+        {
+            "skill_name": "폭격! 그게 바로 나다",
+            "skill_description": "[마스터 레벨 : 2]\r\n배신자 매그너스가 소환되어 함께 싸운다.(언제 배신할 지 모르니 조심하자...) 소울웨폰의 힘으로 소환된 매그너스가 일정 시간 동안 주변 몬스터들을 공격한다.",
+            "skill_level": 1,
+            "skill_effect": "250 소울을 소비하여 120초 동안 데미지 1500%의 매그너스 소환\n소울웨폰 소환수의 데미지는 캐릭터와 다르게 계산됨\n재사용 대기시간 180초",
+            "skill_icon": "https://open.api.nexon.com/static/maplestory/SkillIcon/KFHCLHPCIB.png",
+            "skill_effect_next": "250 소울을 소비하여 120초 동안 데미지 1800%의 매그너스 소환\n소울웨폰 소환수의 데미지는 캐릭터와 다르게 계산됨\n재사용 대기시간 180초"
+        },
+        {
+            "skill_name": "레벨퍼프 - I링",
+            "skill_description": "[마스터 레벨 : 4]\r\n일정 시간 동안 현재 캐릭터 레벨의 일정량 만큼 INT가 증가한다. 재사용 대기시간 초기화의 효과를 받지 않는다.",
+            "skill_level": 3,
+            "skill_effect": "HP 800 소비, 13초 동안 현재 캐릭터 레벨의 230%만큼 INT 증가\n재사용 대기시간 180초",
+            "skill_icon": "https://open.api.nexon.com/static/maplestory/SkillIcon/KFHCLHPFKI.png",
+            "skill_effect_next": "HP 600 소비, 15초 동안 현재 캐릭터 레벨의 300%만큼 INT 증가\n재사용 대기시간 180초"
+        },
+        {
+            "skill_name": "메이플 휘장",
+            "skill_description": "[마스터 레벨 : 1]\r\n메이플 업적에서 선택한 휘장을 실체화한다.\n실체화된 휘장은 일정 시간 동안 캐릭터 주위에 머무르다가 사라진다. 업적 등급 및 완료 업적에 따라 다양한 휘장을 선택하여 실체화시킬 수 있다.",
+            "skill_level": 1,
+            "skill_effect": "재사용 대기시간 5초",
+            "skill_icon": "https://open.api.nexon.com/static/maplestory/SkillIcon/KFHCLHMCOD.png",
+            "skill_effect_next": null
+        },
+        {
+            "skill_name": "고급 무기 제련",
+            "skill_description": "[마스터 레벨 : 1]\r\n장비 제작 명장의 숙달된 기술로 마법의 숫돌을 사용하여 착용하고 있는 무기의 날카로움을 극대화한다\n무기 제련은 버프 지속시간 증가의 효과를 받지 않는다.\n2개의 비약을 사용 중이거나 무기 제련, 장신구 강화, 상급 장신구 강화 스킬의 효과가 적용 중이면 사용할 수 없다.",
+            "skill_level": 1,
+            "skill_effect": "마법의 숫돌 2개 사용, 40분 동안 크리티컬 데미지 5% 증가, 무기, 보조무기 착용 해제 및 교체 시 스킬 효과 소멸\n",
+            "skill_icon": "https://open.api.nexon.com/static/maplestory/SkillIcon/KFHCLHMCKD.png",
+            "skill_effect_next": null
+        },
+        {
+            "skill_name": "링 액티베이션",
+            "skill_description": "[마스터 레벨 : 1]\n현재 착용 중인 특수 스킬 반지의 액티브 스킬을 사용한다.\n일부 특수 스킬 반지의 경우 패시브 스킬이 자동으로 발동된다.",
+            "skill_level": 1,
+            "skill_effect": "사용 시 현재 장착한 특수 스킬 반지의 액티브 스킬 발동",
+            "skill_icon": "https://open.api.nexon.com/static/maplestory/SkillIcon/KFHCLHNBPE.png",
+            "skill_effect_next": null
+        }
+    ]
+}

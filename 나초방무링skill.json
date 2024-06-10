@@ -1,0 +1,127 @@
+{
+    "date": "2024-06-09T00:00+09:00",
+    "character_class": "루미너스",
+    "character_skill_grade": "0",
+    "character_skill": [
+        {
+            "skill_name": "장인의 혼",
+            "skill_description": "[마스터 레벨 : 1]\n장인의 혼을 빌려 착용할 수 없는 아이템에도 주문서를 사용할 수 있다.",
+            "skill_level": 1,
+            "skill_effect": null,
+            "skill_icon": "https://open.api.nexon.com/static/maplestory/SkillIcon/KFNCLDPBMD.png",
+            "skill_effect_next": null
+        },
+        {
+            "skill_name": "영웅의 메아리",
+            "skill_description": "[마스터 레벨 : 1]\n주변 모든 캐릭터의 공격력과 마력을 증가시킨다. \n재사용 대기시간 : 2시간",
+            "skill_level": 1,
+            "skill_effect": "MP 30 소비하여 40분 동안 공격력, 마력 4% 증가",
+            "skill_icon": "https://open.api.nexon.com/static/maplestory/SkillIcon/KFNCLDPBMF.png",
+            "skill_effect_next": null
+        },
+        {
+            "skill_name": "정령의 축복",
+            "skill_description": "[마스터 레벨 : 20]\r\n다른 캐릭터를 레벨 10이상 육성하면 스킬포인트 1이 증가한다. 단, 정령의 축복과 여제의 축복중 좋은 효과로 발동된다.",
+            "skill_level": 20,
+            "skill_effect": "공격력 20, 마력 20 증가",
+            "skill_icon": "https://open.api.nexon.com/static/maplestory/SkillIcon/KFNCLDOBNC.png",
+            "skill_effect_next": null
+        },
+        {
+            "skill_name": "여제의 축복",
+            "skill_description": "[마스터 레벨 : 30]\r\n다른 시그너스 캐릭터와 미하일 캐릭터를 레벨 5이상 육성하면 스킬포인트 1이 증가한다. 단, 정령의 축복과 여제의 축복중 높은 효과로 발동된다.\r\n다른 시그너스, 미하일 캐릭터의 고귀한 정신에 의해 마스터 레벨이 최대 30까지 확장될 수 있다.",
+            "skill_level": 30,
+            "skill_effect": "공격력 30, 마력 30 증가",
+            "skill_icon": "https://open.api.nexon.com/static/maplestory/SkillIcon/KFNCLDOBLD.png",
+            "skill_effect_next": null
+        },
+        {
+            "skill_name": "연합의 의지",
+            "skill_description": "[마스터 레벨 : 1]\r\n연합의 의지에 따라 강한 힘을 발휘한다.",
+            "skill_level": 1,
+            "skill_effect": "영구적으로 힘 5, 민첩 5, 지능 5, 행운 5, 공격력 5, 마력 5 증가",
+            "skill_icon": "https://open.api.nexon.com/static/maplestory/SkillIcon/KFNCLDOAFA.png",
+            "skill_effect_next": null
+        },
+        {
+            "skill_name": "선파이어",
+            "skill_description": "[마스터 레벨 : 1]\r\n빛으로 가득 차 빛 마법 사용 시 추가 타격을 하며 빛 공격 마법으로 적을 공격할 때마다 HP의 일정 비율을 회복한다.",
+            "skill_level": 1,
+            "skill_effect": "빛 스킬 사용 시 최종 데미지의 50%로 추가 타격, 빛 마법으로 적 공격 시마다 순수 HP의 1% 회복",
+            "skill_icon": "https://open.api.nexon.com/static/maplestory/SkillIcon/KFNCLDODNG.png",
+            "skill_effect_next": null
+        },
+        {
+            "skill_name": "이클립스",
+            "skill_description": "[마스터 레벨 : 1]\r\n어둠으로 가득 차 어둠 마법 사용 시 추가 타격을 하며 어둠 공격 마법 시전 시 MP가 소비되지 않는다.\n캐릭터 외형 변화 온오프 : 마우스 우클릭",
+            "skill_level": 1,
+            "skill_effect": "어둠 스킬 사용 시 최종 데미지의 50%로 스킬의 공격 횟수만큼 추가 타격, 어둠 공격 마법 시전 시 MP 소비 0",
+            "skill_icon": "https://open.api.nexon.com/static/maplestory/SkillIcon/KFNCLDODNH.png",
+            "skill_effect_next": null
+        },
+        {
+            "skill_name": "이퀄리브리엄",
+            "skill_description": "[마스터 레벨 : 1]\r\n빛과 어둠이 완벽히 균형을 이루어 스탠스 확률이 증가하고 모든 피해가 1로 적용되며 빛, 어둠, 이퀄리브리엄 마법 시 추가 타격을 한다. 재사용 대기시간이 적용되지 않으며 빛 공격 마법 시전 시 HP의 일정 비율을 회복하고 어둠 공격 마법 시전 시 MP를 소비하지 않는다.\n캐릭터 외형 변화 온오프 : 마우스 우클릭",
+            "skill_level": 1,
+            "skill_effect": "10초 동안 스탠스 확률 100% 증가\n빛과 어둠 마법 사용 시 최종 데미지의 50%의 데미지로 스킬의 공격 횟수만큼 추가 타격\n이퀄리브리엄 마법 사용 시 최종 데미지의 100%로 스킬의 공격 횟수만큼 추가 타격, 재사용 대기시간 미적용\n어둠 공격 마법 시전 시 MP소비 0, 빛 공격 마법 시전 시 HP 1% 회복\n단, 스킬의 공격 횟수는 15번을 초과할 수 없고 이퀄리브리엄 마법은 빛과 어둠이 모두 적용된다.",
+            "skill_icon": "https://open.api.nexon.com/static/maplestory/SkillIcon/KFNCLDODNJ.png",
+            "skill_effect_next": null
+        },
+        {
+            "skill_name": "파워 오브 라이트",
+            "skill_description": "[마스터 레벨 : 1]\r\n운명에 맞서는 의지와 마법사 특유의 통찰력, 지력이 높으며 레벨 업 시 MP가 더 많이 증가한다. 추가로 빛의 힘으로 암흑에 걸리지 않는다.",
+            "skill_level": 1,
+            "skill_effect": "의지 20레벨, 통찰력 20레벨, INT 20 증가, 레벨업 시 MP 증가량 증가, 암흑 상태에 영구 면역",
+            "skill_icon": "https://open.api.nexon.com/static/maplestory/SkillIcon/KFNCLDODOB.png",
+            "skill_effect_next": null
+        },
+        {
+            "skill_name": "라이트 블링크",
+            "skill_description": "[마스터 레벨 : 1]\r\n빛이 되어 적들에게로 이동한다. 마을에서는 마을 내의 랜덤한 위치로 순간 이동한다.",
+            "skill_level": 1,
+            "skill_effect": "MP 40 소비, 범위 내 가장 먼 적에게로 이동. 단, 마을에서는 맵 상의 랜덤한 위치로 순간 이동",
+            "skill_icon": "https://open.api.nexon.com/static/maplestory/SkillIcon/KFNCLDPDOC.png",
+            "skill_effect_next": null
+        },
+        {
+            "skill_name": "링크 매니지먼트",
+            "skill_description": "[마스터 레벨 : 1]\r\n월드 내 다른 캐릭터의 링크 스킬을 전수 받거나 현재 전수 받고 있는 링크 스킬을 해제할 수 있다.",
+            "skill_level": 1,
+            "skill_effect": "자신의 링크 스킬 전수 상태를 관리",
+            "skill_icon": "https://open.api.nexon.com/static/maplestory/SkillIcon/KFNCLDPDJB.png",
+            "skill_effect_next": null
+        },
+        {
+            "skill_name": "치명적인 귀여움",
+            "skill_description": "[마스터 레벨 : 2]\r\n핑크빈이 무언가 마음에 들지 않는다. 소울웨폰의 힘으로 소환된 핑크빈이 주변 몬스터들에게 치명적인 매력을 선보인다.",
+            "skill_level": 1,
+            "skill_effect": "200 소울을 소비하여 60초 동안 데미지 1000%의 핑크빈 소환\n소울웨폰 소환수의 데미지는 캐릭터와 다르게 계산됨\n재사용 대기시간 150초",
+            "skill_icon": "https://open.api.nexon.com/static/maplestory/SkillIcon/KFHCLHPDKJ.png",
+            "skill_effect_next": "200 소울을 소비하여 60초 동안 데미지 1200%의 핑크빈 소환\n소울웨폰 소환수의 데미지는 캐릭터와 다르게 계산됨\n재사용 대기시간 150초"
+        },
+        {
+            "skill_name": "웨폰퍼프 - I링",
+            "skill_description": "[마스터 레벨 : 5]\r\n일정 시간 동안 주무기 공격력 혹은 마력의 일부값 만큼 INT가 증가한다. 재사용 대기시간 초기화의 효과를 받지 않는다.",
+            "skill_level": 1,
+            "skill_effect": "HP 1200 소비, 9초 동안 장착중인 주무기 공격력 혹은 마력의 100%만큼 INT 증가\n주무기의 공격력과 마력 중 높은 값으로 적용\n재사용 대기시간 180초",
+            "skill_icon": "https://open.api.nexon.com/static/maplestory/SkillIcon/KFHCLHPFLC.png",
+            "skill_effect_next": "HP 1000 소비, 11초 동안 장착중인 주무기 공격력 혹은 마력의 200%만큼 INT 증가\n주무기의 공격력과 마력 중 높은 값으로 적용\n재사용 대기시간 180초"
+        },
+        {
+            "skill_name": "메이플 휘장",
+            "skill_description": "[마스터 레벨 : 1]\r\n메이플 업적에서 선택한 휘장을 실체화한다.\n실체화된 휘장은 일정 시간 동안 캐릭터 주위에 머무르다가 사라진다. 업적 등급 및 완료 업적에 따라 다양한 휘장을 선택하여 실체화시킬 수 있다.",
+            "skill_level": 1,
+            "skill_effect": "재사용 대기시간 5초",
+            "skill_icon": "https://open.api.nexon.com/static/maplestory/SkillIcon/KFHCLHMCOD.png",
+            "skill_effect_next": null
+        },
+        {
+            "skill_name": "링 액티베이션",
+            "skill_description": "[마스터 레벨 : 1]\n현재 착용 중인 특수 스킬 반지의 액티브 스킬을 사용한다.\n일부 특수 스킬 반지의 경우 패시브 스킬이 자동으로 발동된다.",
+            "skill_level": 1,
+            "skill_effect": "사용 시 현재 장착한 특수 스킬 반지의 액티브 스킬 발동",
+            "skill_icon": "https://open.api.nexon.com/static/maplestory/SkillIcon/KFHCLHNBPE.png",
+            "skill_effect_next": null
+        }
+    ]
+}

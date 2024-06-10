@@ -1,0 +1,127 @@
+{
+    "date": "2024-06-09T00:00+09:00",
+    "character_class": "미하일",
+    "character_skill_grade": "0",
+    "character_skill": [
+        {
+            "skill_name": "달팽이 세마리",
+            "skill_description": "[마스터 레벨 : 3]\n달팽이 껍질을 던져 원거리의 적을 공격한다.",
+            "skill_level": 0,
+            "skill_effect": null,
+            "skill_icon": "https://open.api.nexon.com/static/maplestory/SkillIcon/KFKCLHPBMA.png",
+            "skill_effect_next": null
+        },
+        {
+            "skill_name": "회복",
+            "skill_description": "[마스터 레벨 : 3]\n자신의 HP를 30초 동안 지속적으로 회복시킨다. \n재사용 대기시간 : 2분",
+            "skill_level": 0,
+            "skill_effect": null,
+            "skill_icon": "https://open.api.nexon.com/static/maplestory/SkillIcon/KFKCLHPBMB.png",
+            "skill_effect_next": null
+        },
+        {
+            "skill_name": "민첩한 몸놀림",
+            "skill_description": "[마스터 레벨 : 3]\n순간적으로 빠르게 이동한다. \n재사용 대기시간 : 1분",
+            "skill_level": 0,
+            "skill_effect": null,
+            "skill_icon": "https://open.api.nexon.com/static/maplestory/SkillIcon/KFKCLHPBMC.png",
+            "skill_effect_next": null
+        },
+        {
+            "skill_name": "영웅의 메아리",
+            "skill_description": "[마스터 레벨 : 1]\n주변 모든 캐릭터의 공격력과 마력을 증가시킨다. \n재사용 대기시간 : 2시간",
+            "skill_level": 1,
+            "skill_effect": "MP 30 소비하여 40분 동안 공격력, 마력 4% 증가",
+            "skill_icon": "https://open.api.nexon.com/static/maplestory/SkillIcon/KFKCLHPDNF.png",
+            "skill_effect_next": null
+        },
+        {
+            "skill_name": "정령의 축복",
+            "skill_description": "[마스터 레벨 : 20]\r\n다른 캐릭터를 레벨 10이상 육성하면 스킬포인트 1이 증가한다. 단, 정령의 축복과 여제의 축복중 좋은 효과로 발동된다.",
+            "skill_level": 20,
+            "skill_effect": "공격력 20, 마력 20 증가",
+            "skill_icon": "https://open.api.nexon.com/static/maplestory/SkillIcon/KFKCLHOBNC.png",
+            "skill_effect_next": null
+        },
+        {
+            "skill_name": "여제의 축복",
+            "skill_description": "[마스터 레벨 : 30]\r\n다른 시그너스 캐릭터와 미하일 캐릭터를 레벨 5이상 육성하면 스킬포인트 1이 증가한다. 단, 정령의 축복과 여제의 축복중 높은 효과로 발동된다.\r\n다른 시그너스, 미하일 캐릭터의 고귀한 정신에 의해 마스터 레벨이 최대 30까지 확장될 수 있다.",
+            "skill_level": 30,
+            "skill_effect": "공격력 30, 마력 30 증가",
+            "skill_icon": "https://open.api.nexon.com/static/maplestory/SkillIcon/KFKCLHOBLD.png",
+            "skill_effect_next": null
+        },
+        {
+            "skill_name": "져니 홈",
+            "skill_description": "[마스터 레벨 : 1]\r\n신수의 기운을 빌려 여제의 곁으로 복귀한다.",
+            "skill_level": 1,
+            "skill_effect": "MP 100 소비, 사용 시 즉시 에레브로 귀환\n재사용 대기시간 600초",
+            "skill_icon": "https://open.api.nexon.com/static/maplestory/SkillIcon/KFKCLHPDIF.png",
+            "skill_effect_next": null
+        },
+        {
+            "skill_name": "엘리멘탈 엑스퍼트",
+            "skill_description": "[마스터 레벨 : 1]\r\n원소를 다루는 것에 통달한 자가 되어 공격력과 마력이 증가한다.",
+            "skill_level": 1,
+            "skill_effect": "공격력과 마력 10% 증가",
+            "skill_icon": "https://open.api.nexon.com/static/maplestory/SkillIcon/KFKCLHODJA.png",
+            "skill_effect_next": null
+        },
+        {
+            "skill_name": "연합의 의지",
+            "skill_description": "[마스터 레벨 : 1]\r\n연합의 의지에 따라 강한 힘을 발휘한다.",
+            "skill_level": 1,
+            "skill_effect": "영구적으로 힘 5, 민첩 5, 지능 5, 행운 5, 공격력 5, 마력 5 증가",
+            "skill_icon": "https://open.api.nexon.com/static/maplestory/SkillIcon/KFKCLHOAFA.png",
+            "skill_effect_next": null
+        },
+        {
+            "skill_name": "고귀한 정신",
+            "skill_description": "[마스터 레벨 : 6]\r\n여제의 축복의 효과를 증가시킨다.",
+            "skill_level": 0,
+            "skill_effect": null,
+            "skill_icon": "https://open.api.nexon.com/static/maplestory/SkillIcon/KFKCLHODMC.png",
+            "skill_effect_next": null
+        },
+        {
+            "skill_name": "링크 매니지먼트",
+            "skill_description": "[마스터 레벨 : 1]\r\n월드 내 다른 캐릭터의 링크 스킬을 전수 받거나 현재 전수 받고 있는 링크 스킬을 해제할 수 있다.",
+            "skill_level": 1,
+            "skill_effect": "자신의 링크 스킬 전수 상태를 관리",
+            "skill_icon": "https://open.api.nexon.com/static/maplestory/SkillIcon/KFKCLHPDJB.png",
+            "skill_effect_next": null
+        },
+        {
+            "skill_name": "불꽃여제",
+            "skill_description": "[마스터 레벨 : 2]\r\n불꽃과 같은 시그너스의 위용이 펼쳐진다. 소울웨폰의 힘으로 소환된 시그너스가 주변의 몬스터들에게 불꽃과 같은 공격을 시작한다.",
+            "skill_level": 1,
+            "skill_effect": "250 소울을 소비하여 90초 동안 데미지 1000%의 시그너스 소환\n소울웨폰 소환수의 데미지는 캐릭터와 다르게 계산됨\n재사용 대기시간 150초",
+            "skill_icon": "https://open.api.nexon.com/static/maplestory/SkillIcon/KFHCLHPDKG.png",
+            "skill_effect_next": "250 소울을 소비하여 90초 동안 데미지 1200%의 시그너스 소환\n소울웨폰 소환수의 데미지는 캐릭터와 다르게 계산됨\n재사용 대기시간 150초"
+        },
+        {
+            "skill_name": "리스크테이커 링",
+            "skill_description": "[마스터 레벨 : 5]\r\n일정 시간 동안 공격력과 마력이 일정량 증가한다. 단, 피격 시(공격 반사 제외) 버프가 해제되고 재사용 대기시간 초기화의 효과를 받지 않는다.",
+            "skill_level": 1,
+            "skill_effect": "HP 1200 소비, 12초 동안 공격력 20%, 마력 20% 증가. 단, 피격 시 버프 해제. 재사용 대기시간 180초",
+            "skill_icon": "https://open.api.nexon.com/static/maplestory/SkillIcon/KFHCLHPFLJ.png",
+            "skill_effect_next": "HP 1000 소비, 18초 동안 공격력 30%, 마력 30% 증가. 단, 피격 시 버프 해제. 재사용 대기시간 180초"
+        },
+        {
+            "skill_name": "메이플 휘장",
+            "skill_description": "[마스터 레벨 : 1]\r\n메이플 업적에서 선택한 휘장을 실체화한다.\n실체화된 휘장은 일정 시간 동안 캐릭터 주위에 머무르다가 사라진다. 업적 등급 및 완료 업적에 따라 다양한 휘장을 선택하여 실체화시킬 수 있다.",
+            "skill_level": 1,
+            "skill_effect": "재사용 대기시간 5초",
+            "skill_icon": "https://open.api.nexon.com/static/maplestory/SkillIcon/KFHCLHMCOD.png",
+            "skill_effect_next": null
+        },
+        {
+            "skill_name": "링 액티베이션",
+            "skill_description": "[마스터 레벨 : 1]\n현재 착용 중인 특수 스킬 반지의 액티브 스킬을 사용한다.\n일부 특수 스킬 반지의 경우 패시브 스킬이 자동으로 발동된다.",
+            "skill_level": 1,
+            "skill_effect": "사용 시 현재 장착한 특수 스킬 반지의 액티브 스킬 발동",
+            "skill_icon": "https://open.api.nexon.com/static/maplestory/SkillIcon/KFHCLHNBPE.png",
+            "skill_effect_next": null
+        }
+    ]
+}

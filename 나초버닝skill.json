@@ -1,0 +1,111 @@
+{
+    "date": "2024-06-09T00:00+09:00",
+    "character_class": "블래스터",
+    "character_skill_grade": "0",
+    "character_skill": [
+        {
+            "skill_name": "크리스탈 스로우",
+            "skill_description": "[마스터 레벨 : 3]\r\n광산에서 채집한 루를 던져 원거리의 적을 공격한다.",
+            "skill_level": 3,
+            "skill_effect": "MP 7 소비, 40 데미지 ",
+            "skill_icon": "https://open.api.nexon.com/static/maplestory/SkillIcon/KFMCLHPBMA.png",
+            "skill_effect_next": null
+        },
+        {
+            "skill_name": "잠입",
+            "skill_description": "[마스터 레벨 : 3]\r\n짧은 시간 동안 위기를 모면하기 위해 몸을 숨기고 이동한다.\n재사용 대기시간 : 1분",
+            "skill_level": 3,
+            "skill_effect": "MP 15 소비, 30초 동안 몸을 숨김, 이동속도 15 증가",
+            "skill_icon": "https://open.api.nexon.com/static/maplestory/SkillIcon/KFMCLHPBMB.png",
+            "skill_effect_next": null
+        },
+        {
+            "skill_name": "이피션시",
+            "skill_description": "[마스터 레벨 : 3]\r\n부족한 물자를 해결하기 위해 물약을 효율적으로 사용하는 방법을 배우게 된다.",
+            "skill_level": 3,
+            "skill_effect": "회복량 115%",
+            "skill_icon": "https://open.api.nexon.com/static/maplestory/SkillIcon/KFMCLHOBMC.png",
+            "skill_effect_next": null
+        },
+        {
+            "skill_name": "정령의 축복",
+            "skill_description": "[마스터 레벨 : 20]\r\n다른 캐릭터를 레벨 10이상 육성하면 스킬포인트 1이 증가한다. 단, 정령의 축복과 여제의 축복중 좋은 효과로 발동된다.",
+            "skill_level": 20,
+            "skill_effect": "공격력 20, 마력 20 증가",
+            "skill_icon": "https://open.api.nexon.com/static/maplestory/SkillIcon/KFMCLHOBNC.png",
+            "skill_effect_next": null
+        },
+        {
+            "skill_name": "플라잉",
+            "skill_description": "[마스터 레벨 : 1]\n용족의 신비한 힘을 사용해 하늘을 난다. 단, 추락시 받는 낙하 데미지가 매우 크다.\n발동할 때 MP 90 소비",
+            "skill_level": 1,
+            "skill_effect": null,
+            "skill_icon": "https://open.api.nexon.com/static/maplestory/SkillIcon/KFMCLHPBOG.png",
+            "skill_effect_next": null
+        },
+        {
+            "skill_name": "여제의 축복",
+            "skill_description": "[마스터 레벨 : 30]\r\n다른 시그너스 캐릭터와 미하일 캐릭터를 레벨 5이상 육성하면 스킬포인트 1이 증가한다. 단, 정령의 축복과 여제의 축복중 높은 효과로 발동된다.\r\n다른 시그너스, 미하일 캐릭터의 고귀한 정신에 의해 마스터 레벨이 최대 30까지 확장될 수 있다.",
+            "skill_level": 30,
+            "skill_effect": "공격력 30, 마력 30 증가",
+            "skill_icon": "https://open.api.nexon.com/static/maplestory/SkillIcon/KFMCLHOBLD.png",
+            "skill_effect_next": null
+        },
+        {
+            "skill_name": "링크 매니지먼트",
+            "skill_description": "[마스터 레벨 : 1]\r\n월드 내 다른 캐릭터의 링크 스킬을 전수 받거나 현재 전수 받고 있는 링크 스킬을 해제할 수 있다.",
+            "skill_level": 1,
+            "skill_effect": "자신의 링크 스킬 전수 상태를 관리",
+            "skill_icon": "https://open.api.nexon.com/static/maplestory/SkillIcon/KFMCLHPDJB.png",
+            "skill_effect_next": null
+        },
+        {
+            "skill_name": "비밀광장 긴급집결",
+            "skill_description": "[마스터 레벨 : 1]\r\n레지스탕스 소집령에 의해 비밀 집결지로 이동한다.",
+            "skill_level": 1,
+            "skill_effect": "MP 100 소비, 사용 시 레지스탕스 비밀광장으로 이동\n재사용 대기시간 600초",
+            "skill_icon": "https://open.api.nexon.com/static/maplestory/SkillIcon/KFMCLHPDEB.png",
+            "skill_effect_next": null
+        },
+        {
+            "skill_name": "실드스와프 링",
+            "skill_description": "[마스터 레벨 : 4]\r\n공격 시 일정 시간 동안 적의 방어율을 일정량 무시하는 대신, 자신의 방어력도 일정량 감소한다. 재사용 대기시간 초기화의 효과를 받지 않는다.",
+            "skill_level": 4,
+            "skill_effect": "HP 600 소비, 공격 시 15초 동안 적의 방어율 50% 무시, 자신의 방어력 -50% 감소. 재사용 대기시간 180초",
+            "skill_icon": "https://open.api.nexon.com/static/maplestory/SkillIcon/KFHCLHPFLG.png",
+            "skill_effect_next": null
+        },
+        {
+            "skill_name": "때렸스우~",
+            "skill_description": "[마스터 레벨 : 2]\r\n스우의 혼이 당신과 함께 한다. 소울웨폰의 힘으로 소환된 스우가 일정 시간 동안 주변 몬스터들을 공격한다.",
+            "skill_level": 1,
+            "skill_effect": "250 소울을 소비하여 120초 동안 데미지 1500%의 스우 소환\n소울웨폰 소환수의 데미지는 캐릭터와 다르게 계산됨\n재사용 대기시간 180초",
+            "skill_icon": "https://open.api.nexon.com/static/maplestory/SkillIcon/KFHCLHPHFG.png",
+            "skill_effect_next": "250 소울을 소비하여 120초 동안 데미지 1800%의 스우 소환\n소울웨폰 소환수의 데미지는 캐릭터와 다르게 계산됨\n재사용 대기시간 180초"
+        },
+        {
+            "skill_name": "메이플 휘장",
+            "skill_description": "[마스터 레벨 : 1]\r\n메이플 업적에서 선택한 휘장을 실체화한다.\n실체화된 휘장은 일정 시간 동안 캐릭터 주위에 머무르다가 사라진다. 업적 등급 및 완료 업적에 따라 다양한 휘장을 선택하여 실체화시킬 수 있다.",
+            "skill_level": 1,
+            "skill_effect": "재사용 대기시간 5초",
+            "skill_icon": "https://open.api.nexon.com/static/maplestory/SkillIcon/KFHCLHMCOD.png",
+            "skill_effect_next": null
+        },
+        {
+            "skill_name": "링 액티베이션",
+            "skill_description": "[마스터 레벨 : 1]\n현재 착용 중인 특수 스킬 반지의 액티브 스킬을 사용한다.\n일부 특수 스킬 반지의 경우 패시브 스킬이 자동으로 발동된다.",
+            "skill_level": 1,
+            "skill_effect": "사용 시 현재 장착한 특수 스킬 반지의 액티브 스킬 발동",
+            "skill_icon": "https://open.api.nexon.com/static/maplestory/SkillIcon/KFHCLHNBPE.png",
+            "skill_effect_next": null
+        },
+        {
+            "skill_name": "궁극의 콜라보",
+            "skill_description": "[마스터 레벨 : 1]\r\n궁극의 멤버들이 모여 만든 강력한 콜라보 스킬이다.",
+            "skill_level": 1,
+            "skill_effect": "세리아 : 공격력/마력 15 증가\r\n핑크빈 : 보스 몬스터 공격 시 데미지 40% 증가\r\n슬라임 : 몬스터 방어율 무시 10% 증가\r\n보리스 : 올스탯 20 증가\r\n브로디 : 크리티컬 확률 10% 증가\r\n예티 : 일반 몬스터 공격 시 데미지 10% 증가\r\n주황버섯 : 경험치 획득량 7.5% 증가\r\n배찌 : \n - 불꽃늑대, 폴로/프리토/에스페시아 획득 경험치 40% 증가\r\n블로니 : \n - 몬스터 파크 퇴장 시 획득하는 경험치 10% 증가\r\n성황당 할머니 :\n - 아케인리버 일일퀘스트 완료 시 획득 경험치 30%, 획득 심볼 6개 증가\r\n(Unknown)",
+            "skill_icon": "https://open.api.nexon.com/static/maplestory/SkillIcon/KFHCLHNHIE.png",
+            "skill_effect_next": null
+        }
+    ]
+}

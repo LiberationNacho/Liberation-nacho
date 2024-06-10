@@ -1,0 +1,151 @@
+{
+    "date": "2024-06-09T00:00+09:00",
+    "character_class": "아란",
+    "character_skill_grade": "0",
+    "character_skill": [
+        {
+            "skill_name": "달팽이 세마리",
+            "skill_description": "[마스터 레벨 : 3]\n달팽이 껍질을 던져 원거리의 적을 공격한다.",
+            "skill_level": 3,
+            "skill_effect": "MP 7 소비하여 데미지 40",
+            "skill_icon": "https://open.api.nexon.com/static/maplestory/SkillIcon/KFNCLHPBMA.png",
+            "skill_effect_next": null
+        },
+        {
+            "skill_name": "회복",
+            "skill_description": "[마스터 레벨 : 3]\n자신의 HP를 30초 동안 지속적으로 회복시킨다. \n재사용 대기시간 : 2분",
+            "skill_level": 3,
+            "skill_effect": "MP 15 소비하여 30초 동안 HP 72 회복",
+            "skill_icon": "https://open.api.nexon.com/static/maplestory/SkillIcon/KFNCLHPBMB.png",
+            "skill_effect_next": null
+        },
+        {
+            "skill_name": "민첩한 몸놀림",
+            "skill_description": "[마스터 레벨 : 3]\n순간적으로 빠르게 이동한다. \n재사용 대기시간 : 1분",
+            "skill_level": 0,
+            "skill_effect": null,
+            "skill_icon": "https://open.api.nexon.com/static/maplestory/SkillIcon/KFNCLHPBMC.png",
+            "skill_effect_next": null
+        },
+        {
+            "skill_name": "영웅의 메아리",
+            "skill_description": "[마스터 레벨 : 1]\n주변 모든 캐릭터의 공격력과 마력을 증가시킨다. \n재사용 대기시간 : 2시간",
+            "skill_level": 1,
+            "skill_effect": "MP 30 소비하여 40분 동안 공격력, 마력 4% 증가",
+            "skill_icon": "https://open.api.nexon.com/static/maplestory/SkillIcon/KFNCLHPBMF.png",
+            "skill_effect_next": null
+        },
+        {
+            "skill_name": "정령의 축복",
+            "skill_description": "[마스터 레벨 : 20]\r\n다른 캐릭터를 레벨 10이상 육성하면 스킬포인트 1이 증가한다. 단, 정령의 축복과 여제의 축복중 좋은 효과로 발동된다.",
+            "skill_level": 20,
+            "skill_effect": "공격력 20, 마력 20 증가",
+            "skill_icon": "https://open.api.nexon.com/static/maplestory/SkillIcon/KFNCLHOBNC.png",
+            "skill_effect_next": null
+        },
+        {
+            "skill_name": "여제의 축복",
+            "skill_description": "[마스터 레벨 : 30]\r\n다른 시그너스 캐릭터와 미하일 캐릭터를 레벨 5이상 육성하면 스킬포인트 1이 증가한다. 단, 정령의 축복과 여제의 축복중 높은 효과로 발동된다.\r\n다른 시그너스, 미하일 캐릭터의 고귀한 정신에 의해 마스터 레벨이 최대 30까지 확장될 수 있다.",
+            "skill_level": 30,
+            "skill_effect": "공격력 30, 마력 30 증가",
+            "skill_icon": "https://open.api.nexon.com/static/maplestory/SkillIcon/KFNCLHOBLD.png",
+            "skill_effect_next": null
+        },
+        {
+            "skill_name": "연합의 의지",
+            "skill_description": "[마스터 레벨 : 1]\r\n연합의 의지에 따라 강한 힘을 발휘한다.",
+            "skill_level": 1,
+            "skill_effect": "영구적으로 힘 5, 민첩 5, 지능 5, 행운 5, 공격력 5, 마력 5 증가",
+            "skill_icon": "https://open.api.nexon.com/static/maplestory/SkillIcon/KFNCLHOAFA.png",
+            "skill_effect_next": null
+        },
+        {
+            "skill_name": "링크 매니지먼트",
+            "skill_description": "[마스터 레벨 : 1]\r\n월드 내 다른 캐릭터의 링크 스킬을 전수 받거나 현재 전수 받고 있는 링크 스킬을 해제할 수 있다.",
+            "skill_level": 1,
+            "skill_effect": "자신의 링크 스킬 전수 상태를 관리",
+            "skill_icon": "https://open.api.nexon.com/static/maplestory/SkillIcon/KFNCLHPDJB.png",
+            "skill_effect_next": null
+        },
+        {
+            "skill_name": "컴뱃 스탭",
+            "skill_description": "[마스터 레벨 : 1]\r\n방향키를 연속으로 2회 입력하여 짧은 거리를 신속하게 이동한다. 공중에서는 점프키 또는 스킬을 사용하면 진행 방향으로 한번 더 점프한다.\n추가로 이동속도와 최대 이동속도 상한을 영구적으로 증가시키는 패시브 효과가 있다.\n[발동 커맨드 : →→ 또는 점프 중 점프키나 →→ 입력]\n지상 컴뱃 스탭 커맨드 잠금 : 마우스 우클릭",
+            "skill_level": 1,
+            "skill_effect": "MP 5 소비, 짧은 거리 이동\n영구적으로 이동속도 15, 최대 이동속도 상한 20 증가",
+            "skill_icon": "https://open.api.nexon.com/static/maplestory/SkillIcon/KFNCLHPDFF.png",
+            "skill_effect_next": null
+        },
+        {
+            "skill_name": "백 투 리엔",
+            "skill_description": "[마스터 레벨 : 1]\r\n리엔 마을로 돌아간다.",
+            "skill_level": 1,
+            "skill_effect": "MP 100 소비, 리엔으로 이동. \n재사용 대기시간 600초",
+            "skill_icon": "https://open.api.nexon.com/static/maplestory/SkillIcon/KFNCLHPDFG.png",
+            "skill_effect_next": null
+        },
+        {
+            "skill_name": "무르무르의 이상한 동행",
+            "skill_description": "[마스터 레벨 : 1]\r\n영혼연구가 무르무르가 소환되어 함께 싸운다. 소울웨폰의 힘으로 소환된 무르무르가 일정 시간 동안 주변 몬스터들을 공격한다.",
+            "skill_level": 1,
+            "skill_effect": "250 소울을 소비하여 120초 동안 데미지 1500%의 무르무르 소환\n소울웨폰 소환수의 데미지는 캐릭터와 다르게 계산됨\n재사용 대기시간 300초",
+            "skill_icon": "https://open.api.nexon.com/static/maplestory/SkillIcon/KFHCLHPCFF.png",
+            "skill_effect_next": null
+        },
+        {
+            "skill_name": "레벨퍼프 - S링",
+            "skill_description": "[마스터 레벨 : 4]\r\n일정 시간 동안 현재 캐릭터 레벨의 일정량 만큼 STR가 증가한다. 재사용 대기시간 초기화의 효과를 받지 않는다.",
+            "skill_level": 3,
+            "skill_effect": "HP 800 소비, 13초 동안 현재 캐릭터 레벨의 230%만큼 STR 증가, 데몬 어벤져는 해당 수치의 17.5배만큼 HP 증가\n재사용 대기시간 180초",
+            "skill_icon": "https://open.api.nexon.com/static/maplestory/SkillIcon/KFHCLHPFKG.png",
+            "skill_effect_next": "HP 600 소비, 15초 동안 현재 캐릭터 레벨의 300%만큼 STR 증가, 데몬 어벤져는 해당 수치의 17.5배만큼 HP 증가\n재사용 대기시간 180초"
+        },
+        {
+            "skill_name": "메이플 휘장",
+            "skill_description": "[마스터 레벨 : 1]\r\n메이플 업적에서 선택한 휘장을 실체화한다.\n실체화된 휘장은 일정 시간 동안 캐릭터 주위에 머무르다가 사라진다. 업적 등급 및 완료 업적에 따라 다양한 휘장을 선택하여 실체화시킬 수 있다.",
+            "skill_level": 1,
+            "skill_effect": "재사용 대기시간 5초",
+            "skill_icon": "https://open.api.nexon.com/static/maplestory/SkillIcon/KFHCLHMCOD.png",
+            "skill_effect_next": null
+        },
+        {
+            "skill_name": "고급 무기 제련",
+            "skill_description": "[마스터 레벨 : 1]\r\n장비 제작 명장의 숙달된 기술로 마법의 숫돌을 사용하여 착용하고 있는 무기의 날카로움을 극대화한다\n무기 제련은 버프 지속시간 증가의 효과를 받지 않는다.\n2개의 비약을 사용 중이거나 무기 제련, 장신구 강화, 상급 장신구 강화 스킬의 효과가 적용 중이면 사용할 수 없다.",
+            "skill_level": 1,
+            "skill_effect": "마법의 숫돌 2개 사용, 40분 동안 크리티컬 데미지 5% 증가, 무기, 보조무기 착용 해제 및 교체 시 스킬 효과 소멸\n",
+            "skill_icon": "https://open.api.nexon.com/static/maplestory/SkillIcon/KFHCLHMCKD.png",
+            "skill_effect_next": null
+        },
+        {
+            "skill_name": "링 액티베이션",
+            "skill_description": "[마스터 레벨 : 1]\n현재 착용 중인 특수 스킬 반지의 액티브 스킬을 사용한다.\n일부 특수 스킬 반지의 경우 패시브 스킬이 자동으로 발동된다.",
+            "skill_level": 1,
+            "skill_effect": "사용 시 현재 장착한 특수 스킬 반지의 액티브 스킬 발동",
+            "skill_icon": "https://open.api.nexon.com/static/maplestory/SkillIcon/KFHCLHNBPE.png",
+            "skill_effect_next": null
+        },
+        {
+            "skill_name": "궁극의 콜라보",
+            "skill_description": "[마스터 레벨 : 1]\r\n궁극의 멤버들이 모여 만든 강력한 콜라보 스킬이다.",
+            "skill_level": 1,
+            "skill_effect": "세리아 : 공격력/마력 20 증가\r\n핑크빈 : 보스 몬스터 공격 시 데미지 40% 증가\r\n슬라임 : 몬스터 방어율 무시 10% 증가\r\n보리스 : 올스탯 30 증가\r\n다오 : 최대 HP/MP 1000 증가\r\n나오 : 버프 지속시간 10% 증가\r\n브로디 : 크리티컬 확률 10% 증가\r\n예티 : 일반 몬스터 공격 시 데미지 10% 증가\r\n왈숙네 : 아케인포스 30 증가\r\n주황버섯 : 경험치 획득량 7.5% 증가\r\n크리스 : \n - 보스 몬스터 처치 시 획득하는 솔 에르다의 기운 20% 증가\r\n거너 : \n - 몬스터 컬렉션 신규 몬스터 등록 확률 20% 증가\r\n배찌 : \n - 불꽃늑대, 폴로/프리토/에스페시아 획득 경험치 40% 증가\r\n블로니 : \n - 몬스터 파크 퇴장 시 획득하는 경험치 30% 증가\r\n(Unknown)\r\n(Unknown)\r\n - 보스 몬스터 공격 시 데미지 10% 증가\r\n - 올스탯 30 증가\r\n - 아케인포스 60 증가",
+            "skill_icon": "https://open.api.nexon.com/static/maplestory/SkillIcon/KFHCLHNHIE.png",
+            "skill_effect_next": null
+        },
+        {
+            "skill_name": "마법의 종이비행기",
+            "skill_description": "[마스터 레벨 : 1]\r\n사용하면 마법의 종이비행기에 탑승할 수 있다. \n\n빅토리아컵 메인 스타디움에서만 사용할 수 있다.",
+            "skill_level": 1,
+            "skill_effect": "빅토리아컵 메인 스타디움에서 탑승하면 5초마다 레벨에 따른 경험치를 획득한다.\n재사용 대기시간 5초",
+            "skill_icon": "https://open.api.nexon.com/static/maplestory/SkillIcon/KFHCLHNHKD.png",
+            "skill_effect_next": null
+        },
+        {
+            "skill_name": "겟 오버 리밋",
+            "skill_description": "[마스터 레벨 : 1]\n레벨 범위 몬스터를 처치할 때마다 트래킹 포인트 게이지가 충전되며, 게이지가 모두 충전되면 <겟 오버 리밋: 롤링 섀도우>가 발동된다. \n\n일일 <겟 오버 리밋> 발동 횟수가 30회에 도달한 경우 종료된다.\n\n이벤트 기간이 종료된 후에는 사용할 수 없다. \n\n우클릭으로 온오프 가능",
+            "skill_level": 1,
+            "skill_effect": "\n\n<겟 오버 리밋: 롤링 섀도우> 최대 15마리의 적을 2500% 데미지로 6번 공격하는 스킬이 5회 발동",
+            "skill_icon": "https://open.api.nexon.com/static/maplestory/SkillIcon/KFHCLHNHEC.png",
+            "skill_effect_next": null
+        }
+    ]
+}

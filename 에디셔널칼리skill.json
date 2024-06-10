@@ -1,0 +1,55 @@
+{
+    "date": "2024-06-09T00:00+09:00",
+    "character_class": "칼리",
+    "character_skill_grade": "0",
+    "character_skill": [
+        {
+            "skill_name": "레미니선스",
+            "skill_description": "[마스터 레벨 : 1]\r\n영지 에리모스로 귀환한다.",
+            "skill_level": 1,
+            "skill_effect": "MP 30 소비, 사용 시 에리모스로 이동\n재사용 대기시간 600초",
+            "skill_icon": "https://open.api.nexon.com/static/maplestory/SkillIcon/KEKCLEPBLE.png",
+            "skill_effect_next": null
+        },
+        {
+            "skill_name": "매직 서킷",
+            "skill_description": "[마스터 레벨 : 1]\r\n마력 날개를 지닌 레프는 특별한 마력 회로로 공격력과 마력을 자유롭게 전환할 수 있다.",
+            "skill_level": 1,
+            "skill_effect": "무기를 제외한 착용 중인 장비의 마력 중 50%를 공격력으로 전환\n단, 세트 효과는 적용되지 않고 착용 중인 무기 순수 공격력의 20%까지 전환 가능",
+            "skill_icon": "https://open.api.nexon.com/static/maplestory/SkillIcon/KEKCLEOBLJ.png",
+            "skill_effect_next": null
+        },
+        {
+            "skill_name": "정령의 축복",
+            "skill_description": "[마스터 레벨 : 20]\r\n다른 캐릭터를 레벨 10이상 육성하면 스킬포인트 1이 증가한다. 단, 정령의 축복과 여제의 축복중 좋은 효과로 발동된다.",
+            "skill_level": 20,
+            "skill_effect": "공격력 20, 마력 20 증가",
+            "skill_icon": "https://open.api.nexon.com/static/maplestory/SkillIcon/KEKCLEOBNC.png",
+            "skill_effect_next": null
+        },
+        {
+            "skill_name": "여제의 축복",
+            "skill_description": "[마스터 레벨 : 30]\r\n다른 시그너스 캐릭터와 미하일 캐릭터를 레벨 5이상 육성하면 스킬포인트 1이 증가한다. 단, 정령의 축복과 여제의 축복중 높은 효과로 발동된다.\r\n다른 시그너스, 미하일 캐릭터의 고귀한 정신에 의해 마스터 레벨이 최대 30까지 확장될 수 있다.",
+            "skill_level": 30,
+            "skill_effect": "공격력 30, 마력 30 증가",
+            "skill_icon": "https://open.api.nexon.com/static/maplestory/SkillIcon/KEKCLEOBLD.png",
+            "skill_effect_next": null
+        },
+        {
+            "skill_name": "링크 매니지먼트",
+            "skill_description": "[마스터 레벨 : 1]\r\n월드 내 다른 캐릭터의 링크 스킬을 전수 받거나 현재 전수 받고 있는 링크 스킬을 해제할 수 있다.",
+            "skill_level": 1,
+            "skill_effect": "자신의 링크 스킬 전수 상태를 관리",
+            "skill_icon": "https://open.api.nexon.com/static/maplestory/SkillIcon/KEKCLEPDJB.png",
+            "skill_effect_next": null
+        },
+        {
+            "skill_name": "메이플 휘장",
+            "skill_description": "[마스터 레벨 : 1]\r\n메이플 업적에서 선택한 휘장을 실체화한다.\n실체화된 휘장은 일정 시간 동안 캐릭터 주위에 머무르다가 사라진다. 업적 등급 및 완료 업적에 따라 다양한 휘장을 선택하여 실체화시킬 수 있다.",
+            "skill_level": 1,
+            "skill_effect": "재사용 대기시간 5초",
+            "skill_icon": "https://open.api.nexon.com/static/maplestory/SkillIcon/KFHCLHMCOD.png",
+            "skill_effect_next": null
+        }
+    ]
+}

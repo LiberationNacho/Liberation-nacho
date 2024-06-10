@@ -1,0 +1,56 @@
+{
+    "date": "2024-06-09T00:00+09:00",
+    "set_effect": [
+        {
+            "set_name": "블랙 세트",
+            "total_set_count": 5,
+            "set_effect_info": [
+                {
+                    "set_count": 3,
+                    "set_option": "올스탯 : +7, 공격력 : +8, 마력 : +8"
+                },
+                {
+                    "set_count": 4,
+                    "set_option": "최대 HP : +20%, 최대 MP : +20%, 공격력 : +14, 마력 : +14, 데미지 : +9%"
+                },
+                {
+                    "set_count": 5,
+                    "set_option": "올스탯 : +8, 공격력 : +20, 마력 : +20, 몬스터 방어율 무시 : +30%"
+                }
+            ],
+            "set_option_full": [
+                {
+                    "set_count": 3,
+                    "set_option": "올스탯 : +7, 공격력 : +8, 마력 : +8"
+                },
+                {
+                    "set_count": 4,
+                    "set_option": "최대 HP : +20%, 최대 MP : +20%, 공격력 : +14, 마력 : +14, 데미지 : +9%"
+                },
+                {
+                    "set_count": 5,
+                    "set_option": "올스탯 : +8, 공격력 : +20, 마력 : +20, 몬스터 방어율 무시 : +30%"
+                }
+            ]
+        },
+        {
+            "set_name": "2nd 로그 세트",
+            "total_set_count": 1,
+            "set_effect_info": [],
+            "set_option_full": [
+                {
+                    "set_count": 2,
+                    "set_option": "방어력 : +60"
+                },
+                {
+                    "set_count": 3,
+                    "set_option": "최대 HP : +3%, 최대 MP : +3%"
+                },
+                {
+                    "set_count": 4,
+                    "set_option": "LUK : +3, 공격력 : +3"
+                }
+            ]
+        }
+    ]
+}
