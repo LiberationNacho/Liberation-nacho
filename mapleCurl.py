@@ -428,7 +428,7 @@ maple_curl = Curl()
 
 # 대기(1초) 코드 추가 (실제 서비스에서는 필요 없음), 캐릭별 기본 스텟 크롤링
 # time.sleep(1)
-# maple_curl.set_stat()
+maple_curl.set_stat()
 
 # 대기(1초) 코드 추가 (실제 서비스에서는 필요 없음), 캐릭별 장비 크롤링
 # time.sleep(1)
