@@ -312,8 +312,17 @@ time.sleep(1)
 maple_curl.set_basicInfoJSON()
 
 # 대기(1초) 코드 추가 (실제 서비스에서는 필요 없음), 캐릭별 기본 스텟 크롤링
+<<<<<<< HEAD
 time.sleep(1)
 maple_curl.set_statJSON()
+=======
+# time.sleep(1)
+maple_curl.set_stat()
+
+# 대기(1초) 코드 추가 (실제 서비스에서는 필요 없음), 캐릭별 장비 크롤링
+# time.sleep(1)
+# maple_curl.set_equip()
+>>>>>>> 2100637bede935e435ab3bb9f23160a45476d599
 
 # 대기(1초) 코드 추가 (실제 서비스에서는 필요 없음), 캐릭별 헥사 코어 크롤링
 time.sleep(1)
