@@ -95,7 +95,7 @@ class Curl:
                 # 테이블에 다시 저장
                 if ocid_value is not None:
                     print(character_name)
-                    print(f"캐릭터 {character_name}의 OCID가 업데이트되었습니다.")
+                    print(f"character: {character_name} OCID update")
                     print(ocid_value)
                 else:
                     print("Ocid를 찾을 수 없습니다.")
@@ -109,10 +109,10 @@ class Curl:
             print("JSON 디코딩 오류(Ocid):", e)
 
         except requests.RequestException as e:
-            print("요청 오류(Ocid):", e)
+            print("Request Error(Ocid):", e)
 
         except Exception as e:
-            print("오류 발생(Ocid):", e)
+            print("Error Occurred(Ocid):", e)
 
     # 스텟
     def set_statJSON(self):
@@ -136,7 +136,7 @@ class Curl:
                     print(character_name)
                     print(json_data_str)
                 else:
-                    print("전투력 정보를 찾을 수 없습니다.")
+                    print("combat information not foun.")
                     return
 
                 # 대기(0.2초) 코드 추가 (실제 서비스에서는 필요 없음)
@@ -146,13 +146,13 @@ class Curl:
 
 
         except json.JSONDecodeError as e:
-            print("JSON 디코딩 오류(Stat):", e)
+            print("JSON Decoding error(Stat):", e)
 
         except requests.RequestException as e:
-            print("요청 오류(Stat):", e)
+            print("Request Error(Stat):", e)
 
         except Exception as e:
-            print("오류 발생(Stat):", e)
+            print("Error Occurred(Stat):", e)
 
     # 기본 정보
     def set_basicInfoJSON(self):
@@ -184,13 +184,13 @@ class Curl:
                 manager.JsonDataHandler.save_json(character_basicInfo_data, character_name + 'basicInfo')
 
         except json.JSONDecodeError as e:
-            print("JSON 디코딩 오류(BasicInfo):", e)
+            print("JSON Decoding error(BasicInfo):", e)
 
         except requests.RequestException as e:
-            print("요청 오류(BasicInfo):", e)
+            print("Request Error(BasicInfo):", e)
 
         except Exception as e:
-            print("오류 발생(BasicInfo):", e)
+            print("Error Occurred(BasicInfo):", e)
 
     # 심볼
     def set_symbolJSON(self):
@@ -222,13 +222,13 @@ class Curl:
                 manager.JsonDataHandler.save_json(character_symbol_data, character_name + 'symbol')
 
         except json.JSONDecodeError as e:
-            print("JSON 디코딩 오류(symbol):", e)
+            print("JSON Decoding error(symbol):", e)
 
         except requests.RequestException as e:
-            print("요청 오류(symbol):", e)
+            print("Request Error(symbol):", e)
 
         except Exception as e:
-            print("오류 발생(symbol):", e)
+            print("Error Occurred(symbol):", e)
 
     # 헥사 코어
     def set_hexaCoreJSON(self):
@@ -260,13 +260,13 @@ class Curl:
                 manager.JsonDataHandler.save_json(character_hexaCore_data, character_name + 'hexaCore')
 
         except json.JSONDecodeError as e:
-            print("JSON 디코딩 오류(hexaCore):", e)
+            print("JSON Decoding error(hexaCore):", e)
 
         except requests.RequestException as e:
-            print("요청 오류(hexaCore):", e)
+            print("Request Error(hexaCore):", e)
 
         except Exception as e:
-            print("오류 발생(hexaCore):", e)
+            print("Error Occurred(hexaCore):", e)
 
     # 유니온 개인정보
     def set_unionJSON(self):
@@ -296,13 +296,13 @@ class Curl:
             manager.JsonDataHandler.save_json(character_union_data, 'union')
 
         except json.JSONDecodeError as e:
-            print("JSON 디코딩 오류(union):", e)
+            print("JSON Decoding error(union):", e)
 
         except requests.RequestException as e:
-            print("요청 오류(union):", e)
+            print("Request Error(union):", e)
 
         except Exception as e:
-            print("오류 발생(union):", e)
+            print("Error Occurred(union):", e)
 
     '''
     0차 스킬의 해방 스킬로 해방 여부 판단 가능
@@ -322,17 +322,8 @@ time.sleep(1)
 maple_curl.set_basicInfoJSON()
 
 # 대기(1초) 코드 추가 (실제 서비스에서는 필요 없음), 캐릭별 기본 스텟 크롤링
-<<<<<<< HEAD
 time.sleep(1)
 maple_curl.set_statJSON()
-=======
-# time.sleep(1)
-# maple_curl.set_stat()
-
-# 대기(1초) 코드 추가 (실제 서비스에서는 필요 없음), 캐릭별 장비 크롤링
-# time.sleep(1)
-# maple_curl.set_equip()
->>>>>>> 2100637bede935e435ab3bb9f23160a45476d599
 
 # 대기(1초) 코드 추가 (실제 서비스에서는 필요 없음), 캐릭별 헥사 코어 크롤링
 time.sleep(1)
