@@ -9,6 +9,7 @@ class Curl:
     def __init__(self):
         self.maindata = manager.MainData()
 
+    @staticmethod
     def date():
         """
         Get the previous date.
@@ -19,57 +20,58 @@ class Curl:
         return day
 
     # 캐릭터의 Ocid 크롤링
-    def get_character_ocid(character_name, headers):
+    def get_character_ocid(self, character_name, headers):
         urlString = "https://open.api.nexon.com/maplestory/v1/id?character_name=" + character_name
         response = requests.get(urlString, headers=headers)
         return response.json()
 
     # 캐릭터의 스텟 크롤링
-    def get_character_stat(ocid_value, day, headers):
+    def get_character_stat(self, ocid_value, day, headers):
         urlString = "https://open.api.nexon.com/maplestory/v1/character/stat?ocid=" + ocid_value + "&date=" + str(day)
+        print(urlString)
         response = requests.get(urlString, headers=headers)
         return response.json()
 
     # 캐릭터의 기본 정보 크롤링
-    def get_character_basicInfo(ocid_value, day, headers):
+    def get_character_basicInfo(self, ocid_value, day, headers):
         urlString = "https://open.api.nexon.com/maplestory/v1/character/basic?ocid=" + ocid_value + "&date=" + str(day)
         response = requests.get(urlString, headers=headers)
         return response.json()
 
     # 캐릭터의 장비 크롤링
     # 제네시스 무기 간접 체크 가능
-    def get_character_equip(ocid_value, day, headers):
+    def get_character_equip(self, ocid_value, day, headers):
         urlString = "https://open.api.nexon.com/maplestory/v1/character/item-equipment?ocid=" + ocid_value + "&date=" + str(day)
         response = requests.get(urlString, headers=headers)
         return response.json()
 
     # 캐릭터의 심볼 크롤링
     # 어센틱 심볼 체크 가능
-    def get_character_symbol(ocid_value, day, headers):
+    def get_character_symbol(self, ocid_value, day, headers):
         urlString = "https://open.api.nexon.com/maplestory/v1/character/symbol-equipment?ocid=" + ocid_value + "&date=" + str(day)
         response = requests.get(urlString, headers=headers)
         return response.json()
 
     # 캐릭터의 장비 세트(캐시 장비 제외) 크롤링
-    def get_character_set(ocid_value, day, headers):
+    def get_character_set(self, ocid_value, day, headers):
         urlString = "https://open.api.nexon.com/maplestory/v1/character/set-effect?ocid=" + ocid_value + "&date=" + str(day)
         response = requests.get(urlString, headers=headers)
         return response.json()
 
     # 캐릭터의 스킬 크롤링
-    def get_character_skill(ocid_value, day, headers, num):
+    def get_character_skill(self, ocid_value, day, headers, num):
         urlString = "https://open.api.nexon.com/maplestory/v1/character/skill?ocid=" + ocid_value + "&date=" + str(day) + "&character_skill_grade=" + num
         response = requests.get(urlString, headers=headers)
         return response.json()
 
     # 캐릭터의 헥사 코어 크롤링
-    def get_character_hexaCore(ocid_value, day, headers):
+    def get_character_hexaCore(self, ocid_value, day, headers):
         urlString = "https://open.api.nexon.com/maplestory/v1/character/hexamatrix?ocid=" + ocid_value + "&date=" + str(day)
         response = requests.get(urlString, headers=headers)
         return response.json()
 
     # 캐릭터의 유니온 정보 크롤링
-    def get_character_union(ocid_value, day, headers):
+    def get_character_union(self, ocid_value, day, headers):
         urlString = "https://open.api.nexon.com/maplestory/v1/user/union?ocid=" + ocid_value + "&date=" + str(day)
         response = requests.get(urlString, headers=headers)
         return response.json()
@@ -79,8 +81,6 @@ class Curl:
     # 전직업 Ocid
     def set_Ocid(self):
         try:
-            day = self.date()
-
             table = self.maindata.get_data()
 
             for character in table:
@@ -115,7 +115,6 @@ class Curl:
     def set_stat(self):
         try:
             day = self.date()
-
 
             table = self.maindata.get_data()
 
@@ -428,7 +427,7 @@ maple_curl = Curl()
 
 # 대기(1초) 코드 추가 (실제 서비스에서는 필요 없음), 캐릭별 기본 스텟 크롤링
 # time.sleep(1)
-maple_curl.set_stat()
+# maple_curl.set_stat()
 
 # 대기(1초) 코드 추가 (실제 서비스에서는 필요 없음), 캐릭별 장비 크롤링
 # time.sleep(1)

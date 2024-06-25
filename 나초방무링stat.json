@@ -1,14 +1,14 @@
 {
-    "date": "2024-06-08T00:00+09:00",
+    "date": "2024-06-23T00:00+09:00",
     "character_class": "루미너스",
     "final_stat": [
         {
             "stat_name": "최소 스탯공격력",
-            "stat_value": "1280111"
+            "stat_value": "1262509"
         },
         {
             "stat_name": "최대 스탯공격력",
-            "stat_value": "1347483"
+            "stat_value": "1328955"
         },
         {
             "stat_name": "데미지",
@@ -44,7 +44,7 @@
         },
         {
             "stat_name": "방어력",
-            "stat_value": "7880"
+            "stat_value": "7797"
         },
         {
             "stat_name": "이동속도",
@@ -72,19 +72,19 @@
         },
         {
             "stat_name": "DEX",
-            "stat_value": "1557"
+            "stat_value": "1279"
         },
         {
             "stat_name": "INT",
-            "stat_value": "9784"
+            "stat_value": "9624"
         },
         {
             "stat_name": "LUK",
-            "stat_value": "2246"
+            "stat_value": "2317"
         },
         {
             "stat_name": "HP",
-            "stat_value": "20133"
+            "stat_value": "29752"
         },
         {
             "stat_name": "MP",
@@ -172,7 +172,7 @@
         },
         {
             "stat_name": "전투력",
-            "stat_value": "1382750"
+            "stat_value": "1363298"
         },
         {
             "stat_name": "소환수 지속시간 증가",

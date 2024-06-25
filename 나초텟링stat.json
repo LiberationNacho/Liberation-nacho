@@ -1,14 +1,14 @@
 {
-    "date": "2024-06-08T00:00+09:00",
+    "date": "2024-06-23T00:00+09:00",
     "character_class": "제논",
     "final_stat": [
         {
             "stat_name": "최소 스탯공격력",
-            "stat_value": "1172536"
+            "stat_value": "1205698"
         },
         {
             "stat_name": "최대 스탯공격력",
-            "stat_value": "1302816"
+            "stat_value": "1339663"
         },
         {
             "stat_name": "데미지",
@@ -44,7 +44,7 @@
         },
         {
             "stat_name": "방어력",
-            "stat_value": "16979"
+            "stat_value": "17431"
         },
         {
             "stat_name": "이동속도",
@@ -68,27 +68,27 @@
         },
         {
             "stat_name": "STR",
-            "stat_value": "5455"
+            "stat_value": "5688"
         },
         {
             "stat_name": "DEX",
-            "stat_value": "5208"
+            "stat_value": "5130"
         },
         {
             "stat_name": "INT",
-            "stat_value": "2147"
+            "stat_value": "2079"
         },
         {
             "stat_name": "LUK",
-            "stat_value": "4682"
+            "stat_value": "4961"
         },
         {
             "stat_name": "HP",
-            "stat_value": "40011"
+            "stat_value": "46446"
         },
         {
             "stat_name": "MP",
-            "stat_value": "26647"
+            "stat_value": "34106"
         },
         {
             "stat_name": "AP 배분 STR",
@@ -172,7 +172,7 @@
         },
         {
             "stat_name": "전투력",
-            "stat_value": "1346615"
+            "stat_value": "1323383"
         },
         {
             "stat_name": "소환수 지속시간 증가",

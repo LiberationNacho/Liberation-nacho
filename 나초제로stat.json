@@ -1,22 +1,22 @@
 {
-    "date": "2024-06-08T00:00+09:00",
+    "date": "2024-06-23T00:00+09:00",
     "character_class": "제로",
     "final_stat": [
         {
             "stat_name": "최소 스탯공격력",
-            "stat_value": "2664557"
+            "stat_value": "1551617"
         },
         {
             "stat_name": "최대 스탯공격력",
-            "stat_value": "2960617"
+            "stat_value": "1724018"
         },
         {
             "stat_name": "데미지",
-            "stat_value": "111.00"
+            "stat_value": "49.00"
         },
         {
             "stat_name": "보스 몬스터 데미지",
-            "stat_value": "330.00"
+            "stat_value": "271.00"
         },
         {
             "stat_name": "최종 데미지",
@@ -24,19 +24,19 @@
         },
         {
             "stat_name": "방어율 무시",
-            "stat_value": "81.14"
+            "stat_value": "84.47"
         },
         {
             "stat_name": "크리티컬 확률",
-            "stat_value": "130"
+            "stat_value": "115"
         },
         {
             "stat_name": "크리티컬 데미지",
-            "stat_value": "40.00"
+            "stat_value": "90.00"
         },
         {
             "stat_name": "상태이상 내성",
-            "stat_value": "57"
+            "stat_value": "27"
         },
         {
             "stat_name": "스탠스",
@@ -44,7 +44,7 @@
         },
         {
             "stat_name": "방어력",
-            "stat_value": "26214"
+            "stat_value": "23180"
         },
         {
             "stat_name": "이동속도",
@@ -56,11 +56,11 @@
         },
         {
             "stat_name": "스타포스",
-            "stat_value": "150"
+            "stat_value": "155"
         },
         {
             "stat_name": "아케인포스",
-            "stat_value": "260"
+            "stat_value": "200"
         },
         {
             "stat_name": "어센틱포스",
@@ -68,23 +68,23 @@
         },
         {
             "stat_name": "STR",
-            "stat_value": "11876"
+            "stat_value": "11358"
         },
         {
             "stat_name": "DEX",
-            "stat_value": "2373"
+            "stat_value": "2243"
         },
         {
             "stat_name": "INT",
-            "stat_value": "1786"
+            "stat_value": "1729"
         },
         {
             "stat_name": "LUK",
-            "stat_value": "1906"
+            "stat_value": "1767"
         },
         {
             "stat_name": "HP",
-            "stat_value": "35616"
+            "stat_value": "45332"
         },
         {
             "stat_name": "MP",
@@ -124,15 +124,15 @@
         },
         {
             "stat_name": "버프 지속시간",
-            "stat_value": "28"
+            "stat_value": "35"
         },
         {
             "stat_name": "공격 속도",
-            "stat_value": "2"
+            "stat_value": "4"
         },
         {
             "stat_name": "일반 몬스터 데미지",
-            "stat_value": "10.00"
+            "stat_value": "25.00"
         },
         {
             "stat_name": "재사용 대기시간 감소 (초)",
@@ -144,7 +144,7 @@
         },
         {
             "stat_name": "재사용 대기시간 미적용",
-            "stat_value": "0"
+            "stat_value": "1"
         },
         {
             "stat_name": "속성 내성 무시",
@@ -152,7 +152,7 @@
         },
         {
             "stat_name": "상태이상 추가 데미지",
-            "stat_value": "6.00"
+            "stat_value": "0.00"
         },
         {
             "stat_name": "무기 숙련도",
@@ -160,19 +160,19 @@
         },
         {
             "stat_name": "추가 경험치 획득",
-            "stat_value": "19.50"
+            "stat_value": "39.50"
         },
         {
             "stat_name": "공격력",
-            "stat_value": "1228"
+            "stat_value": "1178"
         },
         {
             "stat_name": "마력",
-            "stat_value": "426"
+            "stat_value": "398"
         },
         {
             "stat_name": "전투력",
-            "stat_value": "3309447"
+            "stat_value": "3375758"
         },
         {
             "stat_name": "소환수 지속시간 증가",
