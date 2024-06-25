@@ -24,6 +24,12 @@ class Curl:
         urlString = "https://open.api.nexon.com/maplestory/v1/id?character_name=" + character_name
         response = requests.get(urlString, headers=headers)
         return response.json()
+    
+    # 캐릭터의 목록 크롤링
+    def get_character_list(self, headers):
+        urlString = "https://open.api.nexon.com/maplestory/v1/character/list"
+        response = requests.get(urlString, headers=headers)
+        return response.json()
 
     # 캐릭터의 스텟 크롤링
     def get_character_stat(self, ocid_value, day, headers):
@@ -83,7 +89,7 @@ class Curl:
         try:
             table = self.maindata.get_data()
 
-            for character_data in table: # 테이블의 키가 안 들고와짐
+            for character_data in table:
                 print(character_data)
                 character_name = character_data.get('Name')
                 ocid_value = character_data.get('Ocid')
@@ -114,6 +120,34 @@ class Curl:
         except Exception as e:
             print("Error Occurred(Ocid):", e)
 
+    # 나초님 키를 사용할 시 사용
+    def set_characterListJSON(self):
+        try:
+            # 새로운 OCID로 전투력 업데이트
+            character_list_data = self.get_character_list(self.maindata.headers)
+            json_data_str = json.dumps(character_list_data)
+
+            if json_data_str is not None:
+                print(json_data_str)
+            else:
+                print("Character List not foun.")
+                return
+
+            # 대기(0.2초) 코드 추가 (실제 서비스에서는 필요 없음)
+            time.sleep(0.2)
+            # json 저장
+            manager.JsonDataHandler.save_json(character_list_data, 'character list')
+
+
+        except json.JSONDecodeError as e:
+            print("JSON Decoding error(Stat):", e)
+
+        except requests.RequestException as e:
+            print("Request Error(Stat):", e)
+
+        except Exception as e:
+            print("Error Occurred(Stat):", e)
+
     # 스텟
     def set_statJSON(self):
         try:
@@ -125,7 +159,6 @@ class Curl:
                 print(character_data)
                 character_name = character_data.get('name')
                 ocid_value = character_data.get('Ocid')
-                # print(character_name)
 
                 # 새로운 OCID로 전투력 업데이트
                 character_stat_data = self.get_character_stat(ocid_value, day, self.maindata.headers)

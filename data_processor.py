@@ -45,21 +45,30 @@ class TableSetter:
     def set_Ocid(self):
         print("set_Ocid")
 
+        table = self.maindata.get_data()
+
+        for character_data in table:
+            character_name = character_data.get('Name')
+            print(character_name)
+
+            # Ocid 파일 열기
+            with open(character_name + "Ocid.json", 'r', encoding='utf-8') as f:
+                data = json.load(f)
 
     # basicInfoJson파일을 순회하면 level을 추출하여 __maindataTable에 insert
     def set_level(self):
-        print("set_level")
+        print("start set_level")
 
     # statJson파일을 순회하면 전투력을 추출하여 __maindataTable에 insert
     def set_combat(self):
-        print("set_combat")
+        print("start set_combat")
 
 
     def set_image(self):
-        print("set_image")
+        print("start set_image")
     
     def set_liberlation(self):
-        print("set_leberlation")
+        print("start set_leberlation")
 
 # 모든 단계 실행
 TableData = TableSetter()

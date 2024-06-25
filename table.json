@@ -375,5 +375,13 @@
         "character_level": null,
         "character_image": null,
         "liberation_quest_clear_flag": null
+    },
+    "다초봄지": {
+        "Name": "나초봄지",
+        "Ocid": "755d64cde4b997373af015c40eccc434",
+        "전투력": null,
+        "character_level": null,
+        "character_image": null,
+        "liberation_quest_clear_flag": null
     }
 }
