@@ -1,0 +1,45 @@
+{
+    "date": "2024-06-27T00:00+09:00",
+    "character_hexa_core_equipment": [
+        {
+            "hexa_core_name": "생사여탈",
+            "hexa_core_level": 1,
+            "hexa_core_type": "스킬 코어",
+            "linked_skill": [
+                {
+                    "hexa_skill_id": "생사여탈"
+                }
+            ]
+        },
+        {
+            "hexa_core_name": "쿼드러플 스로우 VI",
+            "hexa_core_level": 1,
+            "hexa_core_type": "마스터리 코어",
+            "linked_skill": [
+                {
+                    "hexa_skill_id": "쿼드러플 스로우 VI"
+                }
+            ]
+        },
+        {
+            "hexa_core_name": "마크 오브 어쌔신 VI",
+            "hexa_core_level": 1,
+            "hexa_core_type": "마스터리 코어",
+            "linked_skill": [
+                {
+                    "hexa_skill_id": "마크 오브 어쌔신 VI"
+                }
+            ]
+        },
+        {
+            "hexa_core_name": "스프레드 스로우",
+            "hexa_core_level": 1,
+            "hexa_core_type": "강화 코어",
+            "linked_skill": [
+                {
+                    "hexa_skill_id": "스프레드 스로우 강화"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,45 @@
+{
+    "date": "2024-06-27T00:00+09:00",
+    "character_hexa_core_equipment": [
+        {
+            "hexa_core_name": "레퀴엠",
+            "hexa_core_level": 1,
+            "hexa_core_type": "스킬 코어",
+            "linked_skill": [
+                {
+                    "hexa_skill_id": "레퀴엠"
+                }
+            ]
+        },
+        {
+            "hexa_core_name": "실드 체이싱 VI",
+            "hexa_core_level": 7,
+            "hexa_core_type": "마스터리 코어",
+            "linked_skill": [
+                {
+                    "hexa_skill_id": "실드 체이싱 VI"
+                }
+            ]
+        },
+        {
+            "hexa_core_name": "익시드 : 엑스큐션 VI",
+            "hexa_core_level": 1,
+            "hexa_core_type": "마스터리 코어",
+            "linked_skill": [
+                {
+                    "hexa_skill_id": "익시드 : 엑스큐션 VI"
+                }
+            ]
+        },
+        {
+            "hexa_core_name": "솔 야누스",
+            "hexa_core_level": 1,
+            "hexa_core_type": "공용 코어",
+            "linked_skill": [
+                {
+                    "hexa_skill_id": "솔 야누스"
+                }
+            ]
+        }
+    ]
+}

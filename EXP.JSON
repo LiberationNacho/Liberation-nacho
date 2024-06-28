@@ -329,5 +329,12 @@
         "character_level": null,
         "character_exp": null,
         "character_exp_rate": null
+    },
+    "다초봄지": {
+        "캐릭터 이름": "다초봄지",
+        "Ocid": "",
+        "character_level": null,
+        "character_exp": null,
+        "character_exp_rate": null
     }
 }

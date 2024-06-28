@@ -1,5 +1,4 @@
 import json
-import time
 
 class MainData:
     def __init__(self):
@@ -25,8 +24,9 @@ class MainData:
         data_dict = {}
         
         # 각 캐릭터의 데이터를 순회하며 딕셔너리에 저장
-        for character_name, character_data in self.__data.items():
-            print(character_name)
+        for character_data in self.__data:
+            print(character_data)
+            character_name = character_data["Name"]
             # 캐릭터 이름을 키로 사용
             data_dict[character_name] = character_data
         
@@ -36,6 +36,7 @@ class MainData:
 
     # JSON을 테이블로 변환
     def create_table_from_json(self, file_path: str):
+        
         # JSON 파일을 읽어서 데이터를 딕셔너리로 로드
         with open(file_path, 'r', encoding='utf-8') as file:
             data_dict = json.load(file)
@@ -52,10 +53,8 @@ class MainData:
         for character in self.__data:
             print(character)
 
-
 class JsonDataHandler:
     @staticmethod
-
     def load_json(name):
         path = name
         # JSON 파일 경로 설정
@@ -73,9 +72,9 @@ class JsonDataHandler:
 
         # 테이블 데이터 생성
         for character_name, character_info in data.items():
-            character_data = [character_name]
+            character_data = {"Name": character_name}
             for key, value in character_info.items():
-                character_data.append(value)
+                character_data[key] = value
             table_data.append(character_data)
 
         return table_data
@@ -97,4 +96,6 @@ class JsonDataHandler:
         with open(path, 'w', encoding='utf-8') as f:
             json.dump(data, f, ensure_ascii=False, indent=4)
 
-MainData()
+# JSON 파일을 읽고 테이블 생성
+main_data = MainData()
+# main_data.print_table()
