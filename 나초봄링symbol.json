@@ -1,5 +1,5 @@
 {
-    "date": "2024-06-27T00:00+09:00",
+    "date": "2024-06-28T00:00+09:00",
     "character_class": "데몬어벤져",
     "symbol": [
         {
@@ -27,7 +27,7 @@
             "symbol_int": "0",
             "symbol_luk": "0",
             "symbol_hp": "42000",
-            "symbol_growth_count": 239,
+            "symbol_growth_count": 259,
             "symbol_require_growth_count": 335
         },
         {
@@ -41,7 +41,7 @@
             "symbol_int": "0",
             "symbol_luk": "0",
             "symbol_hp": "42000",
-            "symbol_growth_count": 94,
+            "symbol_growth_count": 114,
             "symbol_require_growth_count": 335
         },
         {
@@ -55,7 +55,7 @@
             "symbol_int": "0",
             "symbol_luk": "0",
             "symbol_hp": "42000",
-            "symbol_growth_count": 63,
+            "symbol_growth_count": 83,
             "symbol_require_growth_count": 335
         },
         {
@@ -69,7 +69,7 @@
             "symbol_int": "0",
             "symbol_luk": "0",
             "symbol_hp": "42000",
-            "symbol_growth_count": 90,
+            "symbol_growth_count": 110,
             "symbol_require_growth_count": 335
         },
         {
@@ -83,7 +83,7 @@
             "symbol_int": "0",
             "symbol_luk": "0",
             "symbol_hp": "42000",
-            "symbol_growth_count": 216,
+            "symbol_growth_count": 236,
             "symbol_require_growth_count": 335
         },
         {
@@ -97,7 +97,7 @@
             "symbol_int": "0",
             "symbol_luk": "0",
             "symbol_hp": "27300",
-            "symbol_growth_count": 92,
+            "symbol_growth_count": 116,
             "symbol_require_growth_count": 325
         },
         {
@@ -111,7 +111,7 @@
             "symbol_int": "0",
             "symbol_luk": "0",
             "symbol_hp": "14700",
-            "symbol_growth_count": 20,
+            "symbol_growth_count": 34,
             "symbol_require_growth_count": 76
         }
     ]

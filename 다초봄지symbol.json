@@ -1,5 +1,5 @@
 {
-    "date": "2024-06-27T00:00+09:00",
+    "date": "2024-06-28T00:00+09:00",
     "character_class": "나이트로드",
     "symbol": [
         {
@@ -13,7 +13,7 @@
             "symbol_int": "0",
             "symbol_luk": "1400",
             "symbol_hp": "0",
-            "symbol_growth_count": 66,
+            "symbol_growth_count": 88,
             "symbol_require_growth_count": 155
         },
         {
@@ -27,7 +27,7 @@
             "symbol_int": "0",
             "symbol_luk": "1400",
             "symbol_hp": "0",
-            "symbol_growth_count": 76,
+            "symbol_growth_count": 98,
             "symbol_require_growth_count": 155
         },
         {
@@ -41,7 +41,7 @@
             "symbol_int": "0",
             "symbol_luk": "1500",
             "symbol_hp": "0",
-            "symbol_growth_count": 66,
+            "symbol_growth_count": 88,
             "symbol_require_growth_count": 180
         },
         {
@@ -55,7 +55,7 @@
             "symbol_int": "0",
             "symbol_luk": "1500",
             "symbol_hp": "0",
-            "symbol_growth_count": 22,
+            "symbol_growth_count": 44,
             "symbol_require_growth_count": 180
         },
         {
@@ -69,7 +69,7 @@
             "symbol_int": "0",
             "symbol_luk": "1500",
             "symbol_hp": "0",
-            "symbol_growth_count": 88,
+            "symbol_growth_count": 110,
             "symbol_require_growth_count": 180
         },
         {
@@ -83,7 +83,7 @@
             "symbol_int": "0",
             "symbol_luk": "1500",
             "symbol_hp": "0",
-            "symbol_growth_count": 74,
+            "symbol_growth_count": 96,
             "symbol_require_growth_count": 180
         },
         {
@@ -97,7 +97,7 @@
             "symbol_int": "0",
             "symbol_luk": "1300",
             "symbol_hp": "0",
-            "symbol_growth_count": 230,
+            "symbol_growth_count": 254,
             "symbol_require_growth_count": 325
         }
     ]

@@ -1,5 +1,5 @@
 {
-    "date": "2024-06-27T00:00+09:00",
+    "date": "2024-06-28T00:00+09:00",
     "character_class": "메르세데스",
     "symbol": [
         {
@@ -97,7 +97,7 @@
             "symbol_int": "0",
             "symbol_luk": "0",
             "symbol_hp": "0",
-            "symbol_growth_count": 443,
+            "symbol_growth_count": 463,
             "symbol_require_growth_count": 909
         },
         {
@@ -111,7 +111,7 @@
             "symbol_int": "0",
             "symbol_luk": "0",
             "symbol_hp": "0",
-            "symbol_growth_count": 482,
+            "symbol_growth_count": 492,
             "symbol_require_growth_count": 581
         },
         {
@@ -125,7 +125,7 @@
             "symbol_int": "0",
             "symbol_luk": "0",
             "symbol_hp": "0",
-            "symbol_growth_count": 269,
+            "symbol_growth_count": 283,
             "symbol_require_growth_count": 581
         },
         {
@@ -139,7 +139,7 @@
             "symbol_int": "0",
             "symbol_luk": "0",
             "symbol_hp": "0",
-            "symbol_growth_count": 78,
+            "symbol_growth_count": 92,
             "symbol_require_growth_count": 581
         },
         {
@@ -153,7 +153,7 @@
             "symbol_int": "0",
             "symbol_luk": "0",
             "symbol_hp": "0",
-            "symbol_growth_count": 314,
+            "symbol_growth_count": 328,
             "symbol_require_growth_count": 325
         }
     ]
