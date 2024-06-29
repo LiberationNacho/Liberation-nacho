@@ -62,13 +62,6 @@ class Curl:
         response = requests.get(urlString, headers=headers)
         return response.json()
 
-    # 캐릭터의 장비 세트(캐시 장비 제외) 크롤링
-    def get_character_set(self, ocid_value, day, headers):
-        urlString = "https://open.api.nexon.com/maplestory/v1/character/set-effect?ocid=" + ocid_value + "&date=" + str(day)
-        print(urlString)
-        response = requests.get(urlString, headers=headers)
-        return response.json()
-
     # 캐릭터의 스킬 크롤링
     def get_character_skill(self, ocid_value, day, headers, num):
         urlString = "https://open.api.nexon.com/maplestory/v1/character/skill?ocid=" + ocid_value + "&date=" + str(day) + "&character_skill_grade=" + num
@@ -362,7 +355,7 @@ maple_curl.set_statJSON()
 time.sleep(1)
 print("캐릭터별 헥사 코어 크롤링 시작")
 maple_curl.set_hexaCoreJSON()
-'''
+
 # 대기(1초) 코드 추가 (실제 서비스에서는 필요 없음), 캐릭별 심볼 크롤링
 time.sleep(1)
 print("캐릭터별 심볼 크롤링 시작")
@@ -372,3 +365,4 @@ maple_curl.set_symbolJSON()
 time.sleep(1)
 print("유니온 크롤링 시작")
 # maple_curl.set_unionJSON()
+'''
