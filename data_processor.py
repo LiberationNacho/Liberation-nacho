@@ -10,18 +10,24 @@ class TableSetter:
         self.__mainTable = self.maindataclass.get_data()
         # 테이블 체크
         # print(self.__mainTable)
-        with open("date.json", 'r', encoding='utf-8') as f:
-                data = json.load(f)
+        with open("result.json", 'r', encoding='utf-8') as f:
+                self.__resultTable = json.load(f)
 
-        date = data["Date"]
+        date = self.__resultTable["Date"]
         if date != str(self.Curlclass.date()):
             print("table update start\n")
             # print("테이블 최신화를 시작하겠습니다\n")
             self.set()
-            data["Date"] = str(self.Curlclass.date())
+            self.__resultTable["Date"] = str(self.Curlclass.date())
             # date.json파일 저장
-            with open("date.json", 'w', encoding='utf-8') as f:
-                json.dump(data, f, ensure_ascii=False, indent=4)
+            with open("result.json", 'w', encoding='utf-8') as f:
+                json.dump(self.__resultTable, f, ensure_ascii=False, indent=4)
+
+    def getmainTable(self):
+        return self.__mainTable
+    
+    def getresultTable(self):
+        return self.__resultTable
 
     # 모든 크롤링을 시작하여 메인 테이블 세팅
     def set(self):
@@ -53,6 +59,8 @@ class TableSetter:
         self.set_level()
         self.set_image()
         self.set_liberlation()
+        self.set_1b()
+        self.set_class()
         self.save_data_to_json('table.json')
 
 
@@ -153,6 +161,44 @@ class TableSetter:
 
             character_data["liberation"] = liberation
 
+    def set_1b(self) -> None:
+        print("start set_1b")
+
+        for character_data in self.__mainTable:
+            character_name = character_data.get('Name')
+            # 캐릭터 이름 체크
+            # print(character_name)
+
+            # Ocid 파일 열기
+            with open(character_name + "stat.json", 'r', encoding='utf-8') as f:
+                data = json.load(f)
+                # print(data)
+
+            i = 0
+            while data["final_stat"][i]["stat_name"] != "전투력":
+                i += 1
+            combat = int(data["final_stat"][i]["stat_value"])
+
+            if combat >= 100000000:
+                character_data["1b"] = "true"
+
+    def set_class(self) -> None:
+        print("start set_class")
+
+        for character_data in self.__mainTable:
+            character_name = character_data.get('Name')
+            # 캐릭터 이름 체크
+            # print(character_name)
+
+            # Ocid 파일 열기
+            with open(character_name + "basicInfo.json", 'r', encoding='utf-8') as f:
+                data = json.load(f)
+                # print(data)
+            Class = data["character_class"]
+            print(Class)
+
+            character_data["Class"] = Class
+
 
     def save_data_to_json(self, filename):
         self.maindataclass.set_data(self.__mainTable)
@@ -165,6 +211,8 @@ class data_processor:
         self.__maindataclass = manager.MainData()
         self.__Curlclass = mapleCurl.Curl()
         self.__mainTable = self.__maindataclass.get_data()
+        with open("result.json", 'r', encoding='utf-8') as f:
+            self.__resultTable = json.load(f)
         self.__combatRate = 0
         self.__liberationRate = 0
 
@@ -172,9 +220,9 @@ class data_processor:
         total = 0
         count = 0
         for character_data in self.__mainTable:
-            combat = int(character_data["Combat"])
+            combat = character_data["1b"]
             total += 1
-            if combat >= 100000000:
+            if combat == "true":
                 count += 1
         
         if total == 0:
@@ -183,6 +231,8 @@ class data_processor:
             rate = count / total
 
         print(f"전직업 1억 달성률: {rate * 100:.2f}%")
+
+        self.__combatRate = rate
         
         return rate
 
@@ -201,12 +251,15 @@ class data_processor:
             rate = count / total
 
         print(f"전직업 해방 달성률: {rate * 100:.2f}%")
+
+        self.__liberationRate = rate
         
         return rate
-# 모든 단계 실행
-processor = data_processor()
-i = processor.set_combatRate()
-j = processor.set_liberationRateRate()
+    
+    def set_result(self):
+        self.__resultTable["JobRate"] = self.__combatRate
+        self.__resultTable["Liberation_Rate"] = self.__liberationRate
+        # date.json파일 저장
+        with open("result.json", 'w', encoding='utf-8') as f:
+            json.dump(self.__resultTable, f, ensure_ascii=False, indent=4)
 
-# 결과 출력
-# maple_manager.result_print()

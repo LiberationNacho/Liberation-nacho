@@ -13,54 +13,40 @@ document.addEventListener('DOMContentLoaded', function() {
                 const row = document.createElement('tr'); // 각 캐릭터에 대한 새로운 행(tr) 요소를 생성한다.
                 row.innerHTML = `
                     <td>${character.Name}</td>
-                    <td>${character.Combat}</td>
+                    <td>${character.Class}</td>
+                    <td>${parseInt(character.Combat).toLocaleString()}</td>
                     <td>${character.level}</td>
                     <td><img src="${character.image}" alt="${character.Name}"></td>
-                    <td>${character.Liberation ? 'Yes' : 'No'}</td>
+                    <td>${character.liberation}</td>
+                    <td>${character['1b']}</td>
                 `; // 각 캐릭터의 정보를 테이블 셀(td)에 넣는다.
                 tableBody.appendChild(row); // 생성한 행을 테이블에 추가한다.
             });
-  
-            // 전직업 달성률 계산 및 추가
-            const jobChangeAchievementRate = calculateJobChangeAchievementRate(characters); // 전직업 달성률 계산
-            const liberationAchievementRate = calculateLiberationAchievementRate(characters); // 해방 달성률 계산
-  
-            const statsDiv = document.querySelector('.stats'); // 전직업 및 해방 달성률을 보여줄 div 요소를 가져온다.
-            statsDiv.innerHTML += `
-                <p>전직업 1억 달성률: <strong>${jobChangeAchievementRate.toFixed(2)}%</strong></p>
-                <p>전직업 해방 달성률: <strong>${liberationAchievementRate.toFixed(2)}%</strong></p>
-            `; // 계산된 달성률을 HTML에 추가한다.
         })
         .catch(error => {
             console.error('Error fetching JSON:', error); // JSON 가져오기 오류가 발생한 경우 콘솔에 오류 메시지를 출력한다.
         });
   
-    fetch('date.json')
+    fetch('result.json')
         .then(response => response.json())
         .then(data => {
-            // JSON 파일에서 새로운 기준일을 가져옵니다.
+            // JSON 파일에서 새로운 기준일과 달성률을 가져옵니다.
             const newDate = data.Date;
+            const jobAchievementRate = data.JobRate * 100;
+            const liberationAchievementRate = data.Liberation_Rate * 100;
   
             // 기준일을 표시하는 <p> 요소를 찾습니다.
             const dateParagraph = document.querySelector('.info p');
   
             // <p> 요소의 텍스트를 새로운 기준일로 업데이트합니다.
             dateParagraph.textContent = `기준일 : ${newDate}`;
+  
+            // 전직업 및 해방 달성률을 표시할 <div> 요소를 찾습니다.
+            const statsDiv = document.querySelector('.stats');
+            statsDiv.innerHTML += `
+                <p>전직업 1억 달성률: <strong>${jobAchievementRate.toFixed(2)}%</strong></p>
+                <p>전직업 해방 달성률: <strong>${liberationAchievementRate.toFixed(2)}%</strong></p>
+            `; // 계산된 달성률을 HTML에 추가한다.
         })
         .catch(error => console.error('JSON 데이터를 가져오는 중 오류 발생:', error));
-  
-    // 전직업 달성률 계산 함수
-    function calculateJobChangeAchievementRate(characters) {
-        const totalCharacters = characters.length; // 전체 캐릭터 수
-        const jobChangeCount = characters.filter(character => character.Combat >= 100000000).length; // 전직업 달성한 캐릭터 수
-        return (jobChangeCount / totalCharacters) * 100; // 전직업 달성률을 계산하여 반환한다.
-    }
-  
-    // 해방 달성률 계산 함수
-    function calculateLiberationAchievementRate(characters) {
-        const totalCharacters = characters.length; // 전체 캐릭터 수
-        const liberationCount = characters.filter(character => character.Liberation === true).length; // 해방 달성한 캐릭터 수
-        return (liberationCount / totalCharacters) * 100; // 해방 달성률을 계산하여 반환한다.
-    }
-  });
-  
+});
