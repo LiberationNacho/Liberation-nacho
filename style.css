@@ -14,8 +14,8 @@ body {
 }
 
 .stats {
-    display: flex;
     align-items: center;
+    text-align: center;
 }
 
 .stats img {
