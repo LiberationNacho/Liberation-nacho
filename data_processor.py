@@ -1,6 +1,7 @@
 import mapleCurl
 import manager
 import json
+import time
 
 class TableSetter:
     def __init__(self):
@@ -24,11 +25,7 @@ class TableSetter:
 
     # 모든 크롤링을 시작하여 메인 테이블 세팅
     def set(self):
-        """
         print("start Curling")
-        # 캐릭터별 Ocid 크롤링
-        self.Curlclass.set_OcidJSON()
-
         # 대기(1초) 코드 추가 (실제 서비스에서는 필요 없음), 캐릭별 기본 정보 크롤링
         time.sleep(1)
         self.Curlclass.set_basicInfoJSON()
@@ -37,6 +34,7 @@ class TableSetter:
         time.sleep(1)
         self.Curlclass.set_statJSON()
 
+        """
         # 대기(1초) 코드 추가 (실제 서비스에서는 필요 없음), 캐릭별 헥사 코어 크롤링
         time.sleep(1)
         self.Curlclass.set_hexaCoreJSON()

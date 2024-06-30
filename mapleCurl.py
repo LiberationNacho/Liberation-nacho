@@ -336,11 +336,12 @@ class Curl:
 # 모든 단계 실행
 maple_curl = Curl()
 
-"""
+'''
 # 캐릭터별 Ocid 크롤링
 print("캐릭터별 Ocid 크롤링 시작")
 maple_curl.set_OcidJSON()
-
+'''
+"""
 # 대기(1초) 코드 추가 (실제 서비스에서는 필요 없음), 캐릭별 기본 정보 크롤링
 time.sleep(1)
 print("캐릭터별 기본 정보 크롤링 시작")

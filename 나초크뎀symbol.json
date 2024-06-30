@@ -1,5 +1,5 @@
 {
-    "date": "2024-06-28T00:00+09:00",
+    "date": "2024-06-29T00:00+09:00",
     "character_class": "은월",
     "symbol": [
         {
@@ -13,7 +13,7 @@
             "symbol_int": "0",
             "symbol_luk": "0",
             "symbol_hp": "0",
-            "symbol_growth_count": 148,
+            "symbol_growth_count": 168,
             "symbol_require_growth_count": 92
         },
         {
@@ -27,7 +27,7 @@
             "symbol_int": "0",
             "symbol_luk": "0",
             "symbol_hp": "0",
-            "symbol_growth_count": 138,
+            "symbol_growth_count": 158,
             "symbol_require_growth_count": 111
         },
         {
@@ -41,7 +41,7 @@
             "symbol_int": "0",
             "symbol_luk": "0",
             "symbol_hp": "0",
-            "symbol_growth_count": 122,
+            "symbol_growth_count": 142,
             "symbol_require_growth_count": 75
         },
         {
@@ -55,7 +55,7 @@
             "symbol_int": "0",
             "symbol_luk": "0",
             "symbol_hp": "0",
-            "symbol_growth_count": 41,
+            "symbol_growth_count": 61,
             "symbol_require_growth_count": 60
         },
         {
@@ -69,7 +69,7 @@
             "symbol_int": "0",
             "symbol_luk": "0",
             "symbol_hp": "0",
-            "symbol_growth_count": 22,
+            "symbol_growth_count": 42,
             "symbol_require_growth_count": 60
         }
     ]
