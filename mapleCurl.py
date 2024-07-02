@@ -106,8 +106,8 @@ class Curl:
                 else:
                     print("Ocid를 찾을 수 없습니다.")
                     return
-                # 대기(0.5초) 코드 추가 (실제 서비스에서는 필요 없음)
-                time.sleep(0.5)
+                # 대기(0.9초) 코드 추가 (실제 서비스에서는 필요 없음)
+                time.sleep(0.9)
                 # json 저장
                 manager.JsonDataHandler.save_json(response_data, character_name + 'Ocid')
 
@@ -133,8 +133,8 @@ class Curl:
                 print("Character List not found.")
                 return
 
-            # 대기(0.5초) 코드 추가 (실제 서비스에서는 필요 없음)
-            time.sleep(0.5)
+            # 대기(0.9초) 코드 추가 (실제 서비스에서는 필요 없음)
+            time.sleep(0.9)
             # json 저장
             manager.JsonDataHandler.save_json(character_list_data, 'character list')
 
@@ -170,8 +170,8 @@ class Curl:
                     print("combat information not foun.")
                     return
 
-                # 대기(0.5초) 코드 추가 (실제 서비스에서는 필요 없음)
-                time.sleep(0.5)
+                # 대기(0.9초) 코드 추가 (실제 서비스에서는 필요 없음)
+                time.sleep(0.9)
                 # json 저장
                 manager.JsonDataHandler.save_json(character_stat_data, character_name + 'stat')
 
@@ -206,8 +206,8 @@ class Curl:
                     print("장비 정보를 찾을 수 없습니다.")
                     return
 
-                # 대기(0.5초) 코드 추가 (실제 서비스에서는 필요 없음)
-                time.sleep(0.5)
+                # 대기(0.9초) 코드 추가 (실제 서비스에서는 필요 없음)
+                time.sleep(0.9)
                 # json 저장
                 manager.JsonDataHandler.save_json(character_basicInfo_data, character_name + 'basicInfo')
 
@@ -241,8 +241,8 @@ class Curl:
                     print("심볼 정보를 찾을 수 없습니다.")
                     return
 
-                # 대기(0.5초) 코드 추가 (실제 서비스에서는 필요 없음)
-                time.sleep(0.5)
+                # 대기(0.9초) 코드 추가 (실제 서비스에서는 필요 없음)
+                time.sleep(0.9)
                 # json 저장
                 manager.JsonDataHandler.save_json(character_symbol_data, character_name + 'symbol')
 
@@ -276,8 +276,8 @@ class Curl:
                     print("핵사코어 정보를 찾을 수 없습니다.")
                     return
 
-                # 대기(0.5초) 코드 추가 (실제 서비스에서는 필요 없음)
-                time.sleep(0.5)
+                # 대기(0.9초) 코드 추가 (실제 서비스에서는 필요 없음)
+                time.sleep(0.9)
                 # json 저장
                 manager.JsonDataHandler.save_json(character_hexaCore_data, character_name + 'hexaCore')
 
@@ -313,8 +313,8 @@ class Curl:
                 print("유니온 정보를 찾을 수 없습니다.")
                 return
 
-            # 대기(0.5초) 코드 추가 (실제 서비스에서는 필요 없음)
-            time.sleep(0.5)
+            # 대기(0.9초) 코드 추가 (실제 서비스에서는 필요 없음)
+            time.sleep(0.9)
             # json 저장
             manager.JsonDataHandler.save_json(character_union_data, 'union')
 

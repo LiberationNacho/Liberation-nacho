@@ -33,11 +33,11 @@ class TableSetter:
     def set(self):
         print("start Curling")
         # 대기(1초) 코드 추가 (실제 서비스에서는 필요 없음), 캐릭별 기본 정보 크롤링
-        time.sleep(1)
+        time.sleep(2)
         self.Curlclass.set_basicInfoJSON()
 
         # 대기(1초) 코드 추가 (실제 서비스에서는 필요 없음), 캐릭별 기본 스텟 크롤링
-        time.sleep(1)
+        time.sleep(2)
         self.Curlclass.set_statJSON()
 
         """
@@ -48,11 +48,11 @@ class TableSetter:
         # 대기(1초) 코드 추가 (실제 서비스에서는 필요 없음), 캐릭별 심볼 크롤링
         time.sleep(1)
         self.Curlclass.set_symbolJSON()
-
-        # 대기(1초) 코드 추가 (실제 서비스에서는 필요 없음), 캐릭별 심볼 크롤링
-        time.sleep(1)
-        self.Curlclass.set_unionJSON()
         """
+        
+        # 대기(1초) 코드 추가 (실제 서비스에서는 필요 없음), 캐릭별 심볼 크롤링
+        time.sleep(2)
+        self.Curlclass.set_unionJSON()
 
         self.set_Ocid()
         self.set_combat()
@@ -263,3 +263,7 @@ class data_processor:
         with open("result.json", 'w', encoding='utf-8') as f:
             json.dump(self.__resultTable, f, ensure_ascii=False, indent=4)
 
+pro = data_processor()
+i = pro.set_combatRate()
+j = pro.set_liberationRateRate()
+pro.set_result()
