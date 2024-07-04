@@ -8,7 +8,7 @@ class MainData:
         }
 
         # JSON 파일 경로
-        json_file_path = 'table.json'
+        json_file_path = 'attainment.json'
         self.__data = self.create_table_from_json(json_file_path)
         # print(self.__data)
 

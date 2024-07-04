@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // 페이지가 로드되면 실행될 함수를 등록한다. DOMContentLoaded 이벤트는 HTML 문서의 모든 요소가 로드되었을 때 발생한다.
   
     // JSON 파일을 fetch() 함수로 가져오기
-    fetch('table.json')
+    fetch('attainment.json')
         .then(response => response.json()) // JSON 형식의 응답을 자바스크립트 객체로 변환한다.
         .then(data => {
             const characters = Object.values(data); // JSON 데이터에서 캐릭터 배열을 추출한다.

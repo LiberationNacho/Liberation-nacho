@@ -9,6 +9,16 @@
         "liberation": "false",
         "1b": "true"
     },
+    "비공식 제로": {
+        "Name": "비공식 제로",
+        "Ocid": "",
+        "Class": "제로",
+        "Combat": "?????????",
+        "level": 300,
+        "image": "",
+        "liberation": "true",
+        "1b": "true"
+    },
     "나초봄링": {
         "Name": "나초봄링",
         "Ocid": "cf6fd1689bbafdb0cfbdb97a32ea9208",
