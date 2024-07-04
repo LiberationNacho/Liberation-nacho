@@ -1,5 +1,5 @@
 {
-    "date": "2024-07-01T00:00+09:00",
+    "date": "2024-07-03T00:00+09:00",
     "character_name": "메르는이제그",
     "world_name": "스카니아",
     "character_gender": "여",
@@ -8,9 +8,9 @@
     "character_level": 210,
     "character_exp": 5657762277,
     "character_exp_rate": "71.110",
-    "character_guild_name": "삼각과자군단",
+    "character_guild_name": null,
     "character_image": "https://open.api.nexon.com/static/maplestory/Character/KLBHLBHNAPONLHMLGJOIABKIHEIFJOJBLILBEKGHBLGAKEPBONBLLDNCMGOOFMMBONBPIIFPPDOIBNIIPIKLGOFEDBNHIAPHAOECPAOOGNFKLBOJBFIOFEJPMNCJGIBJBABJLPGPBLIPBKALMJLJJCFKIDGPHNBJABOIBJODKNAFNGPIACDFPAIKHMGKJAFJJPGMNFOODJOMIHGJIHFOMDEKHDLBEOMIOKMBGBODDNAKLHJAFHJABBBHAONELKCA.png",
     "character_date_create": "2018-03-31T00:00+09:00",
-    "access_flag": "false",
+    "access_flag": "true",
     "liberation_quest_clear_flag": "false"
 }

@@ -60,8 +60,7 @@ class TableSetter:
         self.set_image()
         self.set_liberlation()
         self.set_1b()
-        self.set_class()
-        self.save_data_to_json('table.json')
+        self.save_data_to_json('attainment.json')
 
 
     def set_Ocid(self):
