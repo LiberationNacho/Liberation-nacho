@@ -34,6 +34,10 @@ document.addEventListener('DOMContentLoaded', function() {
             const newDate = data.Date;
             const jobAchievementRate = data.JobRate * 100;
             const liberationAchievementRate = data.Liberation_Rate * 100;
+            const sumLevel = data.Sum_Level;
+            const sumCombat = data.Sum_Combat;
+            const avgLevel = data.Avg_Level;
+            const avgCombat = data.Avg_Combat;
   
             // 기준일을 표시하는 <p> 요소를 찾습니다.
             const dateParagraph = document.querySelector('.info p');
@@ -44,9 +48,10 @@ document.addEventListener('DOMContentLoaded', function() {
             // 전직업 및 해방 달성률을 표시할 <div> 요소를 찾습니다.
             const statsDiv = document.querySelector('.stats');
             statsDiv.innerHTML += `
-                <p>전직업 1억 달성률: <strong>${jobAchievementRate.toFixed(2)}%</strong></p>
-                <p>전직업 해방 달성률: <strong>${liberationAchievementRate.toFixed(2)}%</strong></p>
-            `; // 계산된 달성률을 HTML에 추가한다.
+                <p>전직업 1억 달성률: <strong>${jobAchievementRate.toFixed(2)}%</strong>, 전직업 해방 달성률: <strong>${liberationAchievementRate.toFixed(2)}%</strong></p>
+                <p>총 레벨 합계: <strong>${sumLevel.toLocaleString()}</strong>, 총 전투력 합계: <strong>${sumCombat.toLocaleString()}</strong></p>
+                <p>평균 레벨: <strong>${avgLevel.toFixed(2)}</strong>, 평균 전투력: <strong>${avgCombat.toFixed(2)}</strong></p>
+            `; // 계산된 달성률과 추가된 데이터를 HTML에 추가한다.
         })
         .catch(error => console.error('JSON 데이터를 가져오는 중 오류 발생:', error));
 });

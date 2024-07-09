@@ -214,6 +214,10 @@ class data_processor:
             self.__resultTable = json.load(f)
         self.__combatRate = 0
         self.__liberationRate = 0
+        self.__sumLevel = 0
+        self.__sumCombat = 0
+        self.__avglevel = 0
+        self.__avgCombat = 0
 
     def set_combatRate(self) -> float:
         total = 0
@@ -254,15 +258,74 @@ class data_processor:
         self.__liberationRate = rate
         
         return rate
+
+    def calculate_sumLevel(self) -> int:
+        total_level = 0
+        for character_data in self.__mainTable:
+            total_level += character_data["level"]
+        
+        self.__sumLevel = total_level
+        print(f"총 레벨 합계: {total_level}")
+        
+        return total_level
     
+    def calculate_sumCombat(self) -> int:
+        total_combat = 0
+        for character_data in self.__mainTable:
+            if (character_data["Combat"] != "?????????"):
+                total_combat += int(character_data["Combat"])
+        
+        self.__sumCombat = total_combat
+        print(f"총 전투력 합계: {total_combat}")
+        
+        return total_combat
+
+    def calculate_avgLevel(self) -> float:
+        total_level = self.calculate_sumLevel()
+        count = len(self.__mainTable)
+        
+        if count == 0:
+            avg_level = 0
+        else:
+            avg_level = total_level / count
+        
+        self.__avglevel = avg_level
+        print(f"평균 레벨: {avg_level:.2f}")
+        
+        return avg_level
+
+    def calculate_avgCombat(self) -> float:
+        total_combat = self.calculate_sumCombat()
+        count = len(self.__mainTable)
+        
+        if count == 0:
+            avg_combat = 0
+        else:
+            avg_combat = total_combat / count
+        
+        self.__avgCombat = avg_combat
+        print(f"평균 전투력: {avg_combat:.2f}")
+        
+        return avg_combat
+
     def set_result(self):
+        self.set_combatRate()
+        self.set_liberationRateRate()
+        self.calculate_sumLevel()
+        self.calculate_sumCombat()
+        self.calculate_avgLevel()
+        self.calculate_avgCombat()
+        
         self.__resultTable["JobRate"] = self.__combatRate
         self.__resultTable["Liberation_Rate"] = self.__liberationRate
-        # date.json파일 저장
+        self.__resultTable["Sum_Level"] = self.__sumLevel
+        self.__resultTable["Sum_Combat"] = self.__sumCombat
+        self.__resultTable["Avg_Level"] = self.__avglevel
+        self.__resultTable["Avg_Combat"] = self.__avgCombat
+        
         with open("result.json", 'w', encoding='utf-8') as f:
             json.dump(self.__resultTable, f, ensure_ascii=False, indent=4)
 
+
 pro = data_processor()
-i = pro.set_combatRate()
-j = pro.set_liberationRateRate()
 pro.set_result()
