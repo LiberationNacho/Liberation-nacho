@@ -121,7 +121,8 @@ class TableSetter:
             # print(data["final_stat"][i]["stat_name"])
             # print(combat)
 
-            character_data["Combat"] = combat
+            if (combat >= character_data["Combat"]):
+                character_data["Combat"] = combat
 
 
     def set_image(self):
