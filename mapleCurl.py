@@ -90,6 +90,8 @@ class Curl:
         try:
             table = self.maindata.get_data()
 
+            ocidData = manager.JsonDataHandler.load_json("attainment.json")
+
             for character_data in table:
                 # print(character_data)
                 character_name = character_data.get('Name')
@@ -103,13 +105,14 @@ class Curl:
                     print(character_name)
                     print(f"character: {character_name} OCID update")
                     print(ocid_value)
+                    ocidData[character_name] = ocid_value
                 else:
                     print("Ocid를 찾을 수 없습니다.")
                     return
                 # 대기(0.9초) 코드 추가 (실제 서비스에서는 필요 없음)
                 time.sleep(0.9)
-                # json 저장
-                manager.JsonDataHandler.save_json(response_data, character_name + 'Ocid')
+            # json 저장
+            manager.JsonDataHandler.save_json(ocidData, 'ocid')
 
         except json.JSONDecodeError as e:
             print("JSON 디코딩 오류(Ocid):", e)
@@ -332,9 +335,14 @@ class Curl:
 
     '''
 
-
+'''
 # 모든 단계 실행
 maple_curl = Curl()
+
+# 캐릭터별 Ocid 크롤링
+print("캐릭터별 Ocid 크롤링 시작")
+maple_curl.set_OcidJSON()
+'''
 
 '''
 # 캐릭터별 Ocid 크롤링

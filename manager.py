@@ -98,6 +98,8 @@ class JsonDataHandler:
         with open(path, 'w', encoding='utf-8') as f:
             json.dump(data, f, ensure_ascii=False, indent=4)
 
+'''
 # JSON 파일을 읽고 테이블 생성
 main_data = MainData()
 # main_data.print_table()
+'''
