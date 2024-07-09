@@ -245,7 +245,7 @@ class data_processor:
         for character_data in self.__mainTable:
             combat = character_data["liberation"]
             total += 1
-            if combat == True:
+            if combat == "true":
                 count += 1
         
         if total == 0:
