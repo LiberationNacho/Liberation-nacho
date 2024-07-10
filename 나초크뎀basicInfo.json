@@ -1,6 +1,16 @@
 {
-    "error": {
-        "name": "OPENAPI00009",
-        "message": "Please wait until the data is ready"
-    }
+    "date": "2024-07-09T00:00+09:00",
+    "character_name": "나초크뎀",
+    "world_name": "스카니아",
+    "character_gender": "여",
+    "character_class": "은월",
+    "character_class_level": "5",
+    "character_level": 248,
+    "character_exp": 99073936848,
+    "character_exp_rate": "34.595",
+    "character_guild_name": "삼각과자군단",
+    "character_image": "https://open.api.nexon.com/static/maplestory/Character/OALLGFNAHKDHHPDICFLBJJBAKCBMEDNIGPKHPFJFHDHIGOJIALFOHDJJMHOHPIBHEFGDHJPLBECPAJBMJOPONNFEALEBOFLCNIOMPKGGKEHKHDPPNFPACBMNLAADPOJNBBNPOJCNAICHMOGPLNEBBHHOKELAOOFJLPKPHLPEBMAJGPCCBEGLNEOJLMCNNPBIEBBGFMGAEOOMMIOHIINHENENNKFFCLPIHPPPHJLBEIHJANDMMIDJOJGAGOLDLPJI.png",
+    "character_date_create": "2017-01-08T00:00+09:00",
+    "access_flag": "true",
+    "liberation_quest_clear_flag": "false"
 }

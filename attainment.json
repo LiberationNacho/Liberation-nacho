@@ -9,16 +9,6 @@
         "liberation": "false",
         "1b": "true"
     },
-    "비공식 제로": {
-        "Name": "비공식 제로",
-        "Ocid": "",
-        "Class": "제로",
-        "Combat": "?????????",
-        "level": 300,
-        "image": "",
-        "liberation": "true",
-        "1b": "true"
-    },
     "나초봄링": {
         "Name": "나초봄링",
         "Ocid": "cf6fd1689bbafdb0cfbdb97a32ea9208",
@@ -463,7 +453,7 @@
         "Name": "팔락조동아리",
         "Ocid": "ca34b1fed0a4dadc173902c21891db2a",
         "Class": "팔라딘",
-        "Combat": "1702733",
+        "Combat": "1732598",
         "level": 210,
         "image": "https://open.api.nexon.com/static/maplestory/Character/NEKECPICEEAFDKJCONAGELPJICBAOILEIPMPBOJPGOGEAGHKOAECMDLJBJICCKGCDEPONABGLIKMKDBMLFFOGPKIEFFHDMFODBHHHJHEKEFACOOPBAJPGLHNHAGNGOGPGGAHIJLNINMJHMKHOGIIOGGLNOLMPPDCLNBLCEOEOHJLDDGFJOGLAGIDFOMDOCHJDCJJMAPALDOAALGNKIDAOENHOGCEPHNGAJHKMBDIOPCHPLECOAKIKAKIKNPHHLHH.png",
         "liberation": "false",
