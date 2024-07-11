@@ -1,14 +1,14 @@
 {
-    "date": "2024-07-09T00:00+09:00",
+    "date": "2024-07-10T00:00+09:00",
     "character_class": "엔젤릭버스터",
     "final_stat": [
         {
             "stat_name": "최소 스탯공격력",
-            "stat_value": "1824087"
+            "stat_value": "1838152"
         },
         {
             "stat_name": "최대 스탯공격력",
-            "stat_value": "1920090"
+            "stat_value": "1934896"
         },
         {
             "stat_name": "데미지",
@@ -44,7 +44,7 @@
         },
         {
             "stat_name": "방어력",
-            "stat_value": "15823"
+            "stat_value": "15844"
         },
         {
             "stat_name": "이동속도",
@@ -68,19 +68,19 @@
         },
         {
             "stat_name": "STR",
-            "stat_value": "2899"
+            "stat_value": "2907"
         },
         {
             "stat_name": "DEX",
-            "stat_value": "10875"
+            "stat_value": "10889"
         },
         {
             "stat_name": "INT",
-            "stat_value": "2382"
+            "stat_value": "2390"
         },
         {
             "stat_name": "LUK",
-            "stat_value": "1919"
+            "stat_value": "1927"
         },
         {
             "stat_name": "HP",
@@ -164,11 +164,11 @@
         },
         {
             "stat_name": "공격력",
-            "stat_value": "949"
+            "stat_value": "955"
         },
         {
             "stat_name": "마력",
-            "stat_value": "372"
+            "stat_value": "377"
         },
         {
             "stat_name": "전투력",

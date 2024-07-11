@@ -9,6 +9,16 @@
         "liberation": "false",
         "1b": "true"
     },
+    "비공식 제로": {
+        "Name": "비공식 제로",
+        "Ocid": "",
+        "Class": "제로",
+        "Combat": "?????????",
+        "level": 300,
+        "image": "",
+        "liberation": "true",
+        "1b": "true"
+    },
     "나초봄링": {
         "Name": "나초봄링",
         "Ocid": "cf6fd1689bbafdb0cfbdb97a32ea9208",
@@ -23,8 +33,8 @@
         "Name": "다초봄지",
         "Ocid": "755d64cde4b997373af015c40eccc434",
         "Class": "나이트로드",
-        "Combat": "7126964",
-        "level": 263,
+        "Combat": "9010030",
+        "level": 264,
         "image": "https://open.api.nexon.com/static/maplestory/Character/MNCOHDGMECDNKPAIDEGEHCMKIAGJAAGFMECECCKOBFMKGBILAOOCKCBABKKJNHONIFMHMFBKNLKMANHMNEHPIHJDNAIBIKILHCNEANHAHLDOAJMIGLEBMBBCLFPJPNEDAHNPIGOJACCKJHKEGMDDFMACLDCAOMBHMAPOBNHCLHFBDLNLEINKCMFNDJNFMDFKAALJJPFCIHHHHOGEADHHAMGKEALGMHDCCFEOOHHAAENLOPHCCFLCOMDFDMMALHEB.png",
         "liberation": "false",
         "1b": "false"
@@ -153,7 +163,7 @@
         "Name": "그만링크제발",
         "Ocid": "06eae43c28745298792a064230bbb462",
         "Class": "카데나",
-        "Combat": "4089320",
+        "Combat": "4296651",
         "level": 211,
         "image": "https://open.api.nexon.com/static/maplestory/Character/KIEBEHAPHHFMGDLJDEEFONDFNOKFMMGAPOHOADJADIKBALBDHAGMLHOHAMOLANFCKLFFDEAJOLHNMMELANKGKFOHNAPJODFCKDEPEGICGMOINMPNNJKAHGADLNFIFELMDJDADDJHFLDCLDAILEDEHCGGEBGFGMGNFOMJEHHAADMGLMGGCGMDDIAIBMLKAIJNLMFOOIIMJDFEAIGCGBPIJHPFPGNMJJDMDGPLLADHJOPJNLKFKMDHOHCOELNLKLIB.png",
         "liberation": "false",

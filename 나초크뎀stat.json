@@ -1,14 +1,14 @@
 {
-    "date": "2024-07-09T00:00+09:00",
+    "date": "2024-07-10T00:00+09:00",
     "character_class": "은월",
     "final_stat": [
         {
             "stat_name": "최소 스탯공격력",
-            "stat_value": "4162726"
+            "stat_value": "4068466"
         },
         {
             "stat_name": "최대 스탯공격력",
-            "stat_value": "4625249"
+            "stat_value": "4520516"
         },
         {
             "stat_name": "데미지",
@@ -24,7 +24,7 @@
         },
         {
             "stat_name": "방어율 무시",
-            "stat_value": "89.26"
+            "stat_value": "89.32"
         },
         {
             "stat_name": "크리티컬 확률",
@@ -44,7 +44,7 @@
         },
         {
             "stat_name": "방어력",
-            "stat_value": "39445"
+            "stat_value": "38947"
         },
         {
             "stat_name": "이동속도",
@@ -68,7 +68,7 @@
         },
         {
             "stat_name": "STR",
-            "stat_value": "19642"
+            "stat_value": "19603"
         },
         {
             "stat_name": "DEX",
@@ -84,11 +84,11 @@
         },
         {
             "stat_name": "HP",
-            "stat_value": "64611"
+            "stat_value": "63832"
         },
         {
             "stat_name": "MP",
-            "stat_value": "39437"
+            "stat_value": "38734"
         },
         {
             "stat_name": "AP 배분 STR",
@@ -116,7 +116,7 @@
         },
         {
             "stat_name": "아이템 드롭률",
-            "stat_value": "32"
+            "stat_value": "12"
         },
         {
             "stat_name": "메소 획득량",
@@ -160,15 +160,15 @@
         },
         {
             "stat_name": "추가 경험치 획득",
-            "stat_value": "86.00"
+            "stat_value": "57.00"
         },
         {
             "stat_name": "공격력",
-            "stat_value": "1155"
+            "stat_value": "1131"
         },
         {
             "stat_name": "마력",
-            "stat_value": "473"
+            "stat_value": "453"
         },
         {
             "stat_name": "전투력",
