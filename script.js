@@ -13,9 +13,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 const row = document.createElement('tr'); // 각 캐릭터에 대한 새로운 행(tr) 요소를 생성한다.
                 row.innerHTML = `
                     <td>${character.Name}</td>
-                    <td>${character.Class}</td>
                     <td>${parseInt(character.Combat).toLocaleString()}</td>
-                    <td>${character.level}</td>
                     <td><img src="${character.image}" alt="${character.Name}"></td>
                     <td>${character.liberation}</td>
                     <td>${character['1b']}</td>
