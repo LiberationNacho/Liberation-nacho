@@ -1,14 +1,14 @@
 {
-    "date": "2024-07-11T00:00+09:00",
+    "date": "2024-07-14T00:00+09:00",
     "character_class": "칼리",
     "final_stat": [
         {
             "stat_name": "최소 스탯공격력",
-            "stat_value": "102604"
+            "stat_value": "101909"
         },
         {
             "stat_name": "최대 스탯공격력",
-            "stat_value": "114003"
+            "stat_value": "113231"
         },
         {
             "stat_name": "데미지",
@@ -28,11 +28,11 @@
         },
         {
             "stat_name": "크리티컬 확률",
-            "stat_value": "75"
+            "stat_value": "76"
         },
         {
             "stat_name": "크리티컬 데미지",
-            "stat_value": "59.00"
+            "stat_value": "60.00"
         },
         {
             "stat_name": "상태이상 내성",
@@ -44,7 +44,7 @@
         },
         {
             "stat_name": "방어력",
-            "stat_value": "3580"
+            "stat_value": "3528"
         },
         {
             "stat_name": "이동속도",
@@ -68,11 +68,11 @@
         },
         {
             "stat_name": "STR",
-            "stat_value": "994"
+            "stat_value": "967"
         },
         {
             "stat_name": "DEX",
-            "stat_value": "877"
+            "stat_value": "858"
         },
         {
             "stat_name": "INT",
@@ -80,15 +80,15 @@
         },
         {
             "stat_name": "LUK",
-            "stat_value": "1812"
+            "stat_value": "1803"
         },
         {
             "stat_name": "HP",
-            "stat_value": "10589"
+            "stat_value": "11601"
         },
         {
             "stat_name": "MP",
-            "stat_value": "8796"
+            "stat_value": "10268"
         },
         {
             "stat_name": "AP 배분 STR",
@@ -124,7 +124,7 @@
         },
         {
             "stat_name": "버프 지속시간",
-            "stat_value": "24"
+            "stat_value": "26"
         },
         {
             "stat_name": "공격 속도",
@@ -132,7 +132,7 @@
         },
         {
             "stat_name": "일반 몬스터 데미지",
-            "stat_value": "10.00"
+            "stat_value": "0.00"
         },
         {
             "stat_name": "재사용 대기시간 감소 (초)",
@@ -144,7 +144,7 @@
         },
         {
             "stat_name": "재사용 대기시간 미적용",
-            "stat_value": "1"
+            "stat_value": "17"
         },
         {
             "stat_name": "속성 내성 무시",
@@ -152,7 +152,7 @@
         },
         {
             "stat_name": "상태이상 추가 데미지",
-            "stat_value": "0.00"
+            "stat_value": "7.00"
         },
         {
             "stat_name": "무기 숙련도",
@@ -172,7 +172,7 @@
         },
         {
             "stat_name": "전투력",
-            "stat_value": "93621"
+            "stat_value": "93527"
         },
         {
             "stat_name": "소환수 지속시간 증가",

@@ -1,14 +1,14 @@
 {
-    "date": "2024-07-11T00:00+09:00",
+    "date": "2024-07-14T00:00+09:00",
     "character_class": "카인",
     "final_stat": [
         {
             "stat_name": "최소 스탯공격력",
-            "stat_value": "1236984"
+            "stat_value": "1244805"
         },
         {
             "stat_name": "최대 스탯공격력",
-            "stat_value": "1455273"
+            "stat_value": "1464475"
         },
         {
             "stat_name": "데미지",
@@ -32,7 +32,7 @@
         },
         {
             "stat_name": "크리티컬 데미지",
-            "stat_value": "73.00"
+            "stat_value": "74.00"
         },
         {
             "stat_name": "상태이상 내성",
@@ -44,7 +44,7 @@
         },
         {
             "stat_name": "방어력",
-            "stat_value": "13916"
+            "stat_value": "13930"
         },
         {
             "stat_name": "이동속도",
@@ -68,7 +68,7 @@
         },
         {
             "stat_name": "STR",
-            "stat_value": "2624"
+            "stat_value": "2632"
         },
         {
             "stat_name": "DEX",
@@ -84,11 +84,11 @@
         },
         {
             "stat_name": "HP",
-            "stat_value": "31031"
+            "stat_value": "33521"
         },
         {
             "stat_name": "MP",
-            "stat_value": "13109"
+            "stat_value": "15314"
         },
         {
             "stat_name": "AP 배분 STR",
@@ -124,7 +124,7 @@
         },
         {
             "stat_name": "버프 지속시간",
-            "stat_value": "22"
+            "stat_value": "26"
         },
         {
             "stat_name": "공격 속도",
@@ -144,7 +144,7 @@
         },
         {
             "stat_name": "재사용 대기시간 미적용",
-            "stat_value": "0"
+            "stat_value": "2"
         },
         {
             "stat_name": "속성 내성 무시",
@@ -164,15 +164,15 @@
         },
         {
             "stat_name": "공격력",
-            "stat_value": "982"
+            "stat_value": "988"
         },
         {
             "stat_name": "마력",
-            "stat_value": "192"
+            "stat_value": "198"
         },
         {
             "stat_name": "전투력",
-            "stat_value": "1289961"
+            "stat_value": "1297918"
         },
         {
             "stat_name": "소환수 지속시간 증가",

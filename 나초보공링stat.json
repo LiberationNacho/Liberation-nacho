@@ -1,14 +1,14 @@
 {
-    "date": "2024-07-11T00:00+09:00",
+    "date": "2024-07-14T00:00+09:00",
     "character_class": "데몬슬레이어",
     "final_stat": [
         {
             "stat_name": "최소 스탯공격력",
-            "stat_value": "744016"
+            "stat_value": "753133"
         },
         {
             "stat_name": "최대 스탯공격력",
-            "stat_value": "826684"
+            "stat_value": "836813"
         },
         {
             "stat_name": "데미지",
@@ -16,7 +16,7 @@
         },
         {
             "stat_name": "보스 몬스터 데미지",
-            "stat_value": "128.00"
+            "stat_value": "129.00"
         },
         {
             "stat_name": "최종 데미지",
@@ -28,11 +28,11 @@
         },
         {
             "stat_name": "크리티컬 확률",
-            "stat_value": "70"
+            "stat_value": "72"
         },
         {
             "stat_name": "크리티컬 데미지",
-            "stat_value": "51.00"
+            "stat_value": "52.00"
         },
         {
             "stat_name": "상태이상 내성",
@@ -44,7 +44,7 @@
         },
         {
             "stat_name": "방어력",
-            "stat_value": "39544"
+            "stat_value": "39796"
         },
         {
             "stat_name": "이동속도",
@@ -68,23 +68,23 @@
         },
         {
             "stat_name": "STR",
-            "stat_value": "9513"
+            "stat_value": "9583"
         },
         {
             "stat_name": "DEX",
-            "stat_value": "1923"
+            "stat_value": "1947"
         },
         {
             "stat_name": "INT",
-            "stat_value": "1626"
+            "stat_value": "1649"
         },
         {
             "stat_name": "LUK",
-            "stat_value": "1670"
+            "stat_value": "1694"
         },
         {
             "stat_name": "HP",
-            "stat_value": "51324"
+            "stat_value": "55329"
         },
         {
             "stat_name": "MP",
@@ -124,7 +124,7 @@
         },
         {
             "stat_name": "버프 지속시간",
-            "stat_value": "21"
+            "stat_value": "27"
         },
         {
             "stat_name": "공격 속도",
@@ -144,7 +144,7 @@
         },
         {
             "stat_name": "재사용 대기시간 미적용",
-            "stat_value": "15"
+            "stat_value": "17"
         },
         {
             "stat_name": "속성 내성 무시",
@@ -164,15 +164,15 @@
         },
         {
             "stat_name": "공격력",
-            "stat_value": "867"
+            "stat_value": "871"
         },
         {
             "stat_name": "마력",
-            "stat_value": "244"
+            "stat_value": "247"
         },
         {
             "stat_name": "전투력",
-            "stat_value": "1243135"
+            "stat_value": "1271971"
         },
         {
             "stat_name": "소환수 지속시간 증가",

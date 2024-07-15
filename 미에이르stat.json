@@ -1,14 +1,14 @@
 {
-    "date": "2024-07-11T00:00+09:00",
+    "date": "2024-07-14T00:00+09:00",
     "character_class": "에반",
     "final_stat": [
         {
             "stat_name": "최소 스탯공격력",
-            "stat_value": "1245596"
+            "stat_value": "1075258"
         },
         {
             "stat_name": "최대 스탯공격력",
-            "stat_value": "1311153"
+            "stat_value": "1131850"
         },
         {
             "stat_name": "데미지",
@@ -32,7 +32,7 @@
         },
         {
             "stat_name": "크리티컬 데미지",
-            "stat_value": "80.00"
+            "stat_value": "81.00"
         },
         {
             "stat_name": "상태이상 내성",
@@ -44,7 +44,7 @@
         },
         {
             "stat_name": "방어력",
-            "stat_value": "8123"
+            "stat_value": "7435"
         },
         {
             "stat_name": "이동속도",
@@ -68,27 +68,27 @@
         },
         {
             "stat_name": "STR",
-            "stat_value": "1853"
+            "stat_value": "1861"
         },
         {
             "stat_name": "DEX",
-            "stat_value": "1828"
+            "stat_value": "1554"
         },
         {
             "stat_name": "INT",
-            "stat_value": "9459"
+            "stat_value": "8864"
         },
         {
             "stat_name": "LUK",
-            "stat_value": "2053"
+            "stat_value": "2125"
         },
         {
             "stat_name": "HP",
-            "stat_value": "21689"
+            "stat_value": "32331"
         },
         {
             "stat_name": "MP",
-            "stat_value": "47086"
+            "stat_value": "48136"
         },
         {
             "stat_name": "AP 배분 STR",
@@ -124,7 +124,7 @@
         },
         {
             "stat_name": "버프 지속시간",
-            "stat_value": "24"
+            "stat_value": "26"
         },
         {
             "stat_name": "공격 속도",
@@ -144,11 +144,11 @@
         },
         {
             "stat_name": "재사용 대기시간 미적용",
-            "stat_value": "1"
+            "stat_value": "2"
         },
         {
             "stat_name": "속성 내성 무시",
-            "stat_value": "10.00"
+            "stat_value": "0.00"
         },
         {
             "stat_name": "상태이상 추가 데미지",
@@ -164,15 +164,15 @@
         },
         {
             "stat_name": "공격력",
-            "stat_value": "453"
+            "stat_value": "434"
         },
         {
             "stat_name": "마력",
-            "stat_value": "1242"
+            "stat_value": "1138"
         },
         {
             "stat_name": "전투력",
-            "stat_value": "1320902"
+            "stat_value": "1308325"
         },
         {
             "stat_name": "소환수 지속시간 증가",

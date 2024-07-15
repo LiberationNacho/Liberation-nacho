@@ -1,5 +1,5 @@
 {
-    "date": "2024-07-11T00:00+09:00",
+    "date": "2024-07-14T00:00+09:00",
     "character_name": "던지지마세연",
     "world_name": "스카니아",
     "character_gender": "여",
@@ -10,7 +10,7 @@
     "character_exp_rate": "37.268",
     "character_guild_name": null,
     "character_image": "https://open.api.nexon.com/static/maplestory/Character/MHMIAECBLEMLKFDHLNHLBALKIPBANLLNMNGKEKDKJCOKNGOJKBOOGGLPOOAFBHPJPGICCOJDCPJMDHEMBMIPAMINKIFEHFAJJHPHEHFEMPMNLEEJMAPAMHJKOCJDONBKAEINFKDBJLBPKJEIHMKKMKIOIGJNHNIBGOIMHMLBALMHEGMGEINKIJLFFDFGFBJBJMFIDKFAMEKKGGHOCLJNLDMOCPKBNPAPHJMAOPINOGPKGNODOFAEIDFEMJABLJLO.png",
-    "character_date_create": null,
-    "access_flag": "false",
+    "character_date_create": "2018-01-24T00:00+09:00",
+    "access_flag": "true",
     "liberation_quest_clear_flag": "false"
 }

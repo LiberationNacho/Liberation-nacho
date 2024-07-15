@@ -1,18 +1,18 @@
 {
-    "date": "2024-07-11T00:00+09:00",
+    "date": "2024-07-14T00:00+09:00",
     "character_class": "키네시스",
     "final_stat": [
         {
             "stat_name": "최소 스탯공격력",
-            "stat_value": "1372826"
+            "stat_value": "1424360"
         },
         {
             "stat_name": "최대 스탯공격력",
-            "stat_value": "1525361"
+            "stat_value": "1548216"
         },
         {
             "stat_name": "데미지",
-            "stat_value": "85.00"
+            "stat_value": "86.00"
         },
         {
             "stat_name": "보스 몬스터 데미지",
@@ -20,19 +20,19 @@
         },
         {
             "stat_name": "최종 데미지",
-            "stat_value": "93.20"
+            "stat_value": "94.81"
         },
         {
             "stat_name": "방어율 무시",
-            "stat_value": "72.22"
+            "stat_value": "72.59"
         },
         {
             "stat_name": "크리티컬 확률",
-            "stat_value": "103"
+            "stat_value": "73"
         },
         {
             "stat_name": "크리티컬 데미지",
-            "stat_value": "68.00"
+            "stat_value": "70.00"
         },
         {
             "stat_name": "상태이상 내성",
@@ -44,7 +44,7 @@
         },
         {
             "stat_name": "방어력",
-            "stat_value": "7584"
+            "stat_value": "7591"
         },
         {
             "stat_name": "이동속도",
@@ -68,7 +68,7 @@
         },
         {
             "stat_name": "STR",
-            "stat_value": "1847"
+            "stat_value": "1854"
         },
         {
             "stat_name": "DEX",
@@ -76,15 +76,15 @@
         },
         {
             "stat_name": "INT",
-            "stat_value": "8569"
+            "stat_value": "8554"
         },
         {
             "stat_name": "LUK",
-            "stat_value": "2014"
+            "stat_value": "2006"
         },
         {
             "stat_name": "HP",
-            "stat_value": "39743"
+            "stat_value": "42548"
         },
         {
             "stat_name": "MP",
@@ -120,11 +120,11 @@
         },
         {
             "stat_name": "메소 획득량",
-            "stat_value": "16"
+            "stat_value": "24"
         },
         {
             "stat_name": "버프 지속시간",
-            "stat_value": "42"
+            "stat_value": "47"
         },
         {
             "stat_name": "공격 속도",
@@ -144,7 +144,7 @@
         },
         {
             "stat_name": "재사용 대기시간 미적용",
-            "stat_value": "0"
+            "stat_value": "2"
         },
         {
             "stat_name": "속성 내성 무시",
@@ -156,7 +156,7 @@
         },
         {
             "stat_name": "무기 숙련도",
-            "stat_value": "90"
+            "stat_value": "92"
         },
         {
             "stat_name": "추가 경험치 획득",
@@ -168,11 +168,11 @@
         },
         {
             "stat_name": "마력",
-            "stat_value": "980"
+            "stat_value": "983"
         },
         {
             "stat_name": "전투력",
-            "stat_value": "1165693"
+            "stat_value": "1170363"
         },
         {
             "stat_name": "소환수 지속시간 증가",

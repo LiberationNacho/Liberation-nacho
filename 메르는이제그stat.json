@@ -1,14 +1,14 @@
 {
-    "date": "2024-07-11T00:00+09:00",
+    "date": "2024-07-14T00:00+09:00",
     "character_class": "메르세데스",
     "final_stat": [
         {
             "stat_name": "최소 스탯공격력",
-            "stat_value": "1346495"
+            "stat_value": "1299603"
         },
         {
             "stat_name": "최대 스탯공격력",
-            "stat_value": "1584110"
+            "stat_value": "1528943"
         },
         {
             "stat_name": "데미지",
@@ -32,7 +32,7 @@
         },
         {
             "stat_name": "크리티컬 데미지",
-            "stat_value": "66.00"
+            "stat_value": "67.00"
         },
         {
             "stat_name": "상태이상 내성",
@@ -44,7 +44,7 @@
         },
         {
             "stat_name": "방어력",
-            "stat_value": "11700"
+            "stat_value": "11602"
         },
         {
             "stat_name": "이동속도",
@@ -68,27 +68,27 @@
         },
         {
             "stat_name": "STR",
-            "stat_value": "2521"
+            "stat_value": "2529"
         },
         {
             "stat_name": "DEX",
-            "stat_value": "9650"
+            "stat_value": "9290"
         },
         {
             "stat_name": "INT",
-            "stat_value": "1721"
+            "stat_value": "1561"
         },
         {
             "stat_name": "LUK",
-            "stat_value": "1617"
+            "stat_value": "1702"
         },
         {
             "stat_name": "HP",
-            "stat_value": "25191"
+            "stat_value": "36616"
         },
         {
             "stat_name": "MP",
-            "stat_value": "14790"
+            "stat_value": "15648"
         },
         {
             "stat_name": "AP 배분 STR",
@@ -124,7 +124,7 @@
         },
         {
             "stat_name": "버프 지속시간",
-            "stat_value": "25"
+            "stat_value": "27"
         },
         {
             "stat_name": "공격 속도",
@@ -144,7 +144,7 @@
         },
         {
             "stat_name": "재사용 대기시간 미적용",
-            "stat_value": "1"
+            "stat_value": "2"
         },
         {
             "stat_name": "속성 내성 무시",
@@ -172,7 +172,7 @@
         },
         {
             "stat_name": "전투력",
-            "stat_value": "1586474"
+            "stat_value": "1539502"
         },
         {
             "stat_name": "소환수 지속시간 증가",

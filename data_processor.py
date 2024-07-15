@@ -32,6 +32,12 @@ class TableSetter:
     # 모든 크롤링을 시작하여 메인 테이블 세팅
     def set(self):
         print("start Curling")
+        '''
+        # 대기(1초) 코드 추가 (실제 서비스에서는 필요 없음), 캐릭별 기본 정보 크롤링
+        time.sleep(2)
+        self.Curlclass.set_OcidJSON()
+        '''
+
         # 대기(1초) 코드 추가 (실제 서비스에서는 필요 없음), 캐릭별 기본 정보 크롤링
         time.sleep(2)
         self.Curlclass.set_basicInfoJSON()

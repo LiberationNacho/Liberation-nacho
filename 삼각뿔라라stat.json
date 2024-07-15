@@ -1,5 +1,5 @@
 {
-    "date": "2024-07-11T00:00+09:00",
+    "date": "2024-07-14T00:00+09:00",
     "character_class": "라라",
     "final_stat": [
         {
@@ -28,11 +28,11 @@
         },
         {
             "stat_name": "크리티컬 확률",
-            "stat_value": "90"
+            "stat_value": "91"
         },
         {
             "stat_name": "크리티컬 데미지",
-            "stat_value": "59.00"
+            "stat_value": "60.00"
         },
         {
             "stat_name": "상태이상 내성",
@@ -84,11 +84,11 @@
         },
         {
             "stat_name": "HP",
-            "stat_value": "14218"
+            "stat_value": "15118"
         },
         {
             "stat_name": "MP",
-            "stat_value": "22583"
+            "stat_value": "23641"
         },
         {
             "stat_name": "AP 배분 STR",
@@ -124,7 +124,7 @@
         },
         {
             "stat_name": "버프 지속시간",
-            "stat_value": "24"
+            "stat_value": "26"
         },
         {
             "stat_name": "공격 속도",
@@ -144,7 +144,7 @@
         },
         {
             "stat_name": "재사용 대기시간 미적용",
-            "stat_value": "1"
+            "stat_value": "2"
         },
         {
             "stat_name": "속성 내성 무시",
@@ -172,7 +172,7 @@
         },
         {
             "stat_name": "전투력",
-            "stat_value": "776551"
+            "stat_value": "781014"
         },
         {
             "stat_name": "소환수 지속시간 증가",
