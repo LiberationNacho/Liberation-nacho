@@ -1,14 +1,14 @@
 {
-    "date": "2024-07-15T00:00+09:00",
+    "date": "2024-07-17T00:00+09:00",
     "character_class": "아란",
     "final_stat": [
         {
             "stat_name": "최소 스탯공격력",
-            "stat_value": "2150909"
+            "stat_value": "2216448"
         },
         {
             "stat_name": "최대 스탯공격력",
-            "stat_value": "2389898"
+            "stat_value": "2462718"
         },
         {
             "stat_name": "데미지",
@@ -16,7 +16,7 @@
         },
         {
             "stat_name": "보스 몬스터 데미지",
-            "stat_value": "162.00"
+            "stat_value": "197.00"
         },
         {
             "stat_name": "최종 데미지",
@@ -24,11 +24,11 @@
         },
         {
             "stat_name": "방어율 무시",
-            "stat_value": "73.86"
+            "stat_value": "76.18"
         },
         {
             "stat_name": "크리티컬 확률",
-            "stat_value": "83"
+            "stat_value": "88"
         },
         {
             "stat_name": "크리티컬 데미지",
@@ -44,7 +44,7 @@
         },
         {
             "stat_name": "방어력",
-            "stat_value": "30173"
+            "stat_value": "30390"
         },
         {
             "stat_name": "이동속도",
@@ -68,19 +68,19 @@
         },
         {
             "stat_name": "STR",
-            "stat_value": "15265"
+            "stat_value": "15374"
         },
         {
             "stat_name": "DEX",
-            "stat_value": "2090"
+            "stat_value": "2148"
         },
         {
             "stat_name": "INT",
-            "stat_value": "1780"
+            "stat_value": "1843"
         },
         {
             "stat_name": "LUK",
-            "stat_value": "1729"
+            "stat_value": "1789"
         },
         {
             "stat_name": "HP",
@@ -124,7 +124,7 @@
         },
         {
             "stat_name": "버프 지속시간",
-            "stat_value": "27"
+            "stat_value": "26"
         },
         {
             "stat_name": "공격 속도",
@@ -132,7 +132,7 @@
         },
         {
             "stat_name": "일반 몬스터 데미지",
-            "stat_value": "40.00"
+            "stat_value": "45.00"
         },
         {
             "stat_name": "재사용 대기시간 감소 (초)",
@@ -160,19 +160,19 @@
         },
         {
             "stat_name": "추가 경험치 획득",
-            "stat_value": "32.00"
+            "stat_value": "37.00"
         },
         {
             "stat_name": "공격력",
-            "stat_value": "1068"
+            "stat_value": "1092"
         },
         {
             "stat_name": "마력",
-            "stat_value": "300"
+            "stat_value": "320"
         },
         {
             "stat_name": "전투력",
-            "stat_value": "2763852"
+            "stat_value": "3203125"
         },
         {
             "stat_name": "소환수 지속시간 증가",
