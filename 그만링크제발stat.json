@@ -1,14 +1,14 @@
 {
-    "date": "2024-07-17T00:00+09:00",
+    "date": "2024-07-19T00:00+09:00",
     "character_class": "카데나",
     "final_stat": [
         {
             "stat_name": "최소 스탯공격력",
-            "stat_value": "1204292"
+            "stat_value": "1211654"
         },
         {
             "stat_name": "최대 스탯공격력",
-            "stat_value": "1338102"
+            "stat_value": "1346282"
         },
         {
             "stat_name": "데미지",
@@ -44,7 +44,7 @@
         },
         {
             "stat_name": "방어력",
-            "stat_value": "12097"
+            "stat_value": "12399"
         },
         {
             "stat_name": "이동속도",
@@ -68,27 +68,27 @@
         },
         {
             "stat_name": "STR",
-            "stat_value": "1741"
+            "stat_value": "1800"
         },
         {
             "stat_name": "DEX",
-            "stat_value": "2100"
+            "stat_value": "2120"
         },
         {
             "stat_name": "INT",
-            "stat_value": "1534"
+            "stat_value": "1540"
         },
         {
             "stat_name": "LUK",
-            "stat_value": "9959"
+            "stat_value": "10006"
         },
         {
             "stat_name": "HP",
-            "stat_value": "41711"
+            "stat_value": "41746"
         },
         {
             "stat_name": "MP",
-            "stat_value": "17493"
+            "stat_value": "17514"
         },
         {
             "stat_name": "AP 배분 STR",
@@ -104,7 +104,7 @@
         },
         {
             "stat_name": "AP 배분 LUK",
-            "stat_value": "1098"
+            "stat_value": "1103"
         },
         {
             "stat_name": "AP 배분 HP",
@@ -172,7 +172,7 @@
         },
         {
             "stat_name": "전투력",
-            "stat_value": "4369680"
+            "stat_value": "4397446"
         },
         {
             "stat_name": "소환수 지속시간 증가",
