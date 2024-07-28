@@ -1,5 +1,5 @@
 {
-    "date": "2024-07-19T00:00+09:00",
+    "date": "2024-07-27T00:00+09:00",
     "character_name": "여권찾기2",
     "world_name": "스카니아",
     "character_gender": "여",
@@ -11,6 +11,6 @@
     "character_guild_name": null,
     "character_image": "https://open.api.nexon.com/static/maplestory/Character/HOOHDLPOKPGLLKOKFKGHAPAGMJHHNFOIEOEPHEFIJABMFNEGJMNAAKBMKEOOPDIINFOAPPNCIHLMECFCFNPJIGNJAIDNEMAELJEJDDBCOKMPBMBPMEMNNAEMHKIBIPFJLIHJJMMLEPDMMDCFNKIBOKHNJJNJBBJBJMJLKAFKJIIMOPCIHFHHCJNAACJIJFCKBNMBBFHAMCNIDCEFCANHFHCIGOOFJEEPOBAHNKDNFIDMDDGHMHPFBDFJOCFDOBFC.png",
     "character_date_create": "2019-01-22T00:00+09:00",
-    "access_flag": "true",
+    "access_flag": "false",
     "liberation_quest_clear_flag": "false"
 }

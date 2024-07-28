@@ -1,14 +1,14 @@
 {
-    "date": "2024-07-19T00:00+09:00",
+    "date": "2024-07-27T00:00+09:00",
     "character_class": "나이트로드",
     "final_stat": [
         {
             "stat_name": "최소 스탯공격력",
-            "stat_value": "5469958"
+            "stat_value": "5991235"
         },
         {
             "stat_name": "최대 스탯공격력",
-            "stat_value": "6360416"
+            "stat_value": "6966551"
         },
         {
             "stat_name": "데미지",
@@ -16,7 +16,7 @@
         },
         {
             "stat_name": "보스 몬스터 데미지",
-            "stat_value": "215.00"
+            "stat_value": "230.00"
         },
         {
             "stat_name": "최종 데미지",
@@ -44,7 +44,7 @@
         },
         {
             "stat_name": "방어력",
-            "stat_value": "20088"
+            "stat_value": "21468"
         },
         {
             "stat_name": "이동속도",
@@ -60,35 +60,35 @@
         },
         {
             "stat_name": "아케인포스",
-            "stat_value": "1200"
+            "stat_value": "1260"
         },
         {
             "stat_name": "어센틱포스",
-            "stat_value": "50"
+            "stat_value": "70"
         },
         {
             "stat_name": "STR",
-            "stat_value": "1816"
+            "stat_value": "1855"
         },
         {
             "stat_name": "DEX",
-            "stat_value": "3128"
+            "stat_value": "3318"
         },
         {
             "stat_name": "INT",
-            "stat_value": "1460"
+            "stat_value": "1496"
         },
         {
             "stat_name": "LUK",
-            "stat_value": "26990"
+            "stat_value": "28542"
         },
         {
             "stat_name": "HP",
-            "stat_value": "49728"
+            "stat_value": "49376"
         },
         {
             "stat_name": "MP",
-            "stat_value": "30770"
+            "stat_value": "30459"
         },
         {
             "stat_name": "AP 배분 STR",
@@ -104,7 +104,7 @@
         },
         {
             "stat_name": "AP 배분 LUK",
-            "stat_value": "1338"
+            "stat_value": "1343"
         },
         {
             "stat_name": "AP 배분 HP",
@@ -132,7 +132,7 @@
         },
         {
             "stat_name": "일반 몬스터 데미지",
-            "stat_value": "123.00"
+            "stat_value": "133.00"
         },
         {
             "stat_name": "재사용 대기시간 감소 (초)",
@@ -160,19 +160,19 @@
         },
         {
             "stat_name": "추가 경험치 획득",
-            "stat_value": "279.00"
+            "stat_value": "124.00"
         },
         {
             "stat_name": "공격력",
-            "stat_value": "1683"
+            "stat_value": "1743"
         },
         {
             "stat_name": "마력",
-            "stat_value": "668"
+            "stat_value": "689"
         },
         {
             "stat_name": "전투력",
-            "stat_value": "7695415"
+            "stat_value": "8588085"
         },
         {
             "stat_name": "소환수 지속시간 증가",

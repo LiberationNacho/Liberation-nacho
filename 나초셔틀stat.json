@@ -1,14 +1,14 @@
 {
-    "date": "2024-07-19T00:00+09:00",
+    "date": "2024-07-27T00:00+09:00",
     "character_class": "비숍",
     "final_stat": [
         {
             "stat_name": "최소 스탯공격력",
-            "stat_value": "1344866"
+            "stat_value": "1593773"
         },
         {
             "stat_name": "최대 스탯공격력",
-            "stat_value": "1415647"
+            "stat_value": "1677655"
         },
         {
             "stat_name": "데미지",
@@ -16,15 +16,15 @@
         },
         {
             "stat_name": "보스 몬스터 데미지",
-            "stat_value": "200.00"
+            "stat_value": "205.00"
         },
         {
             "stat_name": "최종 데미지",
-            "stat_value": "30.00"
+            "stat_value": "37.80"
         },
         {
             "stat_name": "방어율 무시",
-            "stat_value": "81.23"
+            "stat_value": "78.05"
         },
         {
             "stat_name": "크리티컬 확률",
@@ -36,7 +36,7 @@
         },
         {
             "stat_name": "상태이상 내성",
-            "stat_value": "58"
+            "stat_value": "68"
         },
         {
             "stat_name": "스탠스",
@@ -44,7 +44,7 @@
         },
         {
             "stat_name": "방어력",
-            "stat_value": "9021"
+            "stat_value": "9007"
         },
         {
             "stat_name": "이동속도",
@@ -60,7 +60,7 @@
         },
         {
             "stat_name": "아케인포스",
-            "stat_value": "140"
+            "stat_value": "220"
         },
         {
             "stat_name": "어센틱포스",
@@ -68,27 +68,27 @@
         },
         {
             "stat_name": "STR",
-            "stat_value": "2037"
+            "stat_value": "2031"
         },
         {
             "stat_name": "DEX",
-            "stat_value": "1683"
+            "stat_value": "1677"
         },
         {
             "stat_name": "INT",
-            "stat_value": "10859"
+            "stat_value": "12152"
         },
         {
             "stat_name": "LUK",
-            "stat_value": "2401"
+            "stat_value": "2395"
         },
         {
             "stat_name": "HP",
-            "stat_value": "16826"
+            "stat_value": "16536"
         },
         {
             "stat_name": "MP",
-            "stat_value": "53982"
+            "stat_value": "53583"
         },
         {
             "stat_name": "AP 배분 STR",
@@ -116,7 +116,7 @@
         },
         {
             "stat_name": "아이템 드롭률",
-            "stat_value": "12"
+            "stat_value": "42"
         },
         {
             "stat_name": "메소 획득량",
@@ -124,7 +124,7 @@
         },
         {
             "stat_name": "버프 지속시간",
-            "stat_value": "131"
+            "stat_value": "125"
         },
         {
             "stat_name": "공격 속도",
@@ -160,19 +160,19 @@
         },
         {
             "stat_name": "추가 경험치 획득",
-            "stat_value": "37.00"
+            "stat_value": "107.00"
         },
         {
             "stat_name": "공격력",
-            "stat_value": "640"
+            "stat_value": "638"
         },
         {
             "stat_name": "마력",
-            "stat_value": "1261"
+            "stat_value": "1267"
         },
         {
             "stat_name": "전투력",
-            "stat_value": "2781457"
+            "stat_value": "3038879"
         },
         {
             "stat_name": "소환수 지속시간 증가",

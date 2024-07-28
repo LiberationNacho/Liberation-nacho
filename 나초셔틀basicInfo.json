@@ -1,15 +1,15 @@
 {
-    "date": "2024-07-19T00:00+09:00",
+    "date": "2024-07-27T00:00+09:00",
     "character_name": "나초셔틀",
     "world_name": "스카니아",
     "character_gender": "여",
     "character_class": "비숍",
     "character_class_level": "5",
     "character_level": 226,
-    "character_exp": 20167607191,
+    "character_exp": 20167649901,
     "character_exp_rate": "38.388",
     "character_guild_name": "삼각과자군단",
-    "character_image": "https://open.api.nexon.com/static/maplestory/Character/GJCOMFFPOJJBHLPFFHHAOPALEOKDKCPKOCCLBDOBDPHMDICBOMEBKEEEDBLMJPHKIBDJBBFHPNBKCBCDKEAPFDIKJCIGKHMJGGMKOPFDFPDNBFOFKJNJPPLHAKNPBLPFJFDENFODLFPKLILOJODLBFJLOOIDLHCDOFPGKMKIMNFMPHDFBFNDPDKAIAKNMLGIAIEKKMMLALMFHBODMANLBJJINIJDGPLHPPDOFAIKEMMMMBDHDJHBHOMDBJGKCMJM.png",
+    "character_image": "https://open.api.nexon.com/static/maplestory/Character/GJCOMFFPOJJBHLPFFHHAOPALEOKDKCPKOCCLBDOBDPHMDICBOMEBKEEEDBLMJPHKIBDJBBFHPNBKCBCDKEAPFDIKJCIGKHMJGGMKOPFDFPDNBFOFKJNJPPLHAKNPBLPFJFDENFODLFPKLILOJODLBFJLOOIDLHCDOFPGKMKIMNFMPHDFBFNDPDKAIAKNMLGIAIEKKMMLALMFHBODMANLBJJINIJDGPLHOMGLCMGMJCAHKKIMGABOOECOODLMKIHM.png",
     "character_date_create": "2016-11-12T00:00+09:00",
     "access_flag": "true",
     "liberation_quest_clear_flag": "false"

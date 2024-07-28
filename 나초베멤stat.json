@@ -1,14 +1,14 @@
 {
-    "date": "2024-07-19T00:00+09:00",
+    "date": "2024-07-27T00:00+09:00",
     "character_class": "배틀메이지",
     "final_stat": [
         {
             "stat_name": "최소 스탯공격력",
-            "stat_value": "1677225"
+            "stat_value": "1697617"
         },
         {
             "stat_name": "최대 스탯공격력",
-            "stat_value": "1765499"
+            "stat_value": "1786964"
         },
         {
             "stat_name": "데미지",
@@ -44,7 +44,7 @@
         },
         {
             "stat_name": "방어력",
-            "stat_value": "22894"
+            "stat_value": "23106"
         },
         {
             "stat_name": "이동속도",
@@ -72,19 +72,19 @@
         },
         {
             "stat_name": "DEX",
-            "stat_value": "1540"
+            "stat_value": "1819"
         },
         {
             "stat_name": "INT",
-            "stat_value": "11074"
+            "stat_value": "11234"
         },
         {
             "stat_name": "LUK",
-            "stat_value": "2422"
+            "stat_value": "2350"
         },
         {
             "stat_name": "HP",
-            "stat_value": "73824"
+            "stat_value": "57665"
         },
         {
             "stat_name": "MP",
@@ -124,7 +124,7 @@
         },
         {
             "stat_name": "버프 지속시간",
-            "stat_value": "28"
+            "stat_value": "22"
         },
         {
             "stat_name": "공격 속도",
@@ -172,7 +172,7 @@
         },
         {
             "stat_name": "전투력",
-            "stat_value": "2417752"
+            "stat_value": "2447460"
         },
         {
             "stat_name": "소환수 지속시간 증가",
