@@ -15,8 +15,8 @@ document.addEventListener('DOMContentLoaded', function() {
                     <td>${character.Name}</td>
                     <td>${parseInt(character.Combat).toLocaleString()}</td>
                     <td><img src="${character.image}" alt="${character.Name}"></td>
-                    <td>${character.liberation}</td>
-                    <td>${character['1b']}</td>
+                    <td>${character.liberation ? '림보가야지' : ''}</td>
+                    <td>${character['1b'] ? '검밑솔 쌀먹' : '허접'}</td>
                 `; // 각 캐릭터의 정보를 테이블 셀(td)에 넣는다.
                 tableBody.appendChild(row); // 생성한 행을 테이블에 추가한다.
             });
@@ -48,7 +48,7 @@ document.addEventListener('DOMContentLoaded', function() {
             statsDiv.innerHTML += `
                 <p>전직업 1억 달성률: <strong>${jobAchievementRate.toFixed(2)}%</strong>, 전직업 해방 달성률: <strong>${liberationAchievementRate.toFixed(2)}%</strong></p>
                 <p>총 레벨 합계: <strong>${sumLevel.toLocaleString()}</strong>, 총 전투력 합계: <strong>${sumCombat.toLocaleString()}</strong></p>
-                <p>평균 레벨: <strong>${avgLevel.toFixed(2)}</strong>, 평균 전투력: <strong>${avgCombat.toFixed(2)}</strong></p>
+                <p>평균 레벨: <strong>${avgLevel.toLocaleString(2)}</strong>, 평균 전투력: <strong>${avgCombat.toLocaleString(2)}</strong></p>
             `; // 계산된 달성률과 추가된 데이터를 HTML에 추가한다.
         })
         .catch(error => console.error('JSON 데이터를 가져오는 중 오류 발생:', error));

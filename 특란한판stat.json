@@ -1,14 +1,14 @@
 {
-    "date": "2024-07-27T00:00+09:00",
+    "date": "2024-07-29T00:00+09:00",
     "character_class": "아란",
     "final_stat": [
         {
             "stat_name": "최소 스탯공격력",
-            "stat_value": "2431716"
+            "stat_value": "2469310"
         },
         {
             "stat_name": "최대 스탯공격력",
-            "stat_value": "2701906"
+            "stat_value": "2743677"
         },
         {
             "stat_name": "데미지",
@@ -44,7 +44,7 @@
         },
         {
             "stat_name": "방어력",
-            "stat_value": "31526"
+            "stat_value": "31263"
         },
         {
             "stat_name": "이동속도",
@@ -68,27 +68,27 @@
         },
         {
             "stat_name": "STR",
-            "stat_value": "15785"
+            "stat_value": "15813"
         },
         {
             "stat_name": "DEX",
-            "stat_value": "2310"
+            "stat_value": "2365"
         },
         {
             "stat_name": "INT",
-            "stat_value": "2122"
+            "stat_value": "2171"
         },
         {
             "stat_name": "LUK",
-            "stat_value": "1779"
+            "stat_value": "1794"
         },
         {
             "stat_name": "HP",
-            "stat_value": "37564"
+            "stat_value": "37204"
         },
         {
             "stat_name": "MP",
-            "stat_value": "12411"
+            "stat_value": "14585"
         },
         {
             "stat_name": "AP 배분 STR",
@@ -116,7 +116,7 @@
         },
         {
             "stat_name": "아이템 드롭률",
-            "stat_value": "31"
+            "stat_value": "12"
         },
         {
             "stat_name": "메소 획득량",
@@ -160,19 +160,19 @@
         },
         {
             "stat_name": "추가 경험치 획득",
-            "stat_value": "64.00"
+            "stat_value": "37.00"
         },
         {
             "stat_name": "공격력",
-            "stat_value": "1165"
+            "stat_value": "1180"
         },
         {
             "stat_name": "마력",
-            "stat_value": "410"
+            "stat_value": "409"
         },
         {
             "stat_name": "전투력",
-            "stat_value": "3193475"
+            "stat_value": "3209153"
         },
         {
             "stat_name": "소환수 지속시간 증가",

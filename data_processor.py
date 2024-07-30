@@ -124,8 +124,14 @@ class TableSetter:
                 i += 1
             combat = data["final_stat"][i]["stat_value"]
             
-            # print(data["final_stat"][i]["stat_name"])
-            # print(combat)
+            print(type(data["final_stat"][i]["stat_name"]))
+            print(data["final_stat"][i]["stat_name"])
+
+            print(type(combat))
+            print(combat)
+            
+            print(type(character_data["Combat"]))
+            print(character_data["Combat"])
 
             if (combat >= character_data["Combat"]):
                 character_data["Combat"] = combat
@@ -155,7 +161,7 @@ class TableSetter:
         for character_data in self.__mainTable:
             character_name = character_data.get('Name')
             # 캐릭터 이름 체크
-            # print(character_name)
+            print(character_name)
 
             # Ocid 파일 열기
             with open(character_name + "basicInfo.json", 'r', encoding='utf-8') as f:
@@ -163,7 +169,8 @@ class TableSetter:
                 # print(data)
 
             liberation = data["liberation_quest_clear_flag"]
-            # print(liberation)
+            print(type(liberation))
+            print(liberation)
 
             character_data["liberation"] = liberation
 
@@ -232,7 +239,7 @@ class data_processor:
         for character_data in self.__mainTable:
             combat = character_data["1b"]
             total += 1
-            if combat == "true":
+            if combat:
                 count += 1
         
         if total == 0:
@@ -250,9 +257,9 @@ class data_processor:
         total = 0
         count = 0
         for character_data in self.__mainTable:
-            combat = character_data["liberation"]
+            liberation = character_data["liberation"]
             total += 1
-            if combat == "true":
+            if liberation:
                 count += 1
         
         if total == 0:
@@ -279,8 +286,7 @@ class data_processor:
     def calculate_sumCombat(self) -> int:
         total_combat = 0
         for character_data in self.__mainTable:
-            if (character_data["Combat"] != "?????????"):
-                total_combat += int(character_data["Combat"])
+            total_combat += int(character_data["Combat"])
         
         self.__sumCombat = total_combat
         print(f"총 전투력 합계: {total_combat}")

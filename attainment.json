@@ -1,23 +1,33 @@
 {
+    "잉잉리리움": {
+        "Name": "잉잉리리움",
+        "Ocid": "df475274008ffb35ae3573961caaf8cd",
+        "Class": "일리움",
+        "Combat": "2616160",
+        "level": 231,
+        "image": "https://open.api.nexon.com/static/maplestory/Character/NNOKELCGMBONDNGDNJJAFNEKIGANHDBNKDGHLKHDAFOKDALJLPBJLDGFLPELLJDBLPOCJONBFNBEKEDCOLJKHNEGMDLMBGJIFCCODFAIHNMOKLACDHPICFHGDLACEEMELCBPFBHBAHALPCIEFCHPLHFPEMICONPFIPBODDGEDGGMDALDPICKLPDKFMPBNJBMGMLMLLIIFNEKKBBDFHFNLHOKCLCPCJKFKEGNJDONCEMLKMNOGMJMFMEEHBNLLPBK.png",
+        "liberation": false,
+        "1b": false
+    },
     "나초봄지": {
         "Name": "나초봄지",
         "Ocid": "57933d3d5733ed493653cd4d3d9738e8",
         "Class": "메르세데스",
-        "Combat": "99410610",
+        "Combat": "124428999",
         "level": 281,
         "image": "https://open.api.nexon.com/static/maplestory/Character/PMJGAJJACEKEMAEOEJIILBEKGGLKBFAFLHCEMOMEPLIOAIGLIEEDBAHHHKMOFFENGEDGEGAIBECLHODKMCMCGCLPGDOKNBMGFIECIFNDMDDIJALIHKAIIMHDNDAMDKMGGIJCINFKNCGKFPJIBMABJHMKKMNOMHEPMJGJGMJJLHENDOPLCCCINHLGDIFENIJKMHHODMOEIILNMKJFEBCNDBJOLFHDOKDFDLBMMBCEMCOINEJMDDHHBHJJDBHBMILC.png",
-        "liberation": "false",
-        "1b": "true"
+        "liberation": false,
+        "1b": true
     },
     "나초봄링": {
         "Name": "나초봄링",
         "Ocid": "cf6fd1689bbafdb0cfbdb97a32ea9208",
         "Class": "데몬어벤져",
-        "Combat": "48320632",
+        "Combat": "49303846",
         "level": 272,
         "image": "https://open.api.nexon.com/static/maplestory/Character/LBBEDIACDBFCALNCLENNNIEHOAEFFCFMEOOHDHNEHKMONNAEADHNKEMFDAJACDHBJKJEGEAGDJBOADKJHDKCJBGOJKAOFLIJIHCICAENFFADGEEFCBDJOJECAOKJNFINDAICDLEEBJHKIJAFNHMAKOHLKMIMMFAPJLDIGCHECLPHBKLIOECMDJOGELDCPMFGPLJKNAHFENJDEDFGFELOGOBFCIDJFPNAJOGDAIEHMACNGIKLMBDDDNBAOMAEFMBN.png",
-        "liberation": "false",
-        "1b": "false"
+        "liberation": false,
+        "1b": false
     },
     "다초봄지": {
         "Name": "다초봄지",
@@ -26,8 +36,8 @@
         "Combat": "9313542",
         "level": 265,
         "image": "https://open.api.nexon.com/static/maplestory/Character/MNCOHDGMECDNKPAIDEGEHCMKIAGJAAGFMECECCKOBFMKGBILAOOCKCBABKKJNHONIFMHMFBKNLKMANHMNEHPIHJDNAIBIKILHCNEANHAHLDOAJMIGLEBMBBCLFPJPNEDAHNPIGOJACCKJHKEGMDDFMACLDCAOMBHMAPOBNHCLHFBDLNLEINKCMFNDJNFMDFKAALJJPFCIHHHHOGEADHHAMGKEALGMHDCDHAINFMAAEJNFOPPMBALBGEBOOAJFMGJ.png",
-        "liberation": "false",
-        "1b": "false"
+        "liberation": false,
+        "1b": false
     },
     "삼각뿔라라": {
         "Name": "삼각뿔라라",
@@ -36,8 +46,8 @@
         "Combat": "781014",
         "level": 251,
         "image": "https://open.api.nexon.com/static/maplestory/Character/JBOLDCKECHIGGIGLDALHMMFMGJBDJMEIHFICPNDNAHHOCPMMPFFAPJEHLHCPHGGJKIKJOLNHAKBAIBAFPPGHJOBGNJHFIFHOCOEPPHBOMKNJMBLNADOEPGBABJPMBEDLOBAKEBFHNOPHNMHDJEADPPPNABNONIFKEFPFODALOHNKJEEPKHBDNHAOHKBMIOIDPBKOBLODCGBCKDLOLGKCBDEGICIEFHJIFKCMMIALADKCLKKLDGGJLLBLHINCCBHG.png",
-        "liberation": "false",
-        "1b": "false"
+        "liberation": false,
+        "1b": false
     },
     "바람파괴자임": {
         "Name": "바람파괴자임",
@@ -46,8 +56,8 @@
         "Combat": "9617140",
         "level": 234,
         "image": "https://open.api.nexon.com/static/maplestory/Character/LFGKAGEPJDNAKCOPIKIONLNKLAANHFOKOPINPLOFOKICEBMMNNCGDIMFBFJCHBEKKEOKOHKGGEEAGMNIHEPJOMMKKJJNECLGLPFEILGHLKGPBCDGPIPAFJOEAKBDPOPIODFBIFJFKHBBHMDPGIPBCJBOCPGOEOBFFEACHJHEAPCDDLPHFKDIMALBLINPLMLBHGGMJCGNDHLOMNIFEBGOJAOGINEAOCKCAIIOGLPBFFCOJHHEJKIOCAMODBHPGGPB.png",
-        "liberation": "false",
-        "1b": "false"
+        "liberation": false,
+        "1b": false
     },
     "특란한판": {
         "Name": "특란한판",
@@ -56,18 +66,18 @@
         "Combat": "3581343",
         "level": 233,
         "image": "https://open.api.nexon.com/static/maplestory/Character/AJPJFBBIMODGABKPJCLFHAGKHMNICLCLMPDMECMAMNLAGPBIDJCLDPIPGCIMGMPGHELPADPOFDOLEPFHEGEODLCDJNPPPPLIAKIMAKFOMHOEFNLEHDDDNAOECCPJLIGJPLMPPJNNAAOJIKBPOLHJPEAHENNIOFMFACBLIBEEPENBHIJLPIBDGLBLEKNAGDBMHLFOKAFAODCAGKGAFOBCEBFHFFDPBPLLBJMHLDLJJONBHEMJHJFBCOBICKJJDBCF.png",
-        "liberation": "false",
-        "1b": "false"
+        "liberation": false,
+        "1b": false
     },
     "나초크뎀": {
         "Name": "나초크뎀",
         "Ocid": "1d2cc225e6f895d725c49ac74304a64c",
         "Class": "은월",
-        "Combat": "6933665",
+        "Combat": "7341087",
         "level": 260,
         "image": "https://open.api.nexon.com/static/maplestory/Character/OALLGFNAHKDHHPDICFLBJJBAKCBMEDNIGPKHPFJFHDHIGOJIALFOHDJJMHOHPIBHEFGDHJPLBECPAJBMJOPONNFEALEBOFLCNIOMPKGGKEHKHDPPNFPACBMNLAADPOJNBBNPOJCNAICHMOGPLNEBBHHOKELAOOFJLPKPHLPEBMAJGPCCBEGLNEOJLMCNNPBIEBBGFMGAEOOMMIOHIINHENENNKFFCLPIPANBDOJNODGBOMMOLJMDHHOAGMCJAEBI.png",
-        "liberation": "false",
-        "1b": "false"
+        "liberation": false,
+        "1b": false
     },
     "나나나나초나": {
         "Name": "나나나나초나",
@@ -76,8 +86,8 @@
         "Combat": "1707253",
         "level": 221,
         "image": "https://open.api.nexon.com/static/maplestory/Character/NOIHBAEHJBKAJDJNDNDPEILNFLGGGPEDGIMEKDCMDHFKELNBKHPHMABGCIAPEOBNKODKJLBAPHLIECJKMONKEOEGPEEEPACEKJLKLPIFIBBEIADDCILLFLJBGCBBOBAPCNNMEPNHIDNHKGGAGMLDLOGEIEJAAHOMEICNCHHFHOGIMKGBAGCNDHMMMDGECBOHKGNNJLICJHBNLDJPKNAJJLLFBKAAFIPNLEHBFINBDPDDOOKJFDABAEJGPALDPBMO.png",
-        "liberation": "false",
-        "1b": "false"
+        "liberation": false,
+        "1b": false
     },
     "나초링크용": {
         "Name": "나초링크용",
@@ -86,8 +96,8 @@
         "Combat": "2331309",
         "level": 220,
         "image": "https://open.api.nexon.com/static/maplestory/Character/DCGNMELLOJHHLOHMLDICJLIBIJOGKAADKHFBGBCBACONDLENDIIFFPBEGOHLPJDDMOEIBHOLFLBACCMIHOMOKJJBHBGLFNJODGILGALODEJJHCAEHODJEHNAAMHPAELEBFHCHBNGDDLDCCHOIFABJDDLJBDHGMHMMNKGHKNOBJHKPKHIEPHAOMMAOFHGINEGHBFBNDEAGKDFFONDLCKBJCCFMNGDLBNEEMJGFCIFHIOBLPBDHLEFKMIMODBGALPE.png",
-        "liberation": "false",
-        "1b": "false"
+        "liberation": false,
+        "1b": false
     },
     "나초소망": {
         "Name": "나초소망",
@@ -96,8 +106,8 @@
         "Combat": "3519448",
         "level": 216,
         "image": "https://open.api.nexon.com/static/maplestory/Character/LAKLFPPFGNPGOBBMAONAFMNMOEDNIOMEIGACKEGGJIECHEFODJAODCLGCDLLIAADDELJLPMCEDDOFCECJOODPGFAGOLPEPEAPJILPJJPNAODMHBBHHLMCNOMDMDMHEEBLKCGLENBDIPOHIOAIJFNLGJCIIEJPBHLJJBDHJFILMPLNDCPCPPHLGIGDGMCBANPBGMBNABDELHHMMHNDNEIANIGAIPDLACIPOJPHFBBLLEJKOMIGDFKGDEHDLKDGIKC.png",
-        "liberation": "false",
-        "1b": "false"
+        "liberation": false,
+        "1b": false
     },
     "간나콜": {
         "Name": "간나콜",
@@ -106,8 +116,8 @@
         "Combat": "1370562",
         "level": 215,
         "image": "https://open.api.nexon.com/static/maplestory/Character/HDIPKIECMNMBIPIBIAPAJMJPHNPIGPOGGDJHNDGDDJOFJICIALGOEOJCMECDPFNILNINFAALPOAFHABIHCOIAHDIOBAFEBGFCAFCAFKPMJGONDPCIFICCBMMIFIMDKOCCKDFMGAHMCLHAOFLADKDOMFOLBOAOFADHPIIMEHJGGAFJHPKDEALJINMIAHAPNKNGHLNMDCGIDPOACEHEJLEJJHLDIKDDHBMDOCMLDHOMBKFMEJHDDBJHPJOAEFFPEBN.png",
-        "liberation": "false",
-        "1b": "false"
+        "liberation": false,
+        "1b": false
     },
     "강제남캐디메": {
         "Name": "강제남캐디메",
@@ -116,8 +126,8 @@
         "Combat": "2089587",
         "level": 215,
         "image": "https://open.api.nexon.com/static/maplestory/Character/LFAHEOIEOOFFEGEGJOEKAFBEFHBEPIJAFEKKILLEHEMAEOCCDPNHLEBNFMLGMMLEIDJBBIOPCMMPDBCGPLCMIFGJBIFAJMBBNFCEPJCELEAMCCHGBKADMAECMMCCIHHKDLPEHBFNOJLNHGMOCEAABEMPCPGIHPHOAMGDIDGOKLPBHCJHHFPAHCDAKEGBABFBMFKIOFJGPOKHJLBPLOLBJCKCGJLMDKBPBFHKFIIDPGIPOBCBCDLHNCABAAEFBCMJ.png",
-        "liberation": "false",
-        "1b": "false"
+        "liberation": false,
+        "1b": false
     },
     "스크떡상언제": {
         "Name": "스크떡상언제",
@@ -126,8 +136,8 @@
         "Combat": "3669226",
         "level": 215,
         "image": "https://open.api.nexon.com/static/maplestory/Character/FKIIEDNGBFDIOHIHKIHLNGIENAIPOOMJOJCHMAFLINBIPIDOMEIMMLGKGDAFPPKDEMOGMBHNJKMPNLGCGBKHPHJBABGCMBGPLBCBEHIIFCPFJMHHFENOFGMBKCHAEMEEEJBPCDKEAONAMEPDFEGHDKONKAACJFMNHPLBCGBFDKPNMBDNMBCAEDFCEKDEOMEHABIHMGHEIABCDDLDHMLHECMJLELEGHCCJJBDPJMAPEEIMKGNLIAJGPDDEJDJFIHO.png",
-        "liberation": "false",
-        "1b": "false"
+        "liberation": false,
+        "1b": false
     },
     "하와와와이": {
         "Name": "하와와와이",
@@ -136,8 +146,8 @@
         "Combat": "2534770",
         "level": 215,
         "image": "https://open.api.nexon.com/static/maplestory/Character/ANBBDHMOBHMNCDOOENPFMHEMJOPODJPJJFADHBOPLCBEKDIHONOEBLMCPKGDGKKGMFABJIECFHBIHHMELOPKCICIEFDDLNLHOKEGBINGCHODJJHCELICNAMNFIDPKINJAIBFKKEHDOICLCFAMPICJICFHGCKBFCMOACGJMNCLPGLEDLGHNGBMJENFCFFHKNMLMCICKFFJDLCFAHAAAHDHJPKBIJJFIOJFAAIMCGJALIFDOMIEBAAHJJKFCOJDGEB.png",
-        "liberation": "false",
-        "1b": "false"
+        "liberation": false,
+        "1b": false
     },
     "노양심방무": {
         "Name": "노양심방무",
@@ -146,8 +156,8 @@
         "Combat": "2303882",
         "level": 214,
         "image": "https://open.api.nexon.com/static/maplestory/Character/ENMMNINIJELIOGEPCAJHFKIPNCEIELOHKBLANLOENNHILPAFJMHEMHNACPEFHFBMLIMDHOLKLEGCEJHLNCABFPDKCJPMNBFAAEAFCCPHIHMNIEIJACNDFAANBGFMABLDDMOFNPNCJBCBOFFNCFJEAMJDFPAMFOOIOLMBKDHEBPHLCOPCKNKMPHKNFNBIJCHFIAENFCDHIFLAMLBBKALEJHDDCHADCAGKMINLDJAPIMLMONMMAGBCANGGIDHDGKAP.png",
-        "liberation": "false",
-        "1b": "false"
+        "liberation": false,
+        "1b": false
     },
     "그만링크제발": {
         "Name": "그만링크제발",
@@ -156,8 +166,8 @@
         "Combat": "4917589",
         "level": 218,
         "image": "https://open.api.nexon.com/static/maplestory/Character/KIEBEHAPHHFMGDLJDEEFONDFNOKFMMGAPOHOADJADIKBALBDHAGMLHOHAMOLANFCKLFFDEAJOLHNMMELANKGKFOHNAPJODFCKDEPEGICGMOINMPNNJKAHGADLNFIFELMDJDADDJHFLDCLDAILEDEHCGGEBGFGMGNFOMJEHHAADMGLMGGCGMDDIAIBMLKAIJNLMFOOIIMJDFEAIGCGBPIJHPFPGNMJJDMENJDNOFHJNOAHNALLKNEHBPMADDLJHCB.png",
-        "liberation": "false",
-        "1b": "false"
+        "liberation": false,
+        "1b": false
     },
     "나초베멤": {
         "Name": "나초베멤",
@@ -166,8 +176,8 @@
         "Combat": "2447460",
         "level": 211,
         "image": "https://open.api.nexon.com/static/maplestory/Character/MEKLKJAAHCGALDOPEGODEJGJGPLBLFCBDOHMCPNICAKKIOLAKKHMNMGMEOPOHBCDBHNILOMLENOHFHBECGNCCIJDLNELNMHFFAAFEOAGNGKCDJJDEJBMFGJHIPCNBJEMOICJDOKNAABMACNKBAICDNILKHFDDEIOEHHJNAEGCBHFMHKFAHNGEHBIKOBOKMOKGDBDAJPEGKJJGFKBEIPBFGMEPCFEKLDJEJGLAIAKANAPJNJNPELIGGKJLGBMPFIJ.png",
-        "liberation": "false",
-        "1b": "false"
+        "liberation": false,
+        "1b": false
     },
     "나초아델래미": {
         "Name": "나초아델래미",
@@ -176,8 +186,8 @@
         "Combat": "1557205",
         "level": 211,
         "image": "https://open.api.nexon.com/static/maplestory/Character/MNBLNKHNMNFFAONHPOOLECNAPAOMLKCFGFOFCMJGPGNOFIKNNKCKKNMIBBKNCIACNFMHLDAPINONNNGFFCPHAGANGLAAOPMIELIIFIBLAGMJHBLPGEDFNOKBFNPCKFKEKKJELEJAJLEEINKCDGOMEJOFOHFCEAFOBFCKKACFEKIJILLKOKLILADBPJAEIEKKHLDGGFDLCGPNPLHPGMIECMFFHCBGFHHJENFHFBBAOCOFJGOHLOACMNNEPMCCJHCE.png",
-        "liberation": "false",
-        "1b": "false"
+        "liberation": false,
+        "1b": false
     },
     "나초제로": {
         "Name": "나초제로",
@@ -186,8 +196,8 @@
         "Combat": "3354043",
         "level": 211,
         "image": "https://open.api.nexon.com/static/maplestory/Character/MGPLAFOAFHGHFFMEEKNHHAPIKEHFPMPMKKGICEKFMBFPCKGLKIKGMPNMHMGPDGNLFJMILNNLGBMAEAIMNFOFDJHEJBGACILHEOGBOJBNLJGBNHLHOFACCGMPNAFLEPCKFGCLFNDPLMEEJBIBHOMKLIJCLHFHEFEHPIPEKJGOKJBLIOCEOKCBAJMKCLHPHNCMGJAAODHDEHJEJAJGEBJONJFLKENADCDIHAKGDLPEOBKCNLEJOEGHOFOKEFMLNIFJ.png",
-        "liberation": "false",
-        "1b": "false"
+        "liberation": false,
+        "1b": false
     },
     "마지막링크얘": {
         "Name": "마지막링크얘",
@@ -196,8 +206,8 @@
         "Combat": "1395982",
         "level": 211,
         "image": "https://open.api.nexon.com/static/maplestory/Character/CNLENDOLIFJOADBBPJFPJAFPJBCFPBNCOCAOJMJJDNIBLIIAFBDBFJJOGDMMIAGGGKDHFOLGPFKGIIFHAANHAKBPCENDEOAKMPFNBCGOGDCHBHACJGIEBGJAIFADJPIOIGDKLPJJAPNCGCGNCMIOHPJABFBNLIIGMIOONLFPKBMIHMJPLLFKJFCLPHBOELMIIGLONGPFEGDFKGMKDNACOIEDANHCOBHKNLPAOCOCMAGIENDHGLDDCDJHPCEDFEGJ.png",
-        "liberation": "false",
-        "1b": "false"
+        "liberation": false,
+        "1b": false
     },
     "여권찾기2": {
         "Name": "여권찾기2",
@@ -206,8 +216,8 @@
         "Combat": "2850963",
         "level": 211,
         "image": "https://open.api.nexon.com/static/maplestory/Character/HOOHDLPOKPGLLKOKFKGHAPAGMJHHNFOIEOEPHEFIJABMFNEGJMNAAKBMKEOOPDIINFOAPPNCIHLMECFCFNPJIGNJAIDNEMAELJEJDDBCOKMPBMBPMEMNNAEMHKIBIPFJLIHJJMMLEPDMMDCFNKIBOKHNJJNJBBJBJMJLKAFKJIIMOPCIHFHHCJNAACJIJFCKBNMBBFHAMCNIDCEFCANHFHCIGOOFJEEPOBAHNKDNFIDMDDGHMHPFBDFJOCFDOBFC.png",
-        "liberation": "false",
-        "1b": "false"
+        "liberation": false,
+        "1b": false
     },
     "15주년버닝임": {
         "Name": "15주년버닝임",
@@ -216,8 +226,8 @@
         "Combat": "2292090",
         "level": 210,
         "image": "https://open.api.nexon.com/static/maplestory/Character/PLILGKNLEGDPNCOMFCDDIHNKKIPIGAFNBBGBDNFGPHIBFAOLBECBLIMCCBNIJFFGIPDKLFBJILDCKFKJHMILBFIHGIGCGIMNHEGEKAKBGBDMNFCJCANFEDPGPOONBOAIHHCCCDGLCDNBILGNKLGFOAFGCNHHNECJHGIPFPGNPLPNPHGPCBDFAILDGOLFMKMDCIJFIHGFEBCEIIADOBMMMIMFCDBKFKCBAEDPBCNOBPOPPJBEAPKGBALENJBGOCBN.png",
-        "liberation": "false",
-        "1b": "false"
+        "liberation": false,
+        "1b": false
     },
     "나초링용": {
         "Name": "나초링용",
@@ -226,8 +236,8 @@
         "Combat": "1759352",
         "level": 211,
         "image": "https://open.api.nexon.com/static/maplestory/Character/HFFDCKDHOPDPHKCHKMDHGCPDMEACOPLDHOCHEBFGEOEILJEJDKKIMKBPPGINJLOKDIINEMHJFAOIBKBIEOICDMEKBDHACCJNDPNANGLAKHIIDPDEGFKEDIGLNKOLMHDKHJPCILJFHGLJGLJGAAHOGLIDDOMFBHEBJCLKAKMPBMNEJPMNCOEOEEKLGBCAKNEKDOBDONLFGPGFGPLJOFNKJNGHGKCDOHDPPBLEMEPMJDGGAJDDPMKGGFPACNBMHBML.png",
-        "liberation": "false",
-        "1b": "false"
+        "liberation": false,
+        "1b": false
     },
     "나초방무링": {
         "Name": "나초방무링",
@@ -236,8 +246,8 @@
         "Combat": "1374612",
         "level": 210,
         "image": "https://open.api.nexon.com/static/maplestory/Character/OJLDBKFHFIDBMDNMANAKOFHHIJBDIJGALCEOKMEMIMEDPPFDBMAEGLKJGFCJNPEFGAFKJDKDNNJHBIFJKPEDBIKMDOBNINDLJCGKOBKKNBPGABCEHELGAGDHLLGLMIIIJMFNJAFKIFIJCOJICGNIABKKGGOBHJNBNAICJJLINMMAMHPJHHHLFPCMIEDDBJPHJLLJBPILJHEDBJHIJPKCFECLMNGEAHEADIIEOBMKLIKLACLGKJIFKPMCKJDOAIDJ.png",
-        "liberation": "false",
-        "1b": "false"
+        "liberation": false,
+        "1b": false
     },
     "나초버닝": {
         "Name": "나초버닝",
@@ -246,8 +256,8 @@
         "Combat": "2019854",
         "level": 210,
         "image": "https://open.api.nexon.com/static/maplestory/Character/FDONEKNDAMEPEILMCCOPCKMPJAPLAOHDCMEJEIOHFGFKNILLIEKJGMEECBHBCNIBKHJAINOHOLCPPIKPODJDKBLNDPCIOJIKINOICOJBKNKLIOKLJNHLCOCHOMCKNDONCGKGGLILOAFLFKCMMKDDJNMJECPNFHOMOMIFFPECLHJIJAMLKBMILFEKHIPLNIPMDNMGHLKJPDMKBOALMELHNOEILCCFHAFJJMBPHLBNFHIDKBNFPGHNLBEEPHCOCFLB.png",
-        "liberation": "false",
-        "1b": "false"
+        "liberation": false,
+        "1b": false
     },
     "나초보공링": {
         "Name": "나초보공링",
@@ -256,8 +266,8 @@
         "Combat": "1466415",
         "level": 210,
         "image": "https://open.api.nexon.com/static/maplestory/Character/PLHLOJLPGAKOJJNDMJEKEEPDMAMJGLENKNILNENCHBCJOCMAMANELGBMONNBPIJPCKMODFIIGBHEGHFCCBPEIDBIMOJFLINOKGAEGFDMPCCOCKFCEDJHOLIIIPMPDECNPGFDBLFCLPBEPGNMGCODPLAHGKJKIGHJEJHOKJCDIDLFNICKKCACMKEHHMHAGEIPOEOGHFAAAAHEECJAMLMMOLFDAKPAIBJCOHGKHMLBGPMAAKGKCHHJHGBPBLLHLANJ.png",
-        "liberation": "false",
-        "1b": "false"
+        "liberation": false,
+        "1b": false
     },
     "나초셔틀": {
         "Name": "나초셔틀",
@@ -266,8 +276,8 @@
         "Combat": "3058995",
         "level": 226,
         "image": "https://open.api.nexon.com/static/maplestory/Character/GJCOMFFPOJJBHLPFFHHAOPALEOKDKCPKOCCLBDOBDPHMDICBOMEBKEEEDBLMJPHKIBDJBBFHPNBKCBCDKEAPFDIKJCIGKHMJGGMKOPFDFPDNBFOFKJNJPPLHAKNPBLPFJFDENFODLFPKLILOJODLBFJLOOIDLHCDOFPGKMKIMNFMPHDFBFNDPDKAIAKNMLGIAIEKKMMLALMFHBODMANLBJJINIJDGPLHOMGLCMGMJCAHKKIMGABOOECOODLMKIHM.png",
-        "liberation": "false",
-        "1b": "false"
+        "liberation": false,
+        "1b": false
     },
     "나초소환링": {
         "Name": "나초소환링",
@@ -276,18 +286,18 @@
         "Combat": "2784809",
         "level": 210,
         "image": "https://open.api.nexon.com/static/maplestory/Character/EKAJFIBLIMJAJNOIPAHODDHIPMGEBPEINJGOAJKPNFCLJDBJJBAFMPGBJOEFAOIEIOOJNMACDHOKIAEMFEHLPNBAEFHKENLCGNCAINHGMMDPAIFKKLBAEKPEBMOJBKEBPLMMIIGACAKLIODIHDCIMCCBLNBHPMAAGMLLGCAJPPCEGOBLCEAMDKCKGJOJHCJLMDHHPKGAMOMAOLLPGPGINNLGGAMMLAEDEHMDNHKGODPDKFMNMCBADAOABNFEOJMO.png",
-        "liberation": "false",
-        "1b": "false"
+        "liberation": false,
+        "1b": false
     },
     "나초엔버": {
         "Name": "나초엔버",
         "Ocid": "8d2d8feb353d439147c6aaa1c7695f63",
         "Class": "엔젤릭버스터",
-        "Combat": "2031831",
+        "Combat": "2317778",
         "level": 210,
-        "image": "https://open.api.nexon.com/static/maplestory/Character/CGIOEKBFDNEAIMFHMAAGCIJOHPGEFJHEHJPGEEMDIOHDNMAJKLNBAEPBGCLEECCCFBANACEEMDLEPNNOEPFDGGPIPBJALLFGCIOLEIBABKNCCIPABJMMKCDLHNDEKBJNBKKFDGONDHGIDOPLKBFJHBPIBDADFONPMFBGOFBCHIKCKBFLDBHAKKEEHKBBOOIBKOCBKKJMGNBJNNMFGPCMDLGEPACACLJABPKJOLDFEOOEEAOBMHAODOAKCIGOGAHD.png",
-        "liberation": "false",
-        "1b": "false"
+        "image": "https://open.api.nexon.com/static/maplestory/Character/CGIOEKBFDNEAIMFHMAAGCIJOHPGEFJHEHJPGEEMDIOHDNMAJKLNBAEPBGCLEECCCFBANACEEMDLEPNNOEPFDGGPIPBJALLFGCIOLEIBABKNCCIPABJMMKCDLHNDEKBJNBKKFDGONDHGIDOPLKBFJHBPIBDADFONPMFBGOFBCHIKCKBFLDBHAKKEEHKBBOOIBKOCBKKJMGNBJNNMFGPCMDLGEPACACLJABIMOONOINMJMOJBLHDAJKNNMLCNOPOKC.png",
+        "liberation": false,
+        "1b": false
     },
     "나초의흑염룡": {
         "Name": "나초의흑염룡",
@@ -296,8 +306,8 @@
         "Combat": "1297918",
         "level": 210,
         "image": "https://open.api.nexon.com/static/maplestory/Character/OMGGJICGDDEDMHNOHMAKPGENBJEINMELCKNIMNGHEEDMGFIOBICFCIJEAPNAEGJNLKLDKNACHBNBNDKLAMCCGDBLEHDNJNDBLFJPKEIGCLMDPGBGDALGOFPEHGJJFBCINNFEKLBMBPIBMMGJAFEMAGPBEIHOGCLNKCNCOOOFJIFLOFAGBCONNIHFALHAAPOJCDKGPENNJANEJFIDJLJFGMHDEFDALLDCDOGPKHMIKFGGFLNMDKMDHDEGCHPIFMAM.png",
-        "liberation": "false",
-        "1b": "false"
+        "liberation": false,
+        "1b": false
     },
     "나초카드": {
         "Name": "나초카드",
@@ -306,8 +316,8 @@
         "Combat": "1521167",
         "level": 210,
         "image": "https://open.api.nexon.com/static/maplestory/Character/INJBKDLKELANJANOBDKGNBAJAPMKHJONFDHOGDJNAIKBOMGLGJGLIMOEINDLFFEHNGKEBFFOGKHBEFPKJLJKKEAPPKBGNFBIDMKFNDDHGPLEAIBPDCOANBGBENKDLLOPOJANJJFDBPMLKNLEFEJLHGFNFGLCFLOJEBBDDEBBDHFHBBMJJJIIPGGLMCEFHFCDABMKFHPJJAIABCIDEAPHFKNAJAPKMFENJLDGBPILHJDIEJGEPHNKHBOBEKAFJLAF.png",
-        "liberation": "false",
-        "1b": "false"
+        "liberation": false,
+        "1b": false
     },
     "나초텟링": {
         "Name": "나초텟링",
@@ -316,8 +326,8 @@
         "Combat": "1332308",
         "level": 210,
         "image": "https://open.api.nexon.com/static/maplestory/Character/DFKHEBHGJHHINNIFPOKILFBANLGEJDHPPCBOHPLPBOFAGGDPLMOGGIKFNHNJJIGMDMLAFKBIAKFIKLFNIPFDGPOHIDBGJNGIPLEEEJLJBCDLFBHLFPPNKMNHJINJPOKMDIGGHMPKNCAKNHACNIOLKMDEPHCDDAENFBNOEDOEJFJLJIENFFEEPHKJHKBBDDCBNKJONHPIIHCLHICDCFINACBGGAHHNOFCANKDABPCKPONDKMNODCMPFMPDHKEHPAE.png",
-        "liberation": "false",
-        "1b": "false"
+        "liberation": false,
+        "1b": false
     },
     "남은직업이거": {
         "Name": "남은직업이거",
@@ -326,8 +336,8 @@
         "Combat": "1849638",
         "level": 210,
         "image": "https://open.api.nexon.com/static/maplestory/Character/JBEIIBDHKLOBMMJLBNAMNLPKECGLMFLOMOBAMDHAMKHJANKIOHFFECDJGILCAGHIHAHODMLIMMABABNFPLKAFGNGPCJNGDBGHFCCJHKNKJOHKELHGDIHGNEOOBNODHHPAGOAFIJLIBGAIDACBCOCBONPMOILBDLNNFBLDKLHGOGIKHFELMFHKCCFAKFBBAPBACAFCGOGJBNAAFGGCAAMCPPOEDKINAJHIJCOCFIOLCMKIPHPEAFCDONHHPPGODDG.png",
-        "liberation": "false",
-        "1b": "false"
+        "liberation": false,
+        "1b": false
     },
     "던지지마세연": {
         "Name": "던지지마세연",
@@ -336,8 +346,8 @@
         "Combat": "1313104",
         "level": 210,
         "image": "https://open.api.nexon.com/static/maplestory/Character/MHMIAECBLEMLKFDHLNHLBALKIPBANLLNMNGKEKDKJCOKNGOJKBOOGGLPOOAFBHPJPGICCOJDCPJMDHEMBMIPAMINKIFEHFAJJHPHEHFEMPMNLEEJMAPAMHJKOCJDONBKAEINFKDBJLBPKJEIHMKKMKIOIGJNHNIBGOIMHMLBALMHEGMGEINKIJLFFDFGFBJBJMFIDKFAMEKKGGHOCLJNLDMOCPKBNPAPEOHKELKLCBJLDEEBNMHIFGBKHOHKAINE.png",
-        "liberation": "false",
-        "1b": "false"
+        "liberation": false,
+        "1b": false
     },
     "라만차파게티": {
         "Name": "라만차파게티",
@@ -346,8 +356,8 @@
         "Combat": "1176114",
         "level": 210,
         "image": "https://open.api.nexon.com/static/maplestory/Character/CMBDIGFEDJLILNKHLPBHBJOJBCLMGALPGEBIPCKICPPDFFBGHPDPLOCNEILOEKOBCMOOAOHGAHKGDKJELHGNKEMPFCALJJEBIPGEKJMPHFKFEFNAKMAKMDFLEBGFDOKJCNCEILBOILOPKIJCEHELAKBIOFJMCLKDMOFGADHBEKHKKPKANDDBKOJNHNGMIAHELJGOFBBLJJOKDOCIEMKLDKNLEEGENJPLAFCMJFAJKLHFKGKHEMIGAKDBFKMOLJAA.png",
-        "liberation": "false",
-        "1b": "false"
+        "liberation": false,
+        "1b": false
     },
     "레이업마무리": {
         "Name": "레이업마무리",
@@ -356,8 +366,8 @@
         "Combat": "1663419",
         "level": 210,
         "image": "https://open.api.nexon.com/static/maplestory/Character/AJHEICOHNJBMCLFBMAOEJFNAKHIPPGNFJCIEBHBFPLADIHMCFDDCGKINFEFLJHBHNOMFMNBOMEAHOHCPJGIEMGFBPFIOIBHEGNBAONEFPFPKAMMOPPPEHKFHBJEADBBNLENLBEMAFPGOGKGKGNGCLLIIMLEIFKDICCKPDDKKJDNFMEMKOHIHCODFJKAJDOILPOIJIDLGGLJOAODAIKNJGNIKHHIMEHDFONHOBCDHLMOBACGPLFGPLPAHEHBMOFMA.png",
-        "liberation": "false",
-        "1b": "false"
+        "liberation": false,
+        "1b": false
     },
     "메르5차실화": {
         "Name": "메르5차실화",
@@ -366,8 +376,8 @@
         "Combat": "1381879",
         "level": 210,
         "image": "https://open.api.nexon.com/static/maplestory/Character/BEGJCAFPKBMPCOGLOIAIIEFLCOBONPMEONJPGINFHHIFELHMNFMFIHPHNIKDPANKPOJKMFOKHAFOBFHDLPHPACFNKDPAPBKMMFDMECHDIIBFNMFNGCCBPLNDNOCGJPCOICLAOPDBONKHEMGPCADEPODLHCOEFJKOMFBBNFFPGJOFJJKBKNBAKFPADDJNLKDIICPNHMEAHFFKMOFNKNNMGLGJBCNOJMFGDFPLNJLEKEKFGNNJKDCFFNGMCLEDDFCJ.png",
-        "liberation": "false",
-        "1b": "false"
+        "liberation": false,
+        "1b": false
     },
     "메르는이제그": {
         "Name": "메르는이제그",
@@ -376,8 +386,8 @@
         "Combat": "1769942",
         "level": 210,
         "image": "https://open.api.nexon.com/static/maplestory/Character/KLBHLBHNAPONLHMLGJOIABKIHEIFJOJBLILBEKGHBLGAKEPBONBLLDNCMGOOFMMBONBPIIFPPDOIBNIIPIKLGOFEDBNHIAPHAOECPAOOGNFKLBOJBFIOFEJPMNCJGIBJBABJLPGPBLIPBKALMJLJJCFKIDGPHNBJABOIBJODKNAFNGPIACDFPAIKHMGKJAFJJPGMNFOODJOMIHGJIHFOMDEKHDLBEOMICIOCDACKIOJIPPAMKABJCAOCEEFGCCCO.png",
-        "liberation": "false",
-        "1b": "false"
+        "liberation": false,
+        "1b": false
     },
     "미에이르": {
         "Name": "미에이르",
@@ -386,8 +396,8 @@
         "Combat": "1320902",
         "level": 210,
         "image": "https://open.api.nexon.com/static/maplestory/Character/LAIECLPOHEBBAALMAAOIMIENCFGAFENFLPOFJOHPPJGLCIIMKOPIFFDOMKOFIGPDDHFLKJPDEDOHDCAGBBIIPEBACCBMJPOKDNFPIJHDLJJGKCMIHIBJMLKFFJDPCCKOGDFCIGLHPOIDCLBIANHCNJKBABOPIOKANLHKJKMGBPJINKAPNPNLHNGMHOELECGBKHLHEMJMENCEMEHMFKDFMOEGAHKCCNLBAPLJAEPIGMIJLOPCJOFBIOBGMOGCHKKI.png",
-        "liberation": "false",
-        "1b": "false"
+        "liberation": false,
+        "1b": false
     },
     "방종은해도됨": {
         "Name": "방종은해도됨",
@@ -396,8 +406,8 @@
         "Combat": "1844779",
         "level": 210,
         "image": "https://open.api.nexon.com/static/maplestory/Character/BIEPBMFPFLIFEJODJNAPOKDPDFJBPJIGDFCHPLMNAECFFJEGOPNEBOKFHEIFMIJOGEOHCIEDMKIELGFEMOJPOMPHOOEIMFHKOAFOOAFHMCAJHMJPHKHCILAEKCPIPDNEBOBAJNBIAADHGJOKOLGEGJECCBBJIBCIBPMGPHCHHFBAGCFOCMJHDCPCGCIAKOGGCLKOBLHMIKCJKGLPEPOJNIBFCPPIKCHACDCNDPBCNALFFIFNNHBPIEOINIACPJEL.png",
-        "liberation": "false",
-        "1b": "false"
+        "liberation": false,
+        "1b": false
     },
     "부스속히어로": {
         "Name": "부스속히어로",
@@ -406,8 +416,8 @@
         "Combat": "2281898",
         "level": 210,
         "image": "https://open.api.nexon.com/static/maplestory/Character/EOAJBFBBFNHFCHNIICDHGGGFFOFFBBCJCCGMEFOPGFLDDJANHJNFFKCMKBHABDJFHJPFBONBPPLBFOFEEBHHIBAPKBIEBCMKFGKFFEDFKHIGLFFKIMDBFLJCGDKOPOKOIMKPOFANMMCEBKHEDJFHPPHIHLGBABMDKGDHGBEBHPJKEDDMMKKGIHLIIAHPFDCKJCDHOIFNLNFIMCDHOGKIJIPEGHEHODNAKBDOICGLMAMBJDEEFNCAOCNNDIMDCPCO.png",
-        "liberation": "false",
-        "1b": "false"
+        "liberation": false,
+        "1b": false
     },
     "상팽혜": {
         "Name": "상팽혜",
@@ -416,8 +426,8 @@
         "Combat": "2150969",
         "level": 210,
         "image": "https://open.api.nexon.com/static/maplestory/Character/KJBDCMPLKILGECDNGLOGONHDCJBCBIABNACLGEGFMCDALDLJIOKNMLJOHJKECPELPLMAGPNEIHKBNBFDKBFGPMBENLNLFONIFFDIMJFCGNPAGEKHKNGFOCNEDAKLDEPHMKDAPONKFPJDAGDMPCHPPOMNIGNABICCPBOIPPDAODKGAEFDADPJCJIFDEGGPFOLIHGNOAHCKNLAGPCPFOEFPKELOPFKOMNIIMCICKPKPOBLPLDNCCBKCDACLCBGDEBL.png",
-        "liberation": "false",
-        "1b": "false"
+        "liberation": false,
+        "1b": false
     },
     "서울사람크뎀": {
         "Name": "서울사람크뎀",
@@ -426,18 +436,8 @@
         "Combat": "1170363",
         "level": 210,
         "image": "https://open.api.nexon.com/static/maplestory/Character/CKECFFOLFNJCHNHPMGADMKFPINEPPOOMFOHLCDBPNBAKPNPFINBGLGNOFJIPBDMEAONNLECAPIGCIIAMJNABIDGPJDMCHJCDFBJDLADFALDLJOAJIBMFPCCOIEOBEDNAFDOCHMHOGDFOEHOECKJEHOFAMCHOOOMKMMOHFMHMOHIKFNHOJBMAIBECLGNFJFBDDGBCAMHKDADHOIHPLBLCFAHADKMLJDPBFIGJFOGBOFAILDPKBBBFNDKGAHBJGKLI.png",
-        "liberation": "false",
-        "1b": "false"
-    },
-    "잉잉리리움": {
-        "Name": "잉잉리리움",
-        "Ocid": "df475274008ffb35ae3573961caaf8cd",
-        "Class": "일리움",
-        "Combat": "1764290",
-        "level": 227,
-        "image": "https://open.api.nexon.com/static/maplestory/Character/NNOKELCGMBONDNGDNJJAFNEKIGANHDBNKDGHLKHDAFOKDALJLPBJLDGFLPELLJDBLPOCJONBFNBEKEDCOLJKHNEGMDLMBGJIFCCODFAIHNMOKLACDHPICFHGDLACEEMELCBPFBHBAHALPCIEFCHPLHFPEMICONPFIPBODDGEDGGMDALDPICKLPDKFMPBNJBMGMLMLLIIFNEKKBBDFHFNLHOKCLCPCJKFKEGNJDONCEMLKMNOGMJMFMEEHBNLLPBK.png",
-        "liberation": "false",
-        "1b": "false"
+        "liberation": false,
+        "1b": false
     },
     "코코코초코볼": {
         "Name": "코코코초코볼",
@@ -446,8 +446,8 @@
         "Combat": "1951455",
         "level": 210,
         "image": "https://open.api.nexon.com/static/maplestory/Character/BKHHDAOPGEFMKBEEGIGPGBECPBNLKJAPEOLNAEEFFGEAKIIMLHCNPADAHIIHCECDMJCMAKJKBFJKPNBHPPDCIBDBFCKOMNNEIDPCKFDBHFDEAIBCBCJOBJKGCEAPFLMIAHDEGFJPLLCNADPIAICDPPFEPOKJBIDLLIAJJGDEIACIPCGBIJMHFDPCGADDKMCCIBBCPMLIADALOGEBPGODCBPIENBBPILGJKBGIMADCPCEBNDOCOPDPHJFIBDOPHLK.png",
-        "liberation": "false",
-        "1b": "false"
+        "liberation": false,
+        "1b": false
     },
     "팔락조동아리": {
         "Name": "팔락조동아리",
@@ -456,8 +456,8 @@
         "Combat": "1993556",
         "level": 210,
         "image": "https://open.api.nexon.com/static/maplestory/Character/NEKECPICEEAFDKJCONAGELPJICBAOILEIPMPBOJPGOGEAGHKOAECMDLJBJICCKGCDEPONABGLIKMKDBMLFFOGPKIEFFHDMFODBHHHJHEKEFACOOPBAJPGLHNHAGNGOGPGGAHIJLNINMJHMKHOGIIOGGLNOLMPPDCLNBLCEOEOHJLDDGFJOGLAGIDFOMDOCHJDCJJMAPALDOAALGNKIDAOENHOGCEPHNGAJHKMBDIOPCHPLECOAKIKAKIKNPHHLHH.png",
-        "liberation": "false",
-        "1b": "false"
+        "liberation": false,
+        "1b": false
     },
     "에디셔널칼리": {
         "Name": "에디셔널칼리",
@@ -466,7 +466,7 @@
         "Combat": "93621",
         "level": 205,
         "image": "https://open.api.nexon.com/static/maplestory/Character/JINKMFAFJHCLAPFMEAGEAPAOPEHJIEJHKGJOCEIBDMPMDIDKIGPPCCBJOGBPONMIBACLIIHNAHEPPDOPNCICFCNKPLPANJLNLNGNKMOMDIGAENDJBHMAHHGEDBBNONLJCJJECOBOMMFAIGDGAMLDFBMJJCKOOPNNHEBCDAAGMDHJGOPABCKFJJKOPJJLKHGJHNODCACNCPOLCMHHHNFKEFMNOIPGBMBHIIFKONGPEKJCDMKNHPALKMOOLKNOGPKG.png",
-        "liberation": "false",
-        "1b": "false"
+        "liberation": false,
+        "1b": false
     }
 }

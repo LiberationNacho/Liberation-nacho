@@ -35,14 +35,14 @@ class Curl:
     # 캐릭터의 스텟 크롤링
     def get_character_stat(self, ocid_value, day, headers):
         urlString = "https://open.api.nexon.com/maplestory/v1/character/stat?ocid=" + ocid_value + "&date=" + str(day)
-        print(urlString)
+        # print(urlString)
         response = requests.get(urlString, headers=headers)
         return response.json()
 
     # 캐릭터의 기본 정보 크롤링
     def get_character_basicInfo(self, ocid_value, day, headers):
         urlString = "https://open.api.nexon.com/maplestory/v1/character/basic?ocid=" + ocid_value + "&date=" + str(day)
-        print(urlString)
+        # print(urlString)
         response = requests.get(urlString, headers=headers)
         return response.json()
 
@@ -168,7 +168,7 @@ class Curl:
 
                 if character_stat_data is not None:
                     print(character_name)
-                    print(character_stat_data)
+                    #print(character_stat_data)
                 else:
                     print("combat information not foun.")
                     return
@@ -203,8 +203,8 @@ class Curl:
 
                 if character_basicInfo_data is not None:
                     json_data_str = json.dumps(character_basicInfo_data)
-                    print(character_name)
-                    print(json_data_str)
+                    # print(character_name)
+                    # print(json_data_str)
                 else:
                     print("장비 정보를 찾을 수 없습니다.")
                     return
