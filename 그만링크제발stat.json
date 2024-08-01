@@ -1,14 +1,14 @@
 {
-    "date": "2024-07-29T00:00+09:00",
+    "date": "2024-07-31T00:00+09:00",
     "character_class": "카데나",
     "final_stat": [
         {
             "stat_name": "최소 스탯공격력",
-            "stat_value": "1188018"
+            "stat_value": "1488289"
         },
         {
             "stat_name": "최대 스탯공격력",
-            "stat_value": "1320019"
+            "stat_value": "1653654"
         },
         {
             "stat_name": "데미지",
@@ -24,11 +24,11 @@
         },
         {
             "stat_name": "방어율 무시",
-            "stat_value": "88.08"
+            "stat_value": "90.52"
         },
         {
             "stat_name": "크리티컬 확률",
-            "stat_value": "103"
+            "stat_value": "111"
         },
         {
             "stat_name": "크리티컬 데미지",
@@ -44,7 +44,7 @@
         },
         {
             "stat_name": "방어력",
-            "stat_value": "11935"
+            "stat_value": "13384"
         },
         {
             "stat_name": "이동속도",
@@ -60,7 +60,7 @@
         },
         {
             "stat_name": "아케인포스",
-            "stat_value": "210"
+            "stat_value": "280"
         },
         {
             "stat_name": "어센틱포스",
@@ -68,27 +68,27 @@
         },
         {
             "stat_name": "STR",
-            "stat_value": "1452"
+            "stat_value": "1700"
         },
         {
             "stat_name": "DEX",
-            "stat_value": "2212"
+            "stat_value": "2300"
         },
         {
             "stat_name": "INT",
-            "stat_value": "1920"
+            "stat_value": "1802"
         },
         {
             "stat_name": "LUK",
-            "stat_value": "10201"
+            "stat_value": "11299"
         },
         {
             "stat_name": "HP",
-            "stat_value": "31228"
+            "stat_value": "34693"
         },
         {
             "stat_name": "MP",
-            "stat_value": "18544"
+            "stat_value": "18850"
         },
         {
             "stat_name": "AP 배분 STR",
@@ -120,11 +120,11 @@
         },
         {
             "stat_name": "메소 획득량",
-            "stat_value": "16"
+            "stat_value": "12"
         },
         {
             "stat_name": "버프 지속시간",
-            "stat_value": "67"
+            "stat_value": "61"
         },
         {
             "stat_name": "공격 속도",
@@ -164,15 +164,15 @@
         },
         {
             "stat_name": "공격력",
-            "stat_value": "1564"
+            "stat_value": "1771"
         },
         {
             "stat_name": "마력",
-            "stat_value": "259"
+            "stat_value": "299"
         },
         {
             "stat_name": "전투력",
-            "stat_value": "4717296"
+            "stat_value": "5348904"
         },
         {
             "stat_name": "소환수 지속시간 증가",
