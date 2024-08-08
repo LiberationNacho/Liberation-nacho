@@ -1,38 +1,38 @@
 {
-    "date": "2024-08-02T00:00+09:00",
+    "date": "2024-08-07T00:00+09:00",
     "character_class": "미하일",
     "final_stat": [
         {
             "stat_name": "최소 스탯공격력",
-            "stat_value": "910617"
+            "stat_value": "1313604"
         },
         {
             "stat_name": "최대 스탯공격력",
-            "stat_value": "1011796"
+            "stat_value": "1459559"
         },
         {
             "stat_name": "데미지",
-            "stat_value": "39.00"
+            "stat_value": "44.00"
         },
         {
             "stat_name": "보스 몬스터 데미지",
-            "stat_value": "236.00"
+            "stat_value": "196.00"
         },
         {
             "stat_name": "최종 데미지",
-            "stat_value": "43.75"
+            "stat_value": "79.69"
         },
         {
             "stat_name": "방어율 무시",
-            "stat_value": "84.88"
+            "stat_value": "74.80"
         },
         {
             "stat_name": "크리티컬 확률",
-            "stat_value": "91"
+            "stat_value": "83"
         },
         {
             "stat_name": "크리티컬 데미지",
-            "stat_value": "61.00"
+            "stat_value": "71.00"
         },
         {
             "stat_name": "상태이상 내성",
@@ -44,7 +44,7 @@
         },
         {
             "stat_name": "방어력",
-            "stat_value": "41028"
+            "stat_value": "41090"
         },
         {
             "stat_name": "이동속도",
@@ -68,27 +68,27 @@
         },
         {
             "stat_name": "STR",
-            "stat_value": "9990"
+            "stat_value": "9926"
         },
         {
             "stat_name": "DEX",
-            "stat_value": "2183"
+            "stat_value": "2184"
         },
         {
             "stat_name": "INT",
-            "stat_value": "1763"
+            "stat_value": "1885"
         },
         {
             "stat_name": "LUK",
-            "stat_value": "1481"
+            "stat_value": "1793"
         },
         {
             "stat_name": "HP",
-            "stat_value": "44099"
+            "stat_value": "44133"
         },
         {
             "stat_name": "MP",
-            "stat_value": "14313"
+            "stat_value": "13791"
         },
         {
             "stat_name": "AP 배분 STR",
@@ -120,7 +120,7 @@
         },
         {
             "stat_name": "메소 획득량",
-            "stat_value": "12"
+            "stat_value": "16"
         },
         {
             "stat_name": "버프 지속시간",
@@ -132,7 +132,7 @@
         },
         {
             "stat_name": "일반 몬스터 데미지",
-            "stat_value": "2.00"
+            "stat_value": "42.00"
         },
         {
             "stat_name": "재사용 대기시간 감소 (초)",
@@ -160,19 +160,19 @@
         },
         {
             "stat_name": "추가 경험치 획득",
-            "stat_value": "12.00"
+            "stat_value": "32.00"
         },
         {
             "stat_name": "공격력",
-            "stat_value": "969"
+            "stat_value": "1086"
         },
         {
             "stat_name": "마력",
-            "stat_value": "261"
+            "stat_value": "298"
         },
         {
             "stat_name": "전투력",
-            "stat_value": "2089587"
+            "stat_value": "1721304"
         },
         {
             "stat_name": "소환수 지속시간 증가",
