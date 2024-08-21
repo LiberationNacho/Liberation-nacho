@@ -1,5 +1,5 @@
 {
-    "date": "2024-08-07T00:00+09:00",
+    "date": "2024-08-20T00:00+09:00",
     "character_name": "남은직업이거",
     "world_name": "스카니아",
     "character_gender": "여",
@@ -11,6 +11,6 @@
     "character_guild_name": null,
     "character_image": "https://open.api.nexon.com/static/maplestory/Character/JBEIIBDHKLOBMMJLBNAMNLPKECGLMFLOMOBAMDHAMKHJANKIOHFFECDJGILCAGHIHAHODMLIMMABABNFPLKAFGNGPCJNGDBGHFCCJHKNKJOHKELHGDIHGNEOOBNODHHPAGOAFIJLIBGAIDACBCOCBONPMOILBDLNNFBLDKLHGOGIKHFELMFHKCCFAKFBBAPBACAFCGOGJBNAAFGGCAAMCPPOEDKINAJHIJCOCFIOLCMKIPHPEAFCDONHHPPGODDG.png",
     "character_date_create": "2018-04-05T00:00+09:00",
-    "access_flag": "false",
+    "access_flag": "true",
     "liberation_quest_clear_flag": "false"
 }

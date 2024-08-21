@@ -1,14 +1,14 @@
 {
-    "date": "2024-08-07T00:00+09:00",
+    "date": "2024-08-20T00:00+09:00",
     "character_class": "바이퍼",
     "final_stat": [
         {
             "stat_name": "최소 스탯공격력",
-            "stat_value": "1234626"
+            "stat_value": "1254490"
         },
         {
             "stat_name": "최대 스탯공격력",
-            "stat_value": "1371805"
+            "stat_value": "1393877"
         },
         {
             "stat_name": "데미지",
@@ -28,7 +28,7 @@
         },
         {
             "stat_name": "크리티컬 확률",
-            "stat_value": "91"
+            "stat_value": "89"
         },
         {
             "stat_name": "크리티컬 데미지",
@@ -44,7 +44,7 @@
         },
         {
             "stat_name": "방어력",
-            "stat_value": "20822"
+            "stat_value": "21091"
         },
         {
             "stat_name": "이동속도",
@@ -68,27 +68,27 @@
         },
         {
             "stat_name": "STR",
-            "stat_value": "10466"
+            "stat_value": "10674"
         },
         {
             "stat_name": "DEX",
-            "stat_value": "2389"
+            "stat_value": "2269"
         },
         {
             "stat_name": "INT",
-            "stat_value": "1873"
+            "stat_value": "1893"
         },
         {
             "stat_name": "LUK",
-            "stat_value": "1372"
+            "stat_value": "1364"
         },
         {
             "stat_name": "HP",
-            "stat_value": "38374"
+            "stat_value": "39469"
         },
         {
             "stat_name": "MP",
-            "stat_value": "19334"
+            "stat_value": "20362"
         },
         {
             "stat_name": "AP 배분 STR",
@@ -144,7 +144,7 @@
         },
         {
             "stat_name": "재사용 대기시간 미적용",
-            "stat_value": "2"
+            "stat_value": "3"
         },
         {
             "stat_name": "속성 내성 무시",
@@ -172,7 +172,7 @@
         },
         {
             "stat_name": "전투력",
-            "stat_value": "2292090"
+            "stat_value": "2329766"
         },
         {
             "stat_name": "소환수 지속시간 증가",

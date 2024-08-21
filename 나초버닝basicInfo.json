@@ -1,16 +1,16 @@
 {
-    "date": "2024-08-07T00:00+09:00",
+    "date": "2024-08-20T00:00+09:00",
     "character_name": "나초버닝",
     "world_name": "스카니아",
     "character_gender": "여",
     "character_class": "블래스터",
     "character_class_level": "5",
-    "character_level": 210,
-    "character_exp": 3732877662,
-    "character_exp_rate": "46.917",
+    "character_level": 211,
+    "character_exp": 7458356117,
+    "character_exp_rate": "84.451",
     "character_guild_name": "삼각과자군단",
-    "character_image": "https://open.api.nexon.com/static/maplestory/Character/FDONEKNDAMEPEILMCCOPCKMPJAPLAOHDCMEJEIOHFGFKNILLIEKJGMEECBHBCNIBKHJAINOHOLCPPIKPODJDKBLNDPCIOJIKINOICOJBKNKLIOKLJNHLCOCHOMCKNDONCGKGGLILOAFLFKCMMKDDJNMJECPNFHOMOMIFFPECLHJIJAMLKBMILFEKHIPLNIPMDNMGHLKJPDMKBOALMELHNOEILCCFHAFJJMBPHLBNFHIDKBNFPGHNLBEEPHCOCFLB.png",
+    "character_image": "https://open.api.nexon.com/static/maplestory/Character/FDONEKNDAMEPEILMCCOPCKMPJAPLAOHDCMEJEIOHFGFKNILLIEKJGMEECBHBCNIBKHJAINOHOLCPPIKPODJDKBLNDPCIOJIKINOICOJBKNKLIOKLJNHLCOCHOMCKNDONCGKGGLILOAFLFKCMMKDDJNMJECPNFHOMOMIFFPECLHJIJAMLKBMILFEKHIPLNIPMDNMGHLKJPDMKBOALMELHNOEILCCFHAFJMEGGLAKDKLDOGAPBABGAHMJAMEABCDJD.png",
     "character_date_create": "2016-12-22T00:00+09:00",
-    "access_flag": "false",
+    "access_flag": "true",
     "liberation_quest_clear_flag": "false"
 }

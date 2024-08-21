@@ -32,11 +32,9 @@ class TableSetter:
     # 모든 크롤링을 시작하여 메인 테이블 세팅
     def set(self):
         print("start Curling")
-        '''
         # 대기(1초) 코드 추가 (실제 서비스에서는 필요 없음), 캐릭별 기본 정보 크롤링
         time.sleep(2)
         self.Curlclass.set_OcidJSON()
-        '''
 
         # 대기(1초) 코드 추가 (실제 서비스에서는 필요 없음), 캐릭별 기본 정보 크롤링
         time.sleep(2)
@@ -75,7 +73,7 @@ class TableSetter:
         for character_data in self.__mainTable:
             character_name = character_data.get('Name')
             # 캐릭터 이름 체크
-            # print(character_name)
+            print(character_name)
 
             # Ocid 파일 열기
             with open(character_name + "Ocid.json", 'r', encoding='utf-8') as f:
@@ -83,7 +81,7 @@ class TableSetter:
             
             ocid = data["ocid"]
             # Ocid 체크
-            # print(ocid)
+            print(ocid)
 
             character_data["Ocid"] = ocid
 
@@ -94,14 +92,14 @@ class TableSetter:
         for character_data in self.__mainTable:
             character_name = character_data.get('Name')
             # 캐릭터 이름 체크
-            # print(character_name)
+            print(character_name)
 
             # Ocid 파일 열기
             with open(character_name + "basicInfo.json", 'r', encoding='utf-8') as f:
                 data = json.load(f)
                 # print(data)
             level = data["character_level"]
-            # print(level)
+            print(level)
 
             character_data["level"] = level
 
@@ -112,12 +110,12 @@ class TableSetter:
         for character_data in self.__mainTable:
             character_name = character_data.get('Name')
             # 캐릭터 이름 체크
-            # print(character_name)
+            print(character_name)
 
             # Ocid 파일 열기
             with open(character_name + "stat.json", 'r', encoding='utf-8') as f:
                 data = json.load(f)
-                # print(data)
+                print(data)
 
             i = 0
             while data["final_stat"][i]["stat_name"] != "전투력":
@@ -143,7 +141,7 @@ class TableSetter:
         for character_data in self.__mainTable:
             character_name = character_data.get('Name')
             # 캐릭터 이름 체크
-            # print(character_name)
+            print(character_name)
 
             # Ocid 파일 열기
             with open(character_name + "basicInfo.json", 'r', encoding='utf-8') as f:
@@ -151,7 +149,7 @@ class TableSetter:
                 # print(data)
 
             image = data["character_image"]
-            # print(image)
+            print(image)
 
             character_data["image"] = image
     
@@ -180,12 +178,12 @@ class TableSetter:
         for character_data in self.__mainTable:
             character_name = character_data.get('Name')
             # 캐릭터 이름 체크
-            # print(character_name)
+            print(character_name)
 
             # Ocid 파일 열기
             with open(character_name + "stat.json", 'r', encoding='utf-8') as f:
                 data = json.load(f)
-                # print(data)
+                print(data)
 
             i = 0
             while data["final_stat"][i]["stat_name"] != "전투력":
@@ -201,12 +199,12 @@ class TableSetter:
         for character_data in self.__mainTable:
             character_name = character_data.get('Name')
             # 캐릭터 이름 체크
-            # print(character_name)
+            print(character_name)
 
             # Ocid 파일 열기
             with open(character_name + "basicInfo.json", 'r', encoding='utf-8') as f:
                 data = json.load(f)
-                # print(data)
+                print(data)
             Class = data["character_class"]
             print(Class)
 
