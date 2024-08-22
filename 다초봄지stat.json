@@ -1,18 +1,18 @@
 {
-    "date": "2024-08-20T00:00+09:00",
+    "date": "2024-08-21T00:00+09:00",
     "character_class": "나이트로드",
     "final_stat": [
         {
             "stat_name": "최소 스탯공격력",
-            "stat_value": "7901718"
+            "stat_value": "12521253"
         },
         {
             "stat_name": "최대 스탯공격력",
-            "stat_value": "9188043"
+            "stat_value": "14559595"
         },
         {
             "stat_name": "데미지",
-            "stat_value": "66.00"
+            "stat_value": "107.00"
         },
         {
             "stat_name": "보스 몬스터 데미지",
@@ -20,19 +20,19 @@
         },
         {
             "stat_name": "최종 데미지",
-            "stat_value": "35.00"
+            "stat_value": "53.90"
         },
         {
             "stat_name": "방어율 무시",
-            "stat_value": "93.08"
+            "stat_value": "94.46"
         },
         {
             "stat_name": "크리티컬 확률",
-            "stat_value": "118"
+            "stat_value": "128"
         },
         {
             "stat_name": "크리티컬 데미지",
-            "stat_value": "74.00"
+            "stat_value": "108.00"
         },
         {
             "stat_name": "상태이상 내성",
@@ -44,7 +44,7 @@
         },
         {
             "stat_name": "방어력",
-            "stat_value": "24191"
+            "stat_value": "25813"
         },
         {
             "stat_name": "이동속도",
@@ -60,7 +60,7 @@
         },
         {
             "stat_name": "아케인포스",
-            "stat_value": "1345"
+            "stat_value": "1365"
         },
         {
             "stat_name": "어센틱포스",
@@ -68,27 +68,27 @@
         },
         {
             "stat_name": "STR",
-            "stat_value": "2896"
+            "stat_value": "2901"
         },
         {
             "stat_name": "DEX",
-            "stat_value": "4187"
+            "stat_value": "4191"
         },
         {
             "stat_name": "INT",
-            "stat_value": "2508"
+            "stat_value": "2511"
         },
         {
             "stat_name": "LUK",
-            "stat_value": "31638"
+            "stat_value": "34610"
         },
         {
             "stat_name": "HP",
-            "stat_value": "48393"
+            "stat_value": "51858"
         },
         {
             "stat_name": "MP",
-            "stat_value": "33331"
+            "stat_value": "33925"
         },
         {
             "stat_name": "AP 배분 STR",
@@ -164,15 +164,15 @@
         },
         {
             "stat_name": "공격력",
-            "stat_value": "1792"
+            "stat_value": "1831"
         },
         {
             "stat_name": "마력",
-            "stat_value": "864"
+            "stat_value": "865"
         },
         {
             "stat_name": "전투력",
-            "stat_value": "15667541"
+            "stat_value": "15656268"
         },
         {
             "stat_name": "소환수 지속시간 증가",

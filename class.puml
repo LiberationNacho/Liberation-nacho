@@ -4,56 +4,8 @@ package java.Liberation.nacho {
 
     package java.Liberation.nacho.service {
 
-        interface ClassService<T> {
-            + join(t: T): void
-            + find(): List<T>
-            + getByName(name: String): Optional<T>
-            + update(name: String, t: T): void
-            + deleteByName(name: String): void
-        }
-
-        class CharacterService {
-            - final CharacterRepository<Character> characterRepository
-
-            + CharacterService(characterRepository: CharacterRepository<Character>)
-            + join(character: Character): void
-            - validateDuplicatedMember(character: Character): void
-            + find(): List<Character>
-            + getByName(name: String): Optional<Character>
-            + update(name: String, updatedCharacter: Character): void
-            + deleteByName(name: String): void
-        }
-
-        class CharacterBossService {
-            + join(characterBoss: CharacterBoss): void
-            + find(): List<CharacterBoss>
-            + getByName(name: String): Optional<CharacterBoss>
-            + update(name: String, characterBoss: CharacterBoss): void
-            + deleteByName(name: String): void
-        }
-
-        class CharacterExpService {
-            + join(characterExp: CharacterExp): void
-            + find(): List<CharacterExp>
-            + getByName(name: String): Optional<CharacterExp>
-            + update(name: String, characterExp: CharacterExp): void
-            + deleteByName(name: String): void
-        }
-
-        class ResultService {
-            + join(result: Result): void
-            + find(): List<Result>
-            + getByName(name: String): Optional<Result>
-            + update(name: String, result: Result): void
-            + deleteByName(name: String): void
-        }
-
-        class UnionService {
-            + join(union: Union): void
-            + find(): List<Union>
-            + getByName(name: String): Optional<Union>
-            + update(name: String, union: Union): void
-            + deleteByName(name: String): void
+        class DataProcessorService {
+            // Add methods here if needed
         }
 
         abstract class ApiService {
@@ -64,26 +16,25 @@ package java.Liberation.nacho {
             + handleApiCall(baseUrl: String, queryParams: String...): String
         }
 
-        class CharacterCurlService {
+        class CurlService {
             - String apiKey
             - final MemoryCharacterRepository characterRepository
-            - final MemoryCharacterExpRepository characterExpRepository
+            - final MemoryExpRepository expRepository
+            - final MemorySymbolRepository symbolRepository
             - String date
 
-            + CharacterCurlService(characterRepository: MemoryCharacterRepository, characterExpRepository: MemoryCharacterExpRepository)
-            + getCharacterOcid(characterName: String): String
-            + getCharacterInfo(ocid: String): String
-            + getCharacterStat(ocid: String): String
-            + getCharacterSymbol(ocid: String): String
-            + getCharacterSkill(ocid: String, grade: int): String
-            + getCharacterHexaCore(ocid: String): String
-            + getCharacterUnion(ocid: String): String
-            + updateCharacterOcid(): void throws IOException, InterruptedException
-            + updateCharacterInfo(): void throws IOException, InterruptedException
-            + updateCharacterStat(): void throws IOException, InterruptedException
-            + updateCharacterSymbol(): void throws IOException, InterruptedException
-            + updateCharacterSkill(): void throws IOException, InterruptedException
-            + updateCharacterHexaCore(): void throws IOException, InterruptedException
+            + CurlService(characterRepository: MemoryCharacterRepository, expRepository: MemoryExpRepository, symbolRepository: MemorySymbolRepository)
+
+            + getOcid(characterName: String): String
+            + getInfo(ocid: String): String
+            + getStat(ocid: String): String
+            + getSymbol(ocid: String): String
+            + getUnion(ocid: String): String
+
+            + updateOcid(): void throws IOException, InterruptedException
+            + updateInfo(): void throws IOException, InterruptedException
+            + updateStat(): void throws IOException, InterruptedException
+            + updateSymbol(): void throws IOException, InterruptedException
         }
 
         class UnionCurlService {
@@ -99,9 +50,58 @@ package java.Liberation.nacho {
         interface CharacterRepository<T> {
             + init(): void
             + load(): void
-            + save(character: T): void
+            + save(): void
+            + put(character: T): void
             + findByName(name: String): Optional<T>
             + findAll(): List<T>
+            + deleteByName(name: String): void
+        }
+
+        class MemoryCharacterRepository {
+            - static Map<String, CharacterInfo> characterStore
+
+            + init(): void
+            + load(): void
+            + save(): void
+            + put(character: CharacterInfo): void
+            + findByName(name: String): Optional<CharacterInfo>
+            + findAll(): List<CharacterInfo>
+            + deleteByName(name: String): void
+        }
+
+        class MemoryBossRepository {
+            - static Map<String, CharacterBoss> characterBossStore
+
+            + init(): void
+            + load(): void
+            + save(): void
+            + put(characterBoss: CharacterBoss): void
+            + findByName(name: String): Optional<CharacterBoss>
+            + findAll(): List<CharacterBoss>
+            + deleteByName(name: String): void
+        }
+
+        class MemoryExpRepository {
+            - static Map<String, CharacterExp> characterExpStore
+
+            + init(): void
+            + load(): void
+            + save(): void
+            + put(characterExp: CharacterExp): void
+            + findByName(name: String): Optional<CharacterExp>
+            + findAll(): List<CharacterExp>
+            + deleteByName(name: String): void
+        }
+
+        class MemorySymbolRepository {
+            - static Map<String, CharacterSymbol> characterSymbolStore
+
+            + init(): void
+            + load(): void
+            + save(): void
+            + put(characterExp: CharacterSymbol): void
+            + findByName(name: String): Optional<CharacterSymbol>
+            + findAll(): List<CharacterSymbol>
             + deleteByName(name: String): void
         }
 
@@ -110,39 +110,6 @@ package java.Liberation.nacho {
             + load(): void
             + save(t: T): void
             + get(): Optional<T>
-        }
-
-        class MemoryCharacterRepository {
-            - static Map<String, Character> characterStore
-
-            + init(): void
-            + load(): void
-            + save(character: Character): void
-            + findByName(name: String): Optional<Character>
-            + findAll(): List<Character>
-            + deleteByName(name: String): void
-        }
-
-        class MemoryCharacterBossRepository {
-            - static Map<String, CharacterBoss> characterBossStore
-
-            + init(): void
-            + load(): void
-            + save(characterBoss: CharacterBoss): void
-            + findByName(name: String): Optional<CharacterBoss>
-            + findAll(): List<CharacterBoss>
-            + deleteByName(name: String): void
-        }
-
-        class MemoryCharacterExpRepository {
-            - static Map<String, CharacterExp> characterExpStore
-
-            + init(): void
-            + load(): void
-            + save(characterExp: CharacterExp): void
-            + findByName(name: String): Optional<CharacterExp>
-            + findAll(): List<CharacterExp>
-            + deleteByName(name: String): void
         }
 
         class MemoryResultRepository {
@@ -166,39 +133,41 @@ package java.Liberation.nacho {
 
     package java.Liberation.nacho.domain {
 
-        class Character {
+        class Character{
             - String name
             - String ocid
-            - String characterClass
-            - int finalCombat
+            - String job
             - int level
             - String image
+            
+            + getName(): String
+            + getOcid(): String
+            + getjob(): String
+            + getLevel(): int
+            + getImage(): String
+            
+            + setName(name: String): void
+            + setOcid(ocid: String): void
+            + setjob(job: String): void
+            + setLevel(level: int): void
+            + setImage(image: String): void
+        }
+
+        class CharacterInfo {
+            - int combat
             - boolean liberation
             - boolean millionSuccess
 
-            + getName(): String
-            + getOcid(): String
-            + getCharacterClass(): String
-            + getFinalCombat(): int
-            + getLevel(): int
-            + getImage(): String
+            + getCombat(): int
             + getLiberation(): boolean
             + getMillionSuccess(): boolean
 
-            + setName(name: String): void
-            + setOcid(ocid: String): void
-            + setCharacterClass(characterClass: String): void
-            + setFinalCombat(finalCombat: int): void
-            + setLevel(level: int): void
-            + setImage(image: String): void
+            + setCombat(combat: int): void
             + setLiberation(liberation: boolean): void
             + setMillionSuccess(millionSuccess: boolean): void
         }
 
         class CharacterBoss {
-            - String name
-            - String characterClass
-            - String image
             - boolean vanLeon
             - boolean akayrum
             - boolean magnus
@@ -208,9 +177,6 @@ package java.Liberation.nacho {
             - boolean will
             - boolean verusHilla
 
-            + getName(): String
-            + getCharacterClass(): String
-            + getImage(): String
             + isVanLeon(): boolean
             + isAkayrum(): boolean
             + isMagnus(): boolean
@@ -220,9 +186,6 @@ package java.Liberation.nacho {
             + isWill(): boolean
             + isVerusHilla(): boolean
 
-            + setName(name: String): void
-            + setCharacterClass(characterClass: String): void
-            + setImage(image: String): void
             + setVanLeon(vanLeon: boolean): void
             + setAkayrum(akayrum: boolean): void
             + setMagnus(magnus: boolean): void
@@ -234,26 +197,21 @@ package java.Liberation.nacho {
         }
 
         class CharacterExp {
-            - String name
-            - String ocid
-            - String characterClass
             - Map<String, Integer> character_level
             - Map<String, Integer> character_exp
             - Map<String, Integer> character_exp_rate
 
-            + getName(): String
-            + getOcid(): String
-            + getCharacterClass(): String
             + getCharacter_level(): Map<String, Integer>
             + getCharacter_exp(): Map<String, Integer>
             + getCharacter_exp_rate(): Map<String, Integer>
 
-            + setName(name: String): void
-            + setOcid(ocid: String): void
-            + setCharacterClass(characterClass: String): void
             + setCharacter_level(character_level: Map<String, Integer>): void
             + setCharacter_exp(character_exp: Map<String, Integer>): void
             + setCharacter_exp_rate(character_exp_rate: Map<String, Integer>): void
+        }
+
+        class CharacterSymbol{
+
         }
 
         class Result {
@@ -284,25 +242,25 @@ package java.Liberation.nacho {
 
         class Union {
             - String date
-            - int unionLevel
-            - String unionGrade
-            - int unionArtifactLevel
-            - int unionArtifactExp
-            - int unionArtifactPoint
+            - int level
+            - String grade
+            - int artifactLevel
+            - int artifactExp
+            - int artifactPoint
 
             + getDate(): String
-            + getUnionLevel(): int
-            + getUnionGrade(): String
-            + getUnionArtifactLevel(): int
-            + getUnionArtifactExp(): int
-            + getUnionArtifactPoint(): int
+            + getLevel(): int
+            + getGrade(): String
+            + getArtifactLevel(): int
+            + getArtifactExp(): int
+            + getArtifactPoint(): int
 
             + setDate(date: String): void
-            + setUnionLevel(unionLevel: int): void
-            + setUnionGrade(unionGrade: String): void
-            + setUnionArtifactLevel(unionArtifactLevel: int): void
-            + setUnionArtifactExp(unionArtifactExp: int): void
-            + setUnionArtifactPoint(unionArtifactPoint: int): void
+            + setLevel(level: int): void
+            + setGrade(grade: String): void
+            + setArtifactLevel(artifactLevel: int): void
+            + setArtifactExp(artifactExp: int): void
+            + setArtifactPoint(artifactPoint: int): void
         }
     }
 
@@ -317,22 +275,11 @@ package java.Liberation.nacho {
             + static <T> T loadJson(filePath: String, valueTypeRef: TypeReference<T>): T throws IOException
             + static <T> T extractFromJson(jsonData: String, data: String): T throws IOException
         }
-
-        class DataProcessor {
-            // Add methods here if needed
-        }
     }
 
     package java.Liberation.nacho.controller {
 
         class HomeController {
-            - final CharacterService characterService
-            - final CharacterCurlService characterCurlService
-
-            + HomeController(characterService: CharacterService, characterCurlService: CharacterCurlService)
-            + list(model: Model): String
-            + expHistory(): String
-            + getCharacterOcid(model: Model): String
         }
     }
 
@@ -340,69 +287,44 @@ package java.Liberation.nacho {
 
         class SpringConfig {
             + memoryCharacterRepository(): MemoryCharacterRepository
-            + memoryCharacterExpRepository(): MemoryCharacterExpRepository
-            + memoryCharacterBossRepository(): MemoryCharacterBossRepository
+            + memoryExpRepository(): MemoryExpRepository
+            + memoryBossRepository(): MemoryBossRepository
             + memoryUnionRepository(): MemoryUnionRepository
             + memoryResultRepository(): MemoryResultRepository
             + restTemplate(): RestTemplate
-            + characterCurlService(): CharacterCurlService
-            + characterService(): CharacterService
-            + characterBossService(): CharacterBossService
-            + characterExpService(): CharacterExpService
-            + resultService(): ResultService
-            + unionService(): UnionService
+            + curlService(): CurlService
         }
     }
 
-    HomeController --> CharacterService : Uses
-    HomeController --> CharacterCurlService : Uses
-
-    CharacterService --> MemoryCharacterRepository : Uses
-    CharacterCurlService --> MemoryCharacterRepository : Uses
-    CharacterCurlService --> MemoryCharacterExpRepository : Uses
-    UnionCurlService --> MemoryUnionRepository : Uses
-
-    CharacterService --> Character : Manages
-    CharacterBossService --> CharacterBoss : Manages
-    CharacterExpService --> CharacterExp : Manages
-    ResultService --> Result : Manages
-    UnionService --> Union : Manages
-
-    MemoryCharacterRepository --> Character : Manages
-    MemoryCharacterBossRepository --> CharacterBoss : Manages
-    MemoryCharacterExpRepository --> CharacterExp : Manages
+    MemoryCharacterRepository --> CharacterInfo : Manages
+    MemoryBossRepository --> CharacterBoss : Manages
+    MemoryExpRepository --> CharacterExp : Manages
+    MemorySymbolRepository --> CharacterSymbol : Manages
     MemoryResultRepository --> Result : Manages
     MemoryUnionRepository --> Union : Manages
 
-    MemoryCharacterBossRepository ..> JsonDataHandler : Uses
+    MemoryBossRepository ..> JsonDataHandler : Uses
     MemoryResultRepository ..> JsonDataHandler : Uses
     MemoryUnionRepository ..> JsonDataHandler : Uses
 
-    ClassService <|.. CharacterService
-    ClassService <|.. CharacterBossService
-    ClassService <|.. CharacterExpService
-    ClassService <|.. ResultService
-    ClassService <|.. UnionService
+    CharacterInfo --|> Character
+    CharacterBoss --|> Character
+    CharacterExp --|> Character
+    CharacterSymbol --|> Character
 
-    ApiService <|-- CharacterCurlService
-    ApiService <|-- UnionCurlService
-    CharacterRepository <|.. MemoryCharacterRepository
-    CharacterRepository <|.. MemoryCharacterBossRepository
-    CharacterRepository <|.. MemoryCharacterExpRepository
-    SingleRepository <|.. MemoryResultRepository
-    SingleRepository <|.. MemoryUnionRepository
+    CurlService --|> ApiService
+    UnionCurlService --|> ApiService
+    MemoryCharacterRepository ..|> CharacterRepository
+    MemoryBossRepository ..|> CharacterRepository
+    MemoryExpRepository ..|> CharacterRepository
+    MemoryResultRepository ..|> SingleRepository
+    MemoryUnionRepository ..|> SingleRepository
 
     SpringConfig --> MemoryCharacterRepository : @Bean
-    SpringConfig --> MemoryCharacterExpRepository : @Bean
-    SpringConfig --> MemoryCharacterBossRepository : @Bean
+    SpringConfig --> MemoryExpRepository : @Bean
+    SpringConfig --> MemoryBossRepository : @Bean
     SpringConfig --> MemoryUnionRepository : @Bean
     SpringConfig --> MemoryResultRepository : @Bean
     SpringConfig --> RestTemplate : @Bean
-    SpringConfig --> CharacterCurlService : @Bean
-    SpringConfig --> CharacterService : @Bean
-    SpringConfig --> CharacterBossService : @Bean
-    SpringConfig --> CharacterExpService : @Bean
-    SpringConfig --> ResultService : @Bean
-    SpringConfig --> UnionService : @Bean
 }
 @enduml

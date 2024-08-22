@@ -1,0 +1,76 @@
+@startuml
+package "Web Layer" {
+    [HomeController]
+}
+
+package "Service Layer" {
+    [CharacterService]
+    [CharacterBossService]
+    [CharacterExpService]
+    [ResultService]
+    [UnionService]
+    [CharacterCurlService]
+    [UnionCurlService]
+}
+
+package "Repository Layer" {
+    [MemoryCharacterRepository]
+    [MemoryCharacterBossRepository]
+    [MemoryCharacterExpRepository]
+    [MemoryResultRepository]
+    [MemoryUnionRepository]
+}
+
+package "Domain Layer" {
+    [Character]
+    [CharacterInfo]
+    [CharacterBoss]
+    [CharacterExp]
+    [Result]
+    [Union]
+}
+
+package "Utility Layer" {
+    [JsonDataHandler]
+}
+
+package "Configuration" {
+    [SpringConfig]
+}
+
+[HomeController] --> [CharacterService] : Uses
+[HomeController] --> [CharacterCurlService] : Uses
+
+[CharacterService] --> [MemoryCharacterRepository] : Uses
+[CharacterCurlService] --> [MemoryCharacterRepository] : Uses
+[CharacterCurlService] --> [MemoryCharacterExpRepository] : Uses
+[UnionCurlService] --> [MemoryUnionRepository] : Uses
+
+[CharacterService] --> [Character] : Manages
+[CharacterBossService] --> [CharacterBoss] : Manages
+[CharacterExpService] --> [CharacterExp] : Manages
+[ResultService] --> [Result] : Manages
+[UnionService] --> [Union] : Manages
+
+[MemoryCharacterRepository] --> [Character] : Manages
+[MemoryCharacterBossRepository] --> [CharacterBoss] : Manages
+[MemoryCharacterExpRepository] --> [CharacterExp] : Manages
+[MemoryResultRepository] --> [Result] : Manages
+[MemoryUnionRepository] --> [Union] : Manages
+
+[MemoryCharacterBossRepository] ..> [JsonDataHandler] : Uses
+[MemoryResultRepository] ..> [JsonDataHandler] : Uses
+[MemoryUnionRepository] ..> [JsonDataHandler] : Uses
+
+[SpringConfig] --> [MemoryCharacterRepository] : @Bean
+[SpringConfig] --> [MemoryCharacterExpRepository] : @Bean
+[SpringConfig] --> [MemoryCharacterBossRepository] : @Bean
+[SpringConfig] --> [MemoryUnionRepository] : @Bean
+[SpringConfig] --> [MemoryResultRepository] : @Bean
+[SpringConfig] --> [CharacterCurlService] : @Bean
+[SpringConfig] --> [CharacterService] : @Bean
+[SpringConfig] --> [CharacterBossService] : @Bean
+[SpringConfig] --> [CharacterExpService] : @Bean
+[SpringConfig] --> [ResultService] : @Bean
+[SpringConfig] --> [UnionService] : @Bean
+@enduml

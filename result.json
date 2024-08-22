@@ -1,9 +1,9 @@
 {
-    "Date": "2024-08-20",
+    "Date": "2024-08-21",
     "JobRate": 0.02127659574468085,
-    "Liberation_Rate": 0.0,
-    "Sum_Level": 10326,
-    "Sum_Combat": 319615240,
-    "Avg_Level": 219.70212765957447,
-    "Avg_Combat": 6800324.255319149
+    "Liberation_Rate": 1.0,
+    "Sum_Level": 10327,
+    "Sum_Combat": 320590568,
+    "Avg_Level": 219.72340425531914,
+    "Avg_Combat": 6821075.914893617
 }
