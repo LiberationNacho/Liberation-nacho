@@ -1,22 +1,22 @@
 {
-    "date": "2024-08-21T00:00+09:00",
+    "date": "2024-09-02T00:00+09:00",
     "character_class": "일리움",
     "final_stat": [
         {
             "stat_name": "최소 스탯공격력",
-            "stat_value": "4729088"
+            "stat_value": "5408578"
         },
         {
             "stat_name": "최대 스탯공격력",
-            "stat_value": "5254541"
+            "stat_value": "6009529"
         },
         {
             "stat_name": "데미지",
-            "stat_value": "91.00"
+            "stat_value": "88.00"
         },
         {
             "stat_name": "보스 몬스터 데미지",
-            "stat_value": "223.00"
+            "stat_value": "133.00"
         },
         {
             "stat_name": "최종 데미지",
@@ -24,19 +24,19 @@
         },
         {
             "stat_name": "방어율 무시",
-            "stat_value": "78.40"
+            "stat_value": "67.28"
         },
         {
             "stat_name": "크리티컬 확률",
-            "stat_value": "98"
+            "stat_value": "106"
         },
         {
             "stat_name": "크리티컬 데미지",
-            "stat_value": "79.00"
+            "stat_value": "75.00"
         },
         {
             "stat_name": "상태이상 내성",
-            "stat_value": "59"
+            "stat_value": "45"
         },
         {
             "stat_name": "스탠스",
@@ -44,7 +44,7 @@
         },
         {
             "stat_name": "방어력",
-            "stat_value": "9182"
+            "stat_value": "8768"
         },
         {
             "stat_name": "이동속도",
@@ -56,39 +56,39 @@
         },
         {
             "stat_name": "스타포스",
-            "stat_value": "170"
+            "stat_value": "145"
         },
         {
             "stat_name": "아케인포스",
-            "stat_value": "1010"
+            "stat_value": "1070"
         },
         {
             "stat_name": "어센틱포스",
-            "stat_value": "0"
+            "stat_value": "40"
         },
         {
             "stat_name": "STR",
-            "stat_value": "2085"
+            "stat_value": "1760"
         },
         {
             "stat_name": "DEX",
-            "stat_value": "2162"
+            "stat_value": "2042"
         },
         {
             "stat_name": "INT",
-            "stat_value": "19479"
+            "stat_value": "22678"
         },
         {
             "stat_name": "LUK",
-            "stat_value": "2632"
+            "stat_value": "2604"
         },
         {
             "stat_name": "HP",
-            "stat_value": "49479"
+            "stat_value": "50447"
         },
         {
             "stat_name": "MP",
-            "stat_value": "52842"
+            "stat_value": "47719"
         },
         {
             "stat_name": "AP 배분 STR",
@@ -100,7 +100,7 @@
         },
         {
             "stat_name": "AP 배분 INT",
-            "stat_value": "1308"
+            "stat_value": "1323"
         },
         {
             "stat_name": "AP 배분 LUK",
@@ -116,15 +116,15 @@
         },
         {
             "stat_name": "아이템 드롭률",
-            "stat_value": "72"
+            "stat_value": "92"
         },
         {
             "stat_name": "메소 획득량",
-            "stat_value": "86"
+            "stat_value": "50"
         },
         {
             "stat_name": "버프 지속시간",
-            "stat_value": "41"
+            "stat_value": "35"
         },
         {
             "stat_name": "공격 속도",
@@ -132,7 +132,7 @@
         },
         {
             "stat_name": "일반 몬스터 데미지",
-            "stat_value": "52.00"
+            "stat_value": "101.00"
         },
         {
             "stat_name": "재사용 대기시간 감소 (초)",
@@ -160,19 +160,19 @@
         },
         {
             "stat_name": "추가 경험치 획득",
-            "stat_value": "74.50"
+            "stat_value": "54.25"
         },
         {
             "stat_name": "공격력",
-            "stat_value": "678"
+            "stat_value": "632"
         },
         {
             "stat_name": "마력",
-            "stat_value": "2033"
+            "stat_value": "2039"
         },
         {
             "stat_name": "전투력",
-            "stat_value": "6657269"
+            "stat_value": "6306818"
         },
         {
             "stat_name": "소환수 지속시간 증가",

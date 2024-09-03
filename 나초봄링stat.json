@@ -1,42 +1,42 @@
 {
-    "date": "2024-08-21T00:00+09:00",
+    "date": "2024-09-02T00:00+09:00",
     "character_class": "데몬어벤져",
     "final_stat": [
         {
             "stat_name": "최소 스탯공격력",
-            "stat_value": "31695690"
+            "stat_value": "53091223"
         },
         {
             "stat_name": "최대 스탯공격력",
-            "stat_value": "35217432"
+            "stat_value": "58342001"
         },
         {
             "stat_name": "데미지",
-            "stat_value": "106.00"
+            "stat_value": "107.00"
         },
         {
             "stat_name": "보스 몬스터 데미지",
-            "stat_value": "271.00"
+            "stat_value": "286.00"
         },
         {
             "stat_name": "최종 데미지",
-            "stat_value": "26.50"
+            "stat_value": "86.59"
         },
         {
             "stat_name": "방어율 무시",
-            "stat_value": "78.94"
+            "stat_value": "80.27"
         },
         {
             "stat_name": "크리티컬 확률",
-            "stat_value": "78"
+            "stat_value": "89"
         },
         {
             "stat_name": "크리티컬 데미지",
-            "stat_value": "61.95"
+            "stat_value": "69.95"
         },
         {
             "stat_name": "상태이상 내성",
-            "stat_value": "20"
+            "stat_value": "70"
         },
         {
             "stat_name": "스탠스",
@@ -44,7 +44,7 @@
         },
         {
             "stat_name": "방어력",
-            "stat_value": "37360"
+            "stat_value": "37812"
         },
         {
             "stat_name": "이동속도",
@@ -56,11 +56,11 @@
         },
         {
             "stat_name": "스타포스",
-            "stat_value": "317"
+            "stat_value": "307"
         },
         {
             "stat_name": "아케인포스",
-            "stat_value": "1360"
+            "stat_value": "1370"
         },
         {
             "stat_name": "어센틱포스",
@@ -68,19 +68,19 @@
         },
         {
             "stat_name": "STR",
-            "stat_value": "3638"
+            "stat_value": "3705"
         },
         {
             "stat_name": "DEX",
-            "stat_value": "3336"
+            "stat_value": "3357"
         },
         {
             "stat_name": "INT",
-            "stat_value": "2960"
+            "stat_value": "2772"
         },
         {
             "stat_name": "LUK",
-            "stat_value": "2618"
+            "stat_value": "2560"
         },
         {
             "stat_name": "HP",
@@ -116,7 +116,7 @@
         },
         {
             "stat_name": "아이템 드롭률",
-            "stat_value": "32"
+            "stat_value": "53"
         },
         {
             "stat_name": "메소 획득량",
@@ -132,7 +132,7 @@
         },
         {
             "stat_name": "일반 몬스터 데미지",
-            "stat_value": "57.00"
+            "stat_value": "62.00"
         },
         {
             "stat_name": "재사용 대기시간 감소 (초)",
@@ -156,23 +156,23 @@
         },
         {
             "stat_name": "무기 숙련도",
-            "stat_value": "90"
+            "stat_value": "91"
         },
         {
             "stat_name": "추가 경험치 획득",
-            "stat_value": "44.25"
+            "stat_value": "174.25"
         },
         {
             "stat_name": "공격력",
-            "stat_value": "3960"
+            "stat_value": "4183"
         },
         {
             "stat_name": "마력",
-            "stat_value": "990"
+            "stat_value": "1054"
         },
         {
             "stat_name": "전투력",
-            "stat_value": "65650840"
+            "stat_value": "68039942"
         },
         {
             "stat_name": "소환수 지속시간 증가",

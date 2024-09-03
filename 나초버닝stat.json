@@ -1,14 +1,14 @@
 {
-    "date": "2024-08-21T00:00+09:00",
+    "date": "2024-09-01T00:00+09:00",
     "character_class": "블래스터",
     "final_stat": [
         {
             "stat_name": "최소 스탯공격력",
-            "stat_value": "1087619"
+            "stat_value": "1105029"
         },
         {
             "stat_name": "최대 스탯공격력",
-            "stat_value": "1208465"
+            "stat_value": "1227809"
         },
         {
             "stat_name": "데미지",
@@ -16,7 +16,7 @@
         },
         {
             "stat_name": "보스 몬스터 데미지",
-            "stat_value": "175.00"
+            "stat_value": "185.00"
         },
         {
             "stat_name": "최종 데미지",
@@ -24,11 +24,11 @@
         },
         {
             "stat_name": "방어율 무시",
-            "stat_value": "69.62"
+            "stat_value": "71.14"
         },
         {
             "stat_name": "크리티컬 확률",
-            "stat_value": "75"
+            "stat_value": "76"
         },
         {
             "stat_name": "크리티컬 데미지",
@@ -44,7 +44,7 @@
         },
         {
             "stat_name": "방어력",
-            "stat_value": "20538"
+            "stat_value": "20661"
         },
         {
             "stat_name": "이동속도",
@@ -60,7 +60,7 @@
         },
         {
             "stat_name": "아케인포스",
-            "stat_value": "160"
+            "stat_value": "170"
         },
         {
             "stat_name": "어센틱포스",
@@ -68,31 +68,31 @@
         },
         {
             "stat_name": "STR",
-            "stat_value": "9574"
+            "stat_value": "9632"
         },
         {
             "stat_name": "DEX",
-            "stat_value": "2426"
+            "stat_value": "2451"
         },
         {
             "stat_name": "INT",
-            "stat_value": "2056"
+            "stat_value": "2083"
         },
         {
             "stat_name": "LUK",
-            "stat_value": "1793"
+            "stat_value": "1851"
         },
         {
             "stat_name": "HP",
-            "stat_value": "41844"
+            "stat_value": "43371"
         },
         {
             "stat_name": "MP",
-            "stat_value": "15072"
+            "stat_value": "16339"
         },
         {
             "stat_name": "AP 배분 STR",
-            "stat_value": "1073"
+            "stat_value": "1078"
         },
         {
             "stat_name": "AP 배분 DEX",
@@ -132,7 +132,7 @@
         },
         {
             "stat_name": "일반 몬스터 데미지",
-            "stat_value": "45.00"
+            "stat_value": "50.00"
         },
         {
             "stat_name": "재사용 대기시간 감소 (초)",
@@ -164,15 +164,15 @@
         },
         {
             "stat_name": "공격력",
-            "stat_value": "934"
+            "stat_value": "943"
         },
         {
             "stat_name": "마력",
-            "stat_value": "265"
+            "stat_value": "272"
         },
         {
             "stat_name": "전투력",
-            "stat_value": "1725569"
+            "stat_value": "1809769"
         },
         {
             "stat_name": "소환수 지속시간 증가",

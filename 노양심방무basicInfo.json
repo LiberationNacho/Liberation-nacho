@@ -1,5 +1,5 @@
 {
-    "date": "2024-08-21T00:00+09:00",
+    "date": "2024-09-01T00:00+09:00",
     "character_name": "노양심방무",
     "world_name": "스카니아",
     "character_gender": "여",
@@ -11,6 +11,6 @@
     "character_guild_name": "삼각과자군단",
     "character_image": "https://open.api.nexon.com/static/maplestory/Character/ENMMNINIJELIOGEPCAJHFKIPNCEIELOHKBLANLOENNHILPAFJMHEMHNACPEFHFBMLIMDHOLKLEGCEJHLNCABFPDKCJPMNBFAAEAFCCPHIHMNIEIJACNDFAANBGFMABLDDMOFNPNCJBCBOFFNCFJEAMJDFPAMFOOIOLMBKDHEBPHLCOPCKNKMPHKNFNBIJCHFIAENFCDHIFLAMLBBKALEJHDDCHADCAGKHIDIIMMGOFFMIKBOJOBAGCOHJGAENIIA.png",
     "character_date_create": "2018-01-14T00:00+09:00",
-    "access_flag": "true",
+    "access_flag": "false",
     "liberation_quest_clear_flag": "false"
 }
