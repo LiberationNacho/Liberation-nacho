@@ -133,6 +133,7 @@ class TableSetter:
             print(type(character_data["Combat"]))
             print(character_data["Combat"])
 
+            # 데이터 타입이 다름 (combat이 str형이므로 float이나 int형으로 바꿔야 함)
             if (combat >= character_data["Combat"]):
                 character_data["Combat"] = combat
 
