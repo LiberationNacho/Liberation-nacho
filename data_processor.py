@@ -124,17 +124,9 @@ class TableSetter:
                 i += 1
             combat = data["final_stat"][i]["stat_value"]
             
-            print(type(data["final_stat"][i]["stat_name"]))
-            print(data["final_stat"][i]["stat_name"])
-
-            print(type(combat))
-            print(combat)
-            
-            print(type(character_data["Combat"]))
-            print(character_data["Combat"])
 
             # 데이터 타입이 다름 (combat이 str형이므로 float이나 int형으로 바꿔야 함)
-            if (combat >= character_data["Combat"]):
+            if (int(combat) >= int(character_data["Combat"])):
                 character_data["Combat"] = combat
 
 
