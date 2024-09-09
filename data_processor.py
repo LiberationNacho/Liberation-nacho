@@ -333,5 +333,19 @@ class data_processor:
             json.dump(self.__resultTable, f, ensure_ascii=False, indent=4)
 
 
+        # 전투력으로 정렬하는 기능 추가
+    def sortCombat(self):
+        # 전투력 데이터를 기준으로 메인 테이블을 내림차순으로 정렬
+        self.__mainTable = sorted(self.__mainTable, key=lambda x: int(x["Combat"]), reverse=True)
+
+        print("전투력 기준으로 정렬된 테이블:")
+        for character_data in self.__mainTable:
+            print(f"이름: {character_data['Name']}, 전투력: {character_data['Combat']}")
+
+        # 정렬된 데이터를 저장
+        self.__maindataclass.set_data(self.__mainTable)
+        self.__maindataclass.save_table_to_json("sorted_by_combat.json")
+
 pro = data_processor()
 pro.set_result()
+pro.sortCombat()

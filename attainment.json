@@ -1,6 +1,6 @@
 {
-    "잉잉리리움": {
-        "Name": "잉잉리리움",
+    "얼음초": {
+        "Name": "얼음초",
         "Ocid": "df475274008ffb35ae3573961caaf8cd",
         "Class": "일리움",
         "Combat": "9720900",
@@ -23,7 +23,7 @@
         "Name": "나초봄링",
         "Ocid": "cf6fd1689bbafdb0cfbdb97a32ea9208",
         "Class": "데몬어벤져",
-        "Combat": "73587647",
+        "Combat": "78499577",
         "level": 275,
         "image": "https://open.api.nexon.com/static/maplestory/Character/LBBEDIACDBFCALNCLENNNIEHOAEFFCFMEOOHDHNEHKMONNAEADHNKEMFDAJACDHBJKJEGEAGDJBOADKJHDKCJBGOJKAOFLIJIHCICAENFFADGEEFCBDJOJECAOKJNFINDAICDLEEBJHKIJAFNHMAKOHLKMIMMFAPJLDIGCHECLPHBKLIOECMDJOGELDCPMFGPLJKNAHFENJDEDFGFELOGOBFCIDJFPNAJOGDAIEHMACNGIKLMBDDDNBAOMAEFMBN.png",
         "liberation": false,
