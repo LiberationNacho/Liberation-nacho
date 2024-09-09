@@ -186,7 +186,7 @@ class TableSetter:
             combat = int(data["final_stat"][i]["stat_value"])
 
             if combat >= 100000000:
-                character_data["1b"] = "true"
+                character_data["1b"] = True
 
     def set_class(self) -> None:
         print("start set_class")
