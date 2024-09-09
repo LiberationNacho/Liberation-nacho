@@ -34,14 +34,14 @@ class Curl:
 
     # 캐릭터의 스텟 크롤링
     def get_character_stat(self, ocid_value, day, headers):
-        urlString = "https://open.api.nexon.com/maplestory/v1/character/stat?ocid=" + ocid_value + "&date=" + str(day)
+        urlString = "https://open.api.nexon.com/maplestory/v1/character/stat?ocid=" + ocid_value # + "&date=" + str(day)
         print(urlString)
         response = requests.get(urlString, headers=headers)
         return response.json()
 
     # 캐릭터의 기본 정보 크롤링
     def get_character_basicInfo(self, ocid_value, day, headers):
-        urlString = "https://open.api.nexon.com/maplestory/v1/character/basic?ocid=" + ocid_value + "&date=" + str(day)
+        urlString = "https://open.api.nexon.com/maplestory/v1/character/basic?ocid=" + ocid_value # + "&date=" + str(day)
         print(urlString)
         response = requests.get(urlString, headers=headers)
         return response.json()
@@ -49,7 +49,7 @@ class Curl:
     # 캐릭터의 장비 크롤링
     # 제네시스 무기 간접 체크 가능
     def get_character_equip(self, ocid_value, day, headers):
-        urlString = "https://open.api.nexon.com/maplestory/v1/character/item-equipment?ocid=" + ocid_value + "&date=" + str(day)
+        urlString = "https://open.api.nexon.com/maplestory/v1/character/item-equipment?ocid=" + ocid_value # + "&date=" + str(day)
         print(urlString)
         response = requests.get(urlString, headers=headers)
         return response.json()
@@ -57,7 +57,7 @@ class Curl:
     # 캐릭터의 심볼 크롤링
     # 어센틱 심볼 체크 가능
     def get_character_symbol(self, ocid_value, day, headers):
-        urlString = "https://open.api.nexon.com/maplestory/v1/character/symbol-equipment?ocid=" + ocid_value + "&date=" + str(day)
+        urlString = "https://open.api.nexon.com/maplestory/v1/character/symbol-equipment?ocid=" + ocid_value # + "&date=" + str(day)
         print(urlString)
         response = requests.get(urlString, headers=headers)
         return response.json()
@@ -78,7 +78,7 @@ class Curl:
 
     # 캐릭터의 유니온 정보 크롤링
     def get_character_union(self, ocid_value, day, headers):
-        urlString = "https://open.api.nexon.com/maplestory/v1/user/union?ocid=" + ocid_value + "&date=" + str(day)
+        urlString = "https://open.api.nexon.com/maplestory/v1/user/union?ocid=" + ocid_value # + "&date=" + str(day)
         print(urlString)
         response = requests.get(urlString, headers=headers)
         return response.json()
