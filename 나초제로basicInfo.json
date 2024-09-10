@@ -1,5 +1,5 @@
 {
-    "date": "2024-09-03T00:00+09:00",
+    "date": null,
     "character_name": "나초제로",
     "world_name": "스카니아",
     "character_gender": "기타",
@@ -11,6 +11,6 @@
     "character_guild_name": "삼각과자군단",
     "character_image": "https://open.api.nexon.com/static/maplestory/Character/BOPKEPCCAIBHPJICKMDLDDBFEGAGNJLBKDGHNDMDAHILDPAAOJEEMILOKDBGLOEDLNCHIKBHELKBBDKCNNPPBCNOIPLNJGPDPFBJMKEBOCAJLCBBPINFEOGALBBLHDIFHIPJIDMKHMCFPLEGFPLANACOFCMHILPJLCHFMEMCPIPFLFFBPBCMECFDDABGDOLBDKJGDLOBDKBBPAGKCNGDHHCGEAPLHIBKHCFKLHIBKHKKDLLOOALDLJOFCGBEJOKN.png",
     "character_date_create": "2017-01-19T00:00+09:00",
-    "access_flag": "true",
+    "access_flag": "false",
     "liberation_quest_clear_flag": "false"
 }

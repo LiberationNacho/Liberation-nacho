@@ -1,5 +1,5 @@
 {
-    "date": "2024-09-03T00:00+09:00",
+    "date": null,
     "character_class": "메르세데스",
     "final_stat": [
         {
@@ -44,7 +44,7 @@
         },
         {
             "stat_name": "방어력",
-            "stat_value": "11335"
+            "stat_value": "11332"
         },
         {
             "stat_name": "이동속도",
@@ -76,11 +76,11 @@
         },
         {
             "stat_name": "INT",
-            "stat_value": "1821"
+            "stat_value": "1829"
         },
         {
             "stat_name": "LUK",
-            "stat_value": "1790"
+            "stat_value": "1782"
         },
         {
             "stat_name": "HP",
