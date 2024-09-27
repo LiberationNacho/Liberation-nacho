@@ -4,15 +4,15 @@
     "final_stat": [
         {
             "stat_name": "최소 스탯공격력",
-            "stat_value": "8914430"
+            "stat_value": "10849641"
         },
         {
             "stat_name": "최대 스탯공격력",
-            "stat_value": "9904920"
+            "stat_value": "12055154"
         },
         {
             "stat_name": "데미지",
-            "stat_value": "108.00"
+            "stat_value": "152.00"
         },
         {
             "stat_name": "보스 몬스터 데미지",
@@ -44,7 +44,7 @@
         },
         {
             "stat_name": "방어력",
-            "stat_value": "10125"
+            "stat_value": "10182"
         },
         {
             "stat_name": "이동속도",
@@ -60,7 +60,7 @@
         },
         {
             "stat_name": "아케인포스",
-            "stat_value": "1240"
+            "stat_value": "1250"
         },
         {
             "stat_name": "어센틱포스",
@@ -68,19 +68,19 @@
         },
         {
             "stat_name": "STR",
-            "stat_value": "1965"
+            "stat_value": "2000"
         },
         {
             "stat_name": "DEX",
-            "stat_value": "2124"
+            "stat_value": "2070"
         },
         {
             "stat_name": "INT",
-            "stat_value": "26238"
+            "stat_value": "26348"
         },
         {
             "stat_name": "LUK",
-            "stat_value": "2900"
+            "stat_value": "2954"
         },
         {
             "stat_name": "HP",
@@ -116,7 +116,7 @@
         },
         {
             "stat_name": "아이템 드롭률",
-            "stat_value": "67"
+            "stat_value": "91"
         },
         {
             "stat_name": "메소 획득량",
@@ -160,11 +160,11 @@
         },
         {
             "stat_name": "추가 경험치 획득",
-            "stat_value": "88.25"
+            "stat_value": "275.25"
         },
         {
             "stat_name": "공격력",
-            "stat_value": "844"
+            "stat_value": "845"
         },
         {
             "stat_name": "마력",
@@ -172,7 +172,7 @@
         },
         {
             "stat_name": "전투력",
-            "stat_value": "9494267"
+            "stat_value": "9539002"
         },
         {
             "stat_name": "소환수 지속시간 증가",

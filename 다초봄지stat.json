@@ -4,11 +4,11 @@
     "final_stat": [
         {
             "stat_name": "최소 스탯공격력",
-            "stat_value": "8241563"
+            "stat_value": "8252673"
         },
         {
             "stat_name": "최대 스탯공격력",
-            "stat_value": "9695955"
+            "stat_value": "9709026"
         },
         {
             "stat_name": "데미지",
@@ -16,7 +16,7 @@
         },
         {
             "stat_name": "보스 몬스터 데미지",
-            "stat_value": "271.00"
+            "stat_value": "256.00"
         },
         {
             "stat_name": "최종 데미지",
@@ -24,7 +24,7 @@
         },
         {
             "stat_name": "방어율 무시",
-            "stat_value": "87.28"
+            "stat_value": "85.04"
         },
         {
             "stat_name": "크리티컬 확률",
@@ -44,7 +44,7 @@
         },
         {
             "stat_name": "방어력",
-            "stat_value": "24056"
+            "stat_value": "24067"
         },
         {
             "stat_name": "이동속도",
@@ -68,27 +68,27 @@
         },
         {
             "stat_name": "STR",
-            "stat_value": "2138"
+            "stat_value": "2140"
         },
         {
             "stat_name": "DEX",
-            "stat_value": "3953"
+            "stat_value": "3946"
         },
         {
             "stat_name": "INT",
-            "stat_value": "2484"
+            "stat_value": "2486"
         },
         {
             "stat_name": "LUK",
-            "stat_value": "33302"
+            "stat_value": "33330"
         },
         {
             "stat_name": "HP",
-            "stat_value": "48231"
+            "stat_value": "48265"
         },
         {
             "stat_name": "MP",
-            "stat_value": "31729"
+            "stat_value": "31748"
         },
         {
             "stat_name": "AP 배분 STR",
@@ -104,7 +104,7 @@
         },
         {
             "stat_name": "AP 배분 LUK",
-            "stat_value": "1358"
+            "stat_value": "1363"
         },
         {
             "stat_name": "AP 배분 HP",
@@ -152,7 +152,7 @@
         },
         {
             "stat_name": "상태이상 추가 데미지",
-            "stat_value": "10.00"
+            "stat_value": "4.00"
         },
         {
             "stat_name": "무기 숙련도",
@@ -164,7 +164,7 @@
         },
         {
             "stat_name": "공격력",
-            "stat_value": "1718"
+            "stat_value": "1719"
         },
         {
             "stat_name": "마력",
@@ -172,7 +172,7 @@
         },
         {
             "stat_name": "전투력",
-            "stat_value": "16567021"
+            "stat_value": "16585306"
         },
         {
             "stat_name": "소환수 지속시간 증가",

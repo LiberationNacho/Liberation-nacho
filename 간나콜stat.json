@@ -4,11 +4,11 @@
     "final_stat": [
         {
             "stat_name": "최소 스탯공격력",
-            "stat_value": "1294738"
+            "stat_value": "1153561"
         },
         {
             "stat_name": "최대 스탯공격력",
-            "stat_value": "1348684"
+            "stat_value": "1214273"
         },
         {
             "stat_name": "데미지",
@@ -24,19 +24,19 @@
         },
         {
             "stat_name": "방어율 무시",
-            "stat_value": "78.05"
+            "stat_value": "77.77"
         },
         {
             "stat_name": "크리티컬 확률",
-            "stat_value": "109"
+            "stat_value": "99"
         },
         {
             "stat_name": "크리티컬 데미지",
-            "stat_value": "61.00"
+            "stat_value": "53.00"
         },
         {
             "stat_name": "상태이상 내성",
-            "stat_value": "47"
+            "stat_value": "27"
         },
         {
             "stat_name": "스탠스",
@@ -44,7 +44,7 @@
         },
         {
             "stat_name": "방어력",
-            "stat_value": "6837"
+            "stat_value": "6834"
         },
         {
             "stat_name": "이동속도",
@@ -72,11 +72,11 @@
         },
         {
             "stat_name": "DEX",
-            "stat_value": "1501"
+            "stat_value": "1494"
         },
         {
             "stat_name": "INT",
-            "stat_value": "10684"
+            "stat_value": "10653"
         },
         {
             "stat_name": "LUK",
@@ -116,7 +116,7 @@
         },
         {
             "stat_name": "아이템 드롭률",
-            "stat_value": "27"
+            "stat_value": "12"
         },
         {
             "stat_name": "메소 획득량",
@@ -124,7 +124,7 @@
         },
         {
             "stat_name": "버프 지속시간",
-            "stat_value": "144"
+            "stat_value": "139"
         },
         {
             "stat_name": "공격 속도",
@@ -156,19 +156,19 @@
         },
         {
             "stat_name": "무기 숙련도",
-            "stat_value": "96"
+            "stat_value": "95"
         },
         {
             "stat_name": "추가 경험치 획득",
-            "stat_value": "55.25"
+            "stat_value": "34.25"
         },
         {
             "stat_name": "공격력",
-            "stat_value": "432"
+            "stat_value": "397"
         },
         {
             "stat_name": "마력",
-            "stat_value": "957"
+            "stat_value": "864"
         },
         {
             "stat_name": "전투력",
