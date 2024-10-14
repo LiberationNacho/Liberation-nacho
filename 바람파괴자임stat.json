@@ -4,11 +4,11 @@
     "final_stat": [
         {
             "stat_name": "최소 스탯공격력",
-            "stat_value": "6456951"
+            "stat_value": "6868718"
         },
         {
             "stat_name": "최대 스탯공격력",
-            "stat_value": "7596411"
+            "stat_value": "8080843"
         },
         {
             "stat_name": "데미지",
@@ -32,7 +32,7 @@
         },
         {
             "stat_name": "크리티컬 데미지",
-            "stat_value": "57.00"
+            "stat_value": "60.00"
         },
         {
             "stat_name": "상태이상 내성",
@@ -44,7 +44,7 @@
         },
         {
             "stat_name": "방어력",
-            "stat_value": "21551"
+            "stat_value": "22542"
         },
         {
             "stat_name": "이동속도",
@@ -60,7 +60,7 @@
         },
         {
             "stat_name": "아케인포스",
-            "stat_value": "920"
+            "stat_value": "1070"
         },
         {
             "stat_name": "어센틱포스",
@@ -68,27 +68,27 @@
         },
         {
             "stat_name": "STR",
-            "stat_value": "3048"
+            "stat_value": "3150"
         },
         {
             "stat_name": "DEX",
-            "stat_value": "22517"
+            "stat_value": "24449"
         },
         {
             "stat_name": "INT",
-            "stat_value": "2187"
+            "stat_value": "2320"
         },
         {
             "stat_name": "LUK",
-            "stat_value": "1999"
+            "stat_value": "2089"
         },
         {
             "stat_name": "HP",
-            "stat_value": "42674"
+            "stat_value": "42867"
         },
         {
             "stat_name": "MP",
-            "stat_value": "22730"
+            "stat_value": "22843"
         },
         {
             "stat_name": "AP 배분 STR",
@@ -96,7 +96,7 @@
         },
         {
             "stat_name": "AP 배분 DEX",
-            "stat_value": "1208"
+            "stat_value": "1233"
         },
         {
             "stat_name": "AP 배분 INT",
@@ -160,19 +160,19 @@
         },
         {
             "stat_name": "추가 경험치 획득",
-            "stat_value": "34.25"
+            "stat_value": "34.50"
         },
         {
             "stat_name": "공격력",
-            "stat_value": "2241"
+            "stat_value": "2199"
         },
         {
             "stat_name": "마력",
-            "stat_value": "689"
+            "stat_value": "699"
         },
         {
             "stat_name": "전투력",
-            "stat_value": "10361673"
+            "stat_value": "11182785"
         },
         {
             "stat_name": "소환수 지속시간 증가",

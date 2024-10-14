@@ -5,12 +5,12 @@
     "character_gender": "남",
     "character_class": "미하일",
     "character_class_level": "5",
-    "character_level": 215,
-    "character_exp": 5107296870,
-    "character_exp_rate": "32.527",
+    "character_level": 224,
+    "character_exp": 5064074429,
+    "character_exp_rate": "13.408",
     "character_guild_name": "삼각과자군단",
-    "character_image": "https://open.api.nexon.com/static/maplestory/Character/LFAHEOIEOOFFEGEGJOEKAFBEFHBEPIJAFEKKILLEHEMAEOCCDPNHLEBNFMLGMMLEFPHHKFDBLPKFCJPKJNGIMEKFBGFIOHEIGPGCEMINPIFIBCAKCLLGEHGFJHLBLANCKHPLLLKHEBNFOCGOFCFNJKAIDPPDPOAHPBIPBFMCHGPMIEMKGMFCOIIGBBABGLHPPCCOJOHBAPKLFLGLEPJBAKNNFIJOCJJLOKGIJIJNFCABHEOGFGFEFPLFPGEHNNEC.png",
+    "character_image": "https://open.api.nexon.com/static/maplestory/Character/LFAHEOIEOOFFEGEGJOEKAFBEFHBEPIJAJMNDPNDAEPHGKADDLAAGCBEACOAHPGDKBGCGGBEPIIDGNPHBOIAAPENPOOIBEMEJILDOGGDIBLJIGDMEOHGBHIBOPOEFFAKCIHHCAMGEMFBEOPIHPDNLMEFGJHPFFBJEDKOFCINIHCGCBKDDOGGOIGHHJOKDHJPGMALEKFBLPPBPNLNCEMGPIPCKKICEHPHNDNOLOKNNEECKNEALIAMCEGPABFGJDKGO.png",
     "character_date_create": "2018-01-27T00:00+09:00",
-    "access_flag": "false",
+    "access_flag": "true",
     "liberation_quest_clear_flag": "false"
 }

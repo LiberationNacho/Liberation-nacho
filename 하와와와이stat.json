@@ -4,11 +4,11 @@
     "final_stat": [
         {
             "stat_name": "최소 스탯공격력",
-            "stat_value": "1507190"
+            "stat_value": "1548248"
         },
         {
             "stat_name": "최대 스탯공격력",
-            "stat_value": "1773163"
+            "stat_value": "1821467"
         },
         {
             "stat_name": "데미지",
@@ -16,7 +16,7 @@
         },
         {
             "stat_name": "보스 몬스터 데미지",
-            "stat_value": "150.00"
+            "stat_value": "155.00"
         },
         {
             "stat_name": "최종 데미지",
@@ -44,7 +44,7 @@
         },
         {
             "stat_name": "방어력",
-            "stat_value": "19191"
+            "stat_value": "19567"
         },
         {
             "stat_name": "이동속도",
@@ -68,27 +68,27 @@
         },
         {
             "stat_name": "STR",
-            "stat_value": "2366"
+            "stat_value": "2500"
         },
         {
             "stat_name": "DEX",
-            "stat_value": "11521"
+            "stat_value": "11669"
         },
         {
             "stat_name": "INT",
-            "stat_value": "2124"
+            "stat_value": "1981"
         },
         {
             "stat_name": "LUK",
-            "stat_value": "2122"
+            "stat_value": "2074"
         },
         {
             "stat_name": "HP",
-            "stat_value": "35066"
+            "stat_value": "34969"
         },
         {
             "stat_name": "MP",
-            "stat_value": "17058"
+            "stat_value": "18834"
         },
         {
             "stat_name": "AP 배분 STR",
@@ -160,19 +160,19 @@
         },
         {
             "stat_name": "추가 경험치 획득",
-            "stat_value": "31.75"
+            "stat_value": "32.00"
         },
         {
             "stat_name": "공격력",
-            "stat_value": "1325"
+            "stat_value": "1341"
         },
         {
             "stat_name": "마력",
-            "stat_value": "309"
+            "stat_value": "286"
         },
         {
             "stat_name": "전투력",
-            "stat_value": "2172605"
+            "stat_value": "2275140"
         },
         {
             "stat_name": "소환수 지속시간 증가",

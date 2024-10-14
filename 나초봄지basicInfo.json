@@ -6,11 +6,11 @@
     "character_class": "메르세데스",
     "character_class_level": "6",
     "character_level": 282,
-    "character_exp": 552022127,
-    "character_exp_rate": "0.001",
+    "character_exp": 383199965667,
+    "character_exp_rate": "0.941",
     "character_guild_name": "아이엠캔들",
     "character_image": "https://open.api.nexon.com/static/maplestory/Character/PMJGAJJACEKEMAEOEJIILBEKGGLKBFAFLHCEMOMEPLIOAIGLIEEDBAHHHKMOFFENLJGOIDFCEJMLIGFNBDCJIOCPMNDGAAOOCLNMPHCMPLCKJPPDNPLCMKDJHHJKLBFOBGDCBFDDOJGOJJGHPKNDAIMCIDHMJGPGGKCKCEHGGILJMKBDCFJKCIGFLEJBJANCCKKJJAHGJOLJMODCFMNEOCNBOGDEECIKGOOBPLLPPIHDJNJOCDFOIEDLGDKKCIPJ.png",
     "character_date_create": "2016-10-04T00:00+09:00",
     "access_flag": "true",
-    "liberation_quest_clear_flag": "false"
+    "liberation_quest_clear_flag": "true"
 }
