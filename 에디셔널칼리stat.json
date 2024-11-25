@@ -4,11 +4,11 @@
     "final_stat": [
         {
             "stat_name": "최소 스탯공격력",
-            "stat_value": "157410"
+            "stat_value": "155136"
         },
         {
             "stat_name": "최대 스탯공격력",
-            "stat_value": "174899"
+            "stat_value": "172372"
         },
         {
             "stat_name": "데미지",
@@ -24,11 +24,11 @@
         },
         {
             "stat_name": "방어율 무시",
-            "stat_value": "57.44"
+            "stat_value": "55.20"
         },
         {
             "stat_name": "크리티컬 확률",
-            "stat_value": "72"
+            "stat_value": "81"
         },
         {
             "stat_name": "크리티컬 데미지",
@@ -44,7 +44,7 @@
         },
         {
             "stat_name": "방어력",
-            "stat_value": "3342"
+            "stat_value": "3302"
         },
         {
             "stat_name": "이동속도",
@@ -72,7 +72,7 @@
         },
         {
             "stat_name": "DEX",
-            "stat_value": "779"
+            "stat_value": "699"
         },
         {
             "stat_name": "INT",
@@ -80,11 +80,11 @@
         },
         {
             "stat_name": "LUK",
-            "stat_value": "2643"
+            "stat_value": "2622"
         },
         {
             "stat_name": "HP",
-            "stat_value": "13356"
+            "stat_value": "17356"
         },
         {
             "stat_name": "MP",
@@ -160,7 +160,7 @@
         },
         {
             "stat_name": "추가 경험치 획득",
-            "stat_value": "31.75"
+            "stat_value": "30.50"
         },
         {
             "stat_name": "공격력",
@@ -172,7 +172,7 @@
         },
         {
             "stat_name": "전투력",
-            "stat_value": "100116"
+            "stat_value": "98547"
         },
         {
             "stat_name": "소환수 지속시간 증가",

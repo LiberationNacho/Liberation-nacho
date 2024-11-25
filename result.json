@@ -1,9 +1,9 @@
 {
-    "Date": "2024-11-06",
+    "Date": "2024-11-25",
     "JobRate": 0.02127659574468085,
-    "Liberation_Rate": 0.02127659574468085,
-    "Sum_Level": 10397,
-    "Sum_Combat": 440197384,
-    "Avg_Level": 221.2127659574468,
-    "Avg_Combat": 9365901.787234042
+    "Liberation_Rate": 1.0,
+    "Sum_Level": 10412,
+    "Sum_Combat": 450548955,
+    "Avg_Level": 221.53191489361703,
+    "Avg_Combat": 9586147.978723405
 }
