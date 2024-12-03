@@ -11,6 +11,6 @@
     "character_guild_name": "삼각과자군단",
     "character_image": "https://open.api.nexon.com/static/maplestory/character/look/MNBLNKHNMNFFAONHPOOLECNAPAOMLKCFKMJLIBIGEHILDKODOFEHMGOMEGCFIFPEEJBJEKGBBPMKPOJPEGPJKMEPPODOPIHHFIMKEKICMMDAFNALNLDOOGCKFFFDBPALONFNMPGBOMOEDGCJJMFJKMPNPCBMALALCNICCGELHHIHHFKCEMKAKBICMKDNHDMEMPKFAPBPEAEBDCDJOMDLONOPCDGEMPHOMEIHMJDBCGIFOKKBCMONBKAEFAIPNBLP",
     "character_date_create": "2020-01-17T00:00+09:00",
-    "access_flag": "true",
+    "access_flag": "false",
     "liberation_quest_clear_flag": "false"
 }
